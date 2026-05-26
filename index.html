@@ -245,6 +245,7 @@
   .legend-dot.sight{background:var(--gold);border:1.5px solid var(--moss-deep);width:10px;height:10px;transform:rotate(45deg);border-radius:0}
   .legend-dot.ebird{background:var(--moss);border:1px solid var(--moss-deep);width:9px;height:9px}
   .legend-dot.gbif{background:#3b5773;border:1px solid #1f3045;width:9px;height:9px}
+  .legend-dot.reintro{background:var(--ink);border:1px solid var(--ink);width:9px;height:9px;border-radius:0}
   .legend-dot.range{background:rgba(47,74,42,.14);border:1px dashed var(--moss-deep);width:14px;height:10px;border-radius:0}
 
   .map-meta-line{
@@ -451,6 +452,7 @@
         <g id="svgEbird"></g>
         <g id="svgGbif"></g>
         <g id="svgSightings"></g>
+        <g id="svgReintro"></g>
         <g id="svgLabels"></g>
 
         <g transform="translate(40,90)">
@@ -477,6 +479,7 @@
             <span><span class="legend-dot sight"></span>Field sighting / reported</span>
             <span><span class="legend-dot ebird"></span>eBird observation (size ≈ count)</span>
             <span><span class="legend-dot gbif"></span>GBIF (non-eBird): iNat, GBBC, USGS, museum specimens</span>
+            <span><span class="legend-dot reintro"></span>Reintroduction release (■) and source (□) sites, 1985–86</span>
           </div>
           <div class="map-meta-line">Tennessee Audubon CBC, ruffed grouse, 1966–2024.</div>
         </div>
@@ -492,7 +495,7 @@
     <div id="detailMap" class="leaflet-map"></div>
     <figcaption class="fig-caption" id="detail-map-caption">
       <span class="fig-label">Figure 2.</span>
-      Pan-and-zoom detail map on USGS National Map topographic tiles, with cities, roads, and public-land tinting from the basemap. All ruffed grouse observations (CBC, eBird, field sightings, and GBIF non-eBird sources) are shown together, without time filtering. Candidate Wildlife Management Areas and state forests are outlined as approximate circles sized by acreage. Hover any marker for year and coordinates; click for full detail including dataset and observer.
+      Pan-and-zoom detail map on USGS National Map topographic tiles, with cities, roads, and public-land tinting from the basemap. All ruffed grouse observations (CBC, eBird, field sightings, and GBIF non-eBird sources) are shown together, without time filtering. The 1985–86 reintroduction sites (Kalla and Dimmick 1987) are also overlaid: a filled black square marks the Cuba Landing release on the Western Highland Rim; open squares mark the Bays Mountain Park and HAAP source trapping sites in northeast Tennessee. Candidate Wildlife Management Areas and state forests are outlined as approximate circles sized by acreage. Hover any marker for year and coordinates; click for full detail including dataset and observer.
     </figcaption>
   </figure>
 
@@ -504,7 +507,7 @@
       The species' historical Tennessee range covered East and most of Middle Tennessee, reaching west into the Western Highland Rim. Naturally occurring populations are now restricted to the Cumberland Plateau and the higher ridges and mountains of East Tennessee.
     </p>
     <p>
-      The ruffed grouse breeding range extends from central Alaska across forested Canada and south along the Appalachian Mountains to northern Georgia; Tennessee sits at the southern edge of that range. TWRA's effort to reestablish a population on the Western Highland Rim has been described by the agency as "marginally successful."
+      The ruffed grouse breeding range extends from central Alaska across forested Canada and south along the Appalachian Mountains to northern Georgia; Tennessee sits at the southern edge of that range. TWRA's effort to reestablish a population on the Western Highland Rim has been described by the agency as "marginally successful." The most documented attempt was a 1985–86 release of 36 birds at Cuba Landing in Humphreys County, with source birds trapped at Bays Mountain Park and the Holston Army Ammunition Plant in northeast Tennessee. Two breeding-season drumming activity centers were established by spring 1986 and four by spring 1987, indicating short-term persistence on the Western Highland Rim (Kalla and Dimmick 1987). Earlier attempts in 1978 and 1979 failed (White and Dimmick 1978; Jones 1979), largely because release habitats were dominated by pole and sawtimber hardwoods with insufficient young-forest regeneration.
     </p>
     <div class="pull">
       "The Ruffed Grouse is an uncommon permanent resident in East Tennessee and locally uncommon in Middle Tennessee."
@@ -538,7 +541,7 @@
       The primary driver is loss of young forest. National Forests in the Southern Appalachians currently contain approximately 1.3% young forest (trees 0–20 years old), well below what grouse require. The species depends on a mosaic of forest ages within a single home range, and that mosaic has been largely smoothed away by even-aged maturation and fire suppression.
     </p>
     <p>
-      TWRA describes the in-state population as "stable," and this may hold locally on the Plateau. However, stability at a depleted baseline is qualitatively different from a healthy population. The 1989–90 harvest of approximately 50,000 birds by 21,000 hunters (<a href="https://www.tnwatchablewildlife.org/details.cfm?sort=aounumber&amp;typename=TENNESSEE'S&amp;uid=09042710125597732&amp;commonname=Ruffed+Grouse" target="_blank">TN Watchable Wildlife</a>) is unlikely to be matched under current conditions.
+      TWRA describes the in-state population as "stable," and this may hold locally on the Plateau. However, stability at a depleted baseline is qualitatively different from a healthy population. The 1989–90 harvest of approximately 50,000 birds by 21,000 hunters (<a href="https://www.tnwatchablewildlife.org/details.cfm?sort=aounumber&amp;typename=TENNESSEE'S&amp;uid=09042710125597732&amp;commonname=Ruffed+Grouse" target="_blank">TN Watchable Wildlife</a>) is unlikely to be matched under current conditions. Hunter flush surveys can also be insensitive to local population declines because hunters return to known productive coverts rather than sampling new ones (Jones et al. 2005); a flat flush rate does not mean a stable population.
     </p>
     <div class="pull">
       "Ruffed grouse have declined 71% since 1989 in the Southern Appalachians. At the same time, National Forests in the Southern Appalachians contain only 1.3% young forests."
@@ -563,7 +566,8 @@
 
     <div class="habitat-block">
       <h3>The 10–20 year class</h3>
-      <p>Densely stocked young hardwoods or mixed stands with stems of roughly wrist- to arm-thickness. Understory cover that permits a hen with chicks to move through while restricting raptor stoops. Rhododendron, mountain laurel, fruit brambles, and blueberry are indicator species.</p>
+      <p>Densely stocked young hardwoods or mixed stands with stems of roughly wrist- to arm-thickness. Understory cover that permits a hen with chicks to move through while restricting raptor stoops. Rhododendron, mountain laurel, fruit brambles, blueberry, and farkleberry (<em>Vaccinium arboreum</em>) are indicator species; farkleberry thickets in particular were a dominant cover type at drumming sites on the Western Highland Rim (Kalla and Dimmick 1987), while mountain laurel tends to dominate at Cumberland Plateau sites (Longwitz 1985).</p>
+      <p>Concrete benchmarks from TN studies: understory stem density around drumming logs averaged ~14,800/ha on the Western Highland Rim (Kalla and Dimmick 1987) and ~33,000/ha on the Cumberland Plateau (Longwitz 1985). Overstory basal area at drumming sites ranged 6.3–17 m²/ha across TN; aspen regeneration of 14,000–20,000 stems/ha is the benchmark for prime drumming cover in Minnesota (Gullion 1977).</p>
     </div>
 
     <div class="habitat-block">
@@ -581,7 +585,8 @@
     <p><em>Vermont — winter softwoods.</em> In the northern range, grouse dive into snow roosts on cold nights. In Vermont and at lower latitudes, when snow cover is lacking the birds shift to softwood stands (hemlock, spruce, pine) for protective cover and insulation. Tennessee winters rarely deliver deep, persistent snow, so this is relevant: shortleaf pine pockets and hemlock draws adjacent to hardwood feeding areas are probable winter refuges and worth noting on scouting maps.</p>
 
     <h3>Reading the ground</h3>
-    <p>Edges where age classes meet are productive, particularly where a 10–20 year stand abuts a 25+ stand near water. Logging roads should be walked slowly. Pausing periodically (Hill, J.) pressures held birds to move and reveal themselves with peeps; the pause itself induces movement. Drumming runs from mid-April through mid-May and is the single best indicator of a holding population.</p>
+    <p>Edges where age classes meet are productive, particularly where a 10–20 year stand abuts a 25+ stand near water. Logging roads should be walked slowly. Pausing periodically (Hill, J.) pressures held birds to move and reveal themselves with peeps; the pause itself induces movement.</p>
+    <p>Drumming is the single best indicator of a holding population. In the southern Appalachians, drumming runs from mid-March through April and peaks around <strong>9–16 April</strong> — about two weeks earlier than the well-studied Minnesota/Wisconsin window (Jones et al. 2005). Even at peak, only 56–69% of males drum on any given morning; before peak (late March) the figure drops to ~20%. Suspend listening if winds exceed 13 km/h. Audibility radius is approximately 200 m, so a walked transect samples only a ~400 m wide swath. Drumming counts are a defensible <em>index</em> of population trends across years, but not a direct population estimate without supplemental telemetry.</p>
   </section>
 
   <!-- ───────── PLACES ───────── -->
@@ -648,7 +653,7 @@
           <li style="margin-bottom:6px">Walk edges where age classes meet. Pure mature timber holds drummers but typically not flushes.</li>
           <li style="margin-bottom:6px">Pause every 30–40 yards; standing still pressures held birds to move and reveal themselves with peeps (Hill, J.).</li>
           <li style="margin-bottom:6px">Walk logging roads in early morning for gravel and grit; birds work road edges at first light.</li>
-          <li style="margin-bottom:6px">Listen for drumming in spring (mid-April through mid-May) to identify cover for the following fall.</li>
+          <li style="margin-bottom:6px">Listen for drumming in spring along gated forest roads in the half-hour before sunrise; the southern-Appalachian peak is 9–16 April. Suspend if winds exceed 13 km/h. Audibility is ~200 m, so move slowly and cover ground over multiple mornings.</li>
         </ul>
       </div>
     </div>
@@ -720,6 +725,38 @@
           <div style="font-size:13px;color:var(--ink-soft);margin-top:4px">Live sighting map; filter to TN for current observations.</div>
         </div>
         <span class="meta">eBird</span>
+      </li>
+    </ul>
+
+    <h3>TN-specific scientific literature</h3>
+    <ul class="links">
+      <li>
+        <div>
+          <strong>Kalla, P. I. and R. W. Dimmick (1987). Evaluation of a Ruffed Grouse Reintroduction in Tennessee.</strong>
+          <div style="font-size:13px;color:var(--ink-soft);margin-top:4px"><em>Proc. Annu. Conf. Southeast. Assoc. Fish and Wildl. Agencies</em> 41:365–372. Source for the Cuba Landing 1985–86 release figures and Western Highland Rim drumming-log characteristics cited in §1 and §4.</div>
+        </div>
+        <span class="meta">SEAFWA</span>
+      </li>
+      <li>
+        <div>
+          <strong>Jones, B. C., C. A. Harper, D. A. Buehler, and G. S. Warburton (2005). Use of Spring Drumming Counts to Index Ruffed Grouse Populations in the Southern Appalachians.</strong>
+          <div style="font-size:13px;color:var(--ink-soft);margin-top:4px"><em>Proc. Annu. Conf. Southeast. Assoc. Fish and Wildl. Agencies</em> 59:135–143. Source for the 9–16 April drumming peak, the 200 m audibility radius, drumming intensity proportions, and the hunter-flush caveat cited in §3, §4, and §6.</div>
+        </div>
+        <span class="meta">SEAFWA</span>
+      </li>
+      <li>
+        <div>
+          <strong>Dimmick, R. W., J. D. Sole, W. G. Minser, and P. E. Hale (1998). Response of ruffed grouse to forest management in the southern Appalachian Mountains.</strong>
+          <div style="font-size:13px;color:var(--ink-soft);margin-top:4px"><em>Proc. Annu. Conf. Southeast. Assoc. Fish and Wildl. Agencies</em> 52:294–302. TN-specific study of grouse response to habitat manipulation; referenced as further reading on management response.</div>
+        </div>
+        <span class="meta">SEAFWA</span>
+      </li>
+      <li>
+        <div>
+          <strong>Longwitz, R. J. (1985). Some aspects of the ecology of ruffed grouse in unmanaged hardwood forests of the Cumberland Plateau, Tennessee.</strong>
+          <div style="font-size:13px;color:var(--ink-soft);margin-top:4px">M.S. Thesis, University of Tennessee, Knoxville. Source for the Cumberland Plateau understory density (~33,000 stems/ha) and basal area benchmarks cited in §4.</div>
+        </div>
+        <span class="meta">UT Thesis</span>
       </li>
     </ul>
   </section>
@@ -817,6 +854,18 @@ const sightings = [
   { name:"Lancing area", lat:36.116,  lng:-84.689,  year:2023, note:"Forum reports of birds · just north of Catoosa" },
 ];
 
+// Historical reintroduction-program sites documented by Kalla & Dimmick (1987).
+// Cuba Landing is the 1985–86 release site on the Western Highland Rim;
+// Bays Mountain Park and HAAP were the NE-TN source trapping sites.
+const reintroSites = [
+  { name:"Cuba Landing release (1985–86)", role:"release", lat:35.952, lng:-87.853, year:1985,
+    note:"36 ruffed grouse released; 4 drumming activity centers documented by 1987 (Kalla & Dimmick 1987)" },
+  { name:"Bays Mountain Park (source)",    role:"source",  lat:36.499, lng:-82.621, year:1985,
+    note:"Source trapping site, fall 1985 (Kalla & Dimmick 1987)" },
+  { name:"Holston Army Ammunition Plant (source)", role:"source", lat:36.490, lng:-82.710, year:1986,
+    note:"Source trapping site, late winter 1986 (Kalla & Dimmick 1987)" },
+];
+
 // Candidate Wildlife Management Areas / state forests discussed in section 5.
 // Coordinates are approximate centroids; acres from TWRA / TN State Forests.
 const wmas = [
@@ -843,6 +892,7 @@ const svgCirclesG = document.getElementById('svgCircles');
 const svgEbirdG = document.getElementById('svgEbird');
 const svgGbifG = document.getElementById('svgGbif');
 const svgSightingsG = document.getElementById('svgSightings');
+const svgReintroG = document.getElementById('svgReintro');
 const svgLabelsG = document.getElementById('svgLabels');
 
 let showCBC = true;
@@ -1018,6 +1068,24 @@ function renderSVG(year){
     dot.appendChild(title);
   });
 
+  // Historical reintroduction sites (Kalla & Dimmick 1987) — appear from 1985 onward.
+  svgReintroG.innerHTML = '';
+  reintroSites.forEach(s => {
+    if(displayMode === 'year-only' ? s.year !== year : year < s.year) return;
+    const [x, y] = svgProj(s.lng, s.lat);
+    const size = 8, half = size / 2;
+    const rect = document.createElementNS('http://www.w3.org/2000/svg','rect');
+    rect.setAttribute('x', x - half); rect.setAttribute('y', y - half);
+    rect.setAttribute('width', size); rect.setAttribute('height', size);
+    rect.setAttribute('stroke', '#16181a');
+    rect.setAttribute('stroke-width', '1.5');
+    rect.setAttribute('fill', s.role === 'release' ? '#16181a' : 'none');
+    svgReintroG.appendChild(rect);
+    const title = document.createElementNS('http://www.w3.org/2000/svg','title');
+    title.textContent = `${s.year} · ${s.lat.toFixed(4)}, ${s.lng.toFixed(4)} · ${s.name} · ${s.note}`;
+    rect.appendChild(title);
+  });
+
   // GBIF dots (non-eBird sources: iNat, GBBC, USGS phenology, museum specimens)
   svgGbifG.innerHTML = '';
   svgGbifG.style.display = showGbif ? '' : 'none';
@@ -1084,6 +1152,21 @@ const detailSightingsGroup = L.layerGroup().addTo(detailMap);
 const detailEbirdGroup     = L.layerGroup().addTo(detailMap);
 const detailGbifGroup      = L.layerGroup().addTo(detailMap);
 const detailWmaGroup       = L.layerGroup().addTo(detailMap);
+const detailReintroGroup   = L.layerGroup().addTo(detailMap);
+
+// Historical reintroduction markers (always-on on Figure 2)
+reintroSites.forEach(s => {
+  const filled = s.role === 'release';
+  L.marker([s.lat, s.lng], {
+    icon: L.divIcon({
+      html: `<div style="width:12px;height:12px;background:${filled ? '#16181a' : 'transparent'};border:2px solid #16181a;"></div>`,
+      className: '', iconSize:[12,12], iconAnchor:[6,6],
+    }),
+  })
+  .bindPopup(`<b>${s.name}</b><div class="meta">${s.year} · ${s.role === 'release' ? '1985–86 release site' : 'source trapping site'} · ${s.lat.toFixed(4)}, ${s.lng.toFixed(4)}</div>${s.note}`)
+  .bindTooltip(`${s.year} · ${s.lat.toFixed(4)}, ${s.lng.toFixed(4)} · ${s.name}`, {sticky:true})
+  .addTo(detailReintroGroup);
+});
 
 // Approximate WMA polygons (will be swapped for real boundaries if/when available)
 wmas.forEach(w => {
