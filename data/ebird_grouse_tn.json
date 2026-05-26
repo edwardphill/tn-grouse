@@ -1,0 +1,3296 @@
+{
+  "source": "eBird API 2.0",
+  "region": "US-TN",
+  "species": "rufgro",
+  "fetched_at": "2026-05-26",
+  "observations": [
+    {
+      "lat": 35.617248,
+      "lng": -83.4235454,
+      "loc": "Great Smoky Mountains NP--Morton Overlook",
+      "date": "2026-05-24 17:41",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.6197,
+      "lng": -83.4208,
+      "loc": "Great Smoky Mountains NP--US-441/Newfound Gap Rd. Pullout",
+      "date": "2026-05-22 12:00",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.7691179,
+      "lng": -83.1932325,
+      "loc": "Great Smoky Mountains NP--Lower Mt. Cammerer Trail",
+      "date": "2026-05-16 14:30",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 36.2915,
+      "lng": -84.244337,
+      "loc": "Cross Mountain--Mountain Rd.--Top Mining Bench",
+      "date": "2026-05-15 07:55",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 36.51743,
+      "lng": -84.27475,
+      "loc": "Capuchin Creek Road, Winfield US-TN 36.51743, -84.27475",
+      "date": "2026-05-13 11:07",
+      "year": 2026,
+      "count": null
+    },
+    {
+      "lat": 35.6098148,
+      "lng": -83.639383,
+      "loc": "Great Smoky Mountains NP--Middle Prong Trail",
+      "date": "2026-05-13 06:30",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.5653164,
+      "lng": -83.5426176,
+      "loc": "Double Spring Gap Shelter (TN)",
+      "date": "2026-05-11 10:59",
+      "year": 2026,
+      "count": 2
+    },
+    {
+      "lat": 36.0472525,
+      "lng": -82.5608028,
+      "loc": "Rocky Fork SP",
+      "date": "2026-05-05 16:54",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.9822777,
+      "lng": -82.8450251,
+      "loc": "TN--Lower Paint Creek",
+      "date": "2026-05-05",
+      "year": 2026,
+      "count": null
+    },
+    {
+      "lat": 35.324702,
+      "lng": -84.032865,
+      "loc": "NC-143, Tellico Plains US-TN 35.32470, -84.03287",
+      "date": "2026-05-03 09:46",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.16934,
+      "lng": -84.614138,
+      "loc": "159 Mt Shadow Ln, Benton US-TN 35.16934, -84.61414",
+      "date": "2026-04-26 10:53",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 36.5201472,
+      "lng": -83.204042,
+      "loc": "825 Jimmie Roberts Road, Sneedville, Tennessee, US (36.52, -83.204)",
+      "date": "2026-04-22 17:31",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 36.0472525,
+      "lng": -82.5608028,
+      "loc": "Rocky Fork SP",
+      "date": "2026-04-11 08:14",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 36.0472525,
+      "lng": -82.5608028,
+      "loc": "Rocky Fork SP",
+      "date": "2026-04-08 16:53",
+      "year": 2026,
+      "count": 2
+    },
+    {
+      "lat": 35.6111036,
+      "lng": -83.4245147,
+      "loc": "Great Smoky Mountains NP--Newfound Gap (probably not TN)",
+      "date": "2026-04-04 07:30",
+      "year": 2026,
+      "count": 4
+    },
+    {
+      "lat": 35.357621,
+      "lng": -84.272597,
+      "loc": "1641 Cherohala Skyway, Tellico Plains US-TN 35.35762, -84.27260",
+      "date": "2026-04-03 13:31",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.9476263,
+      "lng": -82.8931266,
+      "loc": "5800-5848 Lower Paint Creek Road, Greeneville, Tennessee, US (35.948, -82.893)",
+      "date": "2026-04-02 14:00",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.6067497,
+      "lng": -83.7264195,
+      "loc": "Great Smoky Mountains NP--Bote Mountain Trail",
+      "date": "2026-03-30 10:15",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.6541844,
+      "lng": -83.4400332,
+      "loc": "Great Smoky Mountains NP--Mount LeConte",
+      "date": "2026-03-29 16:41",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.4186367,
+      "lng": -84.5502084,
+      "loc": "115 County Road 578, Englewood, Tennessee, US (35.419, -84.55)",
+      "date": "2026-03-27 16:43",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2026-03-24 06:44",
+      "year": 2026,
+      "count": 2
+    },
+    {
+      "lat": 36.13107,
+      "lng": -82.30814,
+      "loc": "Cherokee NF--Unaka Mountain Rd.",
+      "date": "2026-03-22 19:57",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 36.386201,
+      "lng": -84.635669,
+      "loc": "3923\u20134059 Honey Creek Loop Rd, Robbins US-TN 36.38620, -84.63567",
+      "date": "2026-03-21 18:35",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.9822777,
+      "lng": -82.8450251,
+      "loc": "TN--Lower Paint Creek",
+      "date": "2026-03-13 10:29",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.9822777,
+      "lng": -82.8450251,
+      "loc": "TN--Lower Paint Creek",
+      "date": "2026-03-01",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 36.5636384,
+      "lng": -84.8124046,
+      "loc": "Pickett State Forest",
+      "date": "2026-02-03 09:57",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 36.266406,
+      "lng": -82.073674,
+      "loc": "1827\u20131875 Laurel Fork Rd, Roan Mountain US-TN 36.26641, -82.07367",
+      "date": "2026-01-08 15:30",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 35.9822777,
+      "lng": -82.8450251,
+      "loc": "TN--Lower Paint Creek",
+      "date": "2026-01-06",
+      "year": 2026,
+      "count": 2
+    },
+    {
+      "lat": 35.6387158,
+      "lng": -83.4459478,
+      "loc": "Great Smoky Mountains NP--Alum Cave Trail",
+      "date": "2026-01-01 09:06",
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "lat": 36.1535104,
+      "lng": -82.4907894,
+      "loc": "Bumpus Cove Rd.",
+      "date": "2025-12-24 08:30",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.782706,
+      "lng": -83.263898,
+      "loc": "291 Costner Rd, Cosby US-TN 35.78271, -83.26390",
+      "date": "2025-11-01 07:30",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.9822777,
+      "lng": -82.8450251,
+      "loc": "TN--Lower Paint Creek",
+      "date": "2025-10-19",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.9822777,
+      "lng": -82.8450251,
+      "loc": "TN--Lower Paint Creek",
+      "date": "2025-10-17",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.798406,
+      "lng": -82.962394,
+      "loc": "Pisgah National Forest, Hartford US-TN (35.7984,-82.9624)",
+      "date": "2025-10-15 12:47",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.5990797,
+      "lng": -83.8084269,
+      "loc": "Great Smoky Mountains NP--Cades Cove",
+      "date": "2025-10-11 08:55",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.633552,
+      "lng": -83.587172,
+      "loc": "Jakes Creek Tr",
+      "date": "2025-10-08 08:13",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.7159535,
+      "lng": -83.4884387,
+      "loc": "Ely's Mill, Roaring Fork Road",
+      "date": "2025-10-07 06:46",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.7346834,
+      "lng": -83.2446088,
+      "loc": "Snake Den Ridge Trail, Cosby, Tennessee, US (35,735, -83,245)",
+      "date": "2025-10-06 09:58",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.721103,
+      "lng": -83.9146838,
+      "loc": "Fairoaks",
+      "date": "2025-10-04 10:25",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.07642,
+      "lng": -82.685378,
+      "loc": "Cherokee National Forest, Greeneville US-TN 36.07642, -82.68538",
+      "date": "2025-10-02 10:09",
+      "year": 2025,
+      "count": 2
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2025-09-29 07:00",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2025-09-28 05:53",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.107248,
+      "lng": -82.1105369,
+      "loc": "Cherokee NF--Carver's Gap",
+      "date": "2025-09-27 10:10",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.143891,
+      "lng": -82.2919771,
+      "loc": "Stamping Ground  Ridge, Unicoi, Tennessee, US (36.144, -82.292)",
+      "date": "2025-09-26 09:16",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2025-09-25 16:24",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.1783499,
+      "lng": -82.1134706,
+      "loc": "Roan Mountain SP--Old Miller Farmstead",
+      "date": "2025-09-20 14:17",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2025-09-18 07:22",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.993192,
+      "lng": -82.4849711,
+      "loc": "Appalachian National Scenic Trail, Burnsville, North Carolina, US (35.993, -82.485)",
+      "date": "2025-09-17 10:13",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.2145307,
+      "lng": -82.3585979,
+      "loc": "Cherokee NF--Pinnacle Mountain Tower Trail",
+      "date": "2025-09-15 16:28",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.2900318,
+      "lng": -84.0866125,
+      "loc": "Road to Whigg",
+      "date": "2025-09-14 16:53",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2025-09-02 16:11",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2025-08-31 19:30",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2025-08-23 09:19",
+      "year": 2025,
+      "count": 2
+    },
+    {
+      "lat": 35.604831,
+      "lng": -83.764628,
+      "loc": "Laurel Creek Rd, Townsend US-TN (35.6048,-83.7646)",
+      "date": "2025-08-16 10:53",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2025-08-07 09:59",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.308983,
+      "lng": -84.039265,
+      "loc": "Cherokee National Forest, Tellico Plains US-TN 35.30898, -84.03926",
+      "date": "2025-08-02 13:51",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.7420381,
+      "lng": -83.2273505,
+      "loc": "Great Smoky Mountains NP--Snake Den Ridge Trail",
+      "date": "2025-06-23 10:45",
+      "year": 2025,
+      "count": 2
+    },
+    {
+      "lat": 36.1703264,
+      "lng": -82.0988157,
+      "loc": "Roan Mountain SP--Picnic Shelter #1",
+      "date": "2025-06-14 19:58",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.3247013,
+      "lng": -84.0328091,
+      "loc": "Benton MacKaye Trail--Mud Gap to Whigg Meadow",
+      "date": "2025-06-12 11:52",
+      "year": 2025,
+      "count": 2
+    },
+    {
+      "lat": 35.32015,
+      "lng": -84.034299,
+      "loc": "TN\u2014Whigg Meadow Trail",
+      "date": "2025-06-01 15:33",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.6148139,
+      "lng": -83.4148979,
+      "loc": "Great Smoky Mountains NP--Charlie's Bunion Trail",
+      "date": "2025-05-28 12:56",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.6804939,
+      "lng": -83.6494946,
+      "loc": "Great Smoky Mountains NP--Metcalf Bottoms",
+      "date": "2025-05-22 06:47",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.6065101,
+      "lng": -83.7740993,
+      "loc": "Great Smoky Mountains NP--Cades Cove Scenic Loop",
+      "date": "2025-05-20 05:07",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.5920258,
+      "lng": -82.1373331,
+      "loc": "sinking creek farm",
+      "date": "2025-05-13 11:26",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.5969957,
+      "lng": -83.8500861,
+      "loc": "Great Smoky Mountains NP--Cades Cove--Elijah Oliver Cabin & Access Trail",
+      "date": "2025-05-05 17:00",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.2339378,
+      "lng": -82.0229213,
+      "loc": "Cherokee NF--Walnut Mountain Road",
+      "date": "2025-05-03 07:37",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.2995885,
+      "lng": -82.1303773,
+      "loc": "AT - Boots Off Hostel to Iron Mountain Shelter",
+      "date": "2025-04-30",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.653069,
+      "lng": -83.465389,
+      "loc": "Auto selected 35.65307, -83.46539",
+      "date": "2025-04-23 09:46",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.5631286,
+      "lng": -83.4995608,
+      "loc": "AT-Kuwohi",
+      "date": "2025-04-19 19:30",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.9542384,
+      "lng": -82.8918482,
+      "loc": "Paint Creek",
+      "date": "2025-04-17 12:30",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2025-04-16 20:16",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.563646,
+      "lng": -83.518653,
+      "loc": "Appalachian National Scenic Trail, Gatlinburg US-NC (35.5636,-83.5187)",
+      "date": "2025-04-09 14:55",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.5665405,
+      "lng": -83.6419308,
+      "loc": "AT - Derrick Knob Shelter to Kuwohi",
+      "date": "2025-04-07",
+      "year": 2025,
+      "count": 3
+    },
+    {
+      "lat": 36.4465434,
+      "lng": -82.1166157,
+      "loc": "6170 Panhandle Road, Elizabethton, Tennessee, US (36.447, -82.117)",
+      "date": "2025-04-05 08:19",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.270737,
+      "lng": -82.337752,
+      "loc": "Buffalo Mountain Park, Johnson City US-TN 36.27074, -82.33775",
+      "date": "2025-04-04 10:02",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.4475369,
+      "lng": -82.0906222,
+      "loc": "Cherokee NF--Panhandle Rd.",
+      "date": "2025-04-01 08:57",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.9771372,
+      "lng": -82.8487461,
+      "loc": "Lower Paint Creek Road, Greeneville, Tennessee, US (35.977, -82.849)",
+      "date": "2025-03-30 18:04",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.6112821,
+      "lng": -83.7809443,
+      "loc": "GSMNP- Rich Mountain Loop",
+      "date": "2025-03-29 13:53",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.6804939,
+      "lng": -83.6494946,
+      "loc": "Great Smoky Mountains NP--Metcalf Bottoms",
+      "date": "2025-03-28 18:31",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 36.3074474,
+      "lng": -84.2140801,
+      "loc": "Cove Lake SP",
+      "date": "2025-03-09 08:30",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.637917,
+      "lng": -83.52965,
+      "loc": "Sugarland Mountain Trail, Gatlinburg US-TN 35.63792, -83.52965",
+      "date": "2025-02-03 12:48",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.6387158,
+      "lng": -83.4459478,
+      "loc": "Great Smoky Mountains NP--Alum Cave Trail",
+      "date": "2025-02-01 09:08",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.711432,
+      "lng": -83.573131,
+      "loc": "Grouse Corner",
+      "date": "2025-01-31 14:46",
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "lat": 35.9601116,
+      "lng": -82.8969713,
+      "loc": "TN--Lone Pine Gap Rd",
+      "date": "2024-11-23",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.606471,
+      "lng": -83.789712,
+      "loc": "Cades Cove, Townsend US-TN 35.60647, -83.78971",
+      "date": "2024-11-21 08:47",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.858902,
+      "lng": -83.397411,
+      "loc": "Autumn Ridge, Sevierville, TN",
+      "date": "2024-11-02 11:27",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.6302064,
+      "lng": -83.745601,
+      "loc": "Great Smoky Mountains NP--Turkeypen Ridge Trail",
+      "date": "2024-10-26 10:11",
+      "year": 2024,
+      "count": 2
+    },
+    {
+      "lat": 35.6400067,
+      "lng": -83.5650867,
+      "loc": "Great Smoky Mountains NP--Cucumber Gap Trail",
+      "date": "2024-10-14 15:15",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.5420533,
+      "lng": -81.9899368,
+      "loc": "Hwy 421--Mile Marker 33",
+      "date": "2024-10-05 08:35",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2024-10-04 07:00",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2024-10-03 18:18",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.6603682,
+      "lng": -83.5539227,
+      "loc": "Sugarland Mountain Trail, Gatlinburg, Tennessee, US (35.66, -83.554)",
+      "date": "2024-09-30 08:59",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.0263969,
+      "lng": -82.7207184,
+      "loc": "Viking Mountain Overlook",
+      "date": "2024-09-22 09:56",
+      "year": 2024,
+      "count": 2
+    },
+    {
+      "lat": 35.564055,
+      "lng": -83.716442,
+      "loc": "Rocky Top Tennessee",
+      "date": "2024-09-21 06:54",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.564055,
+      "lng": -83.716442,
+      "loc": "Rocky Top Tennessee",
+      "date": "2024-09-20 10:07",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.6703255,
+      "lng": -83.6696954,
+      "loc": "little river gorge Rd",
+      "date": "2024-09-16 09:34",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.570316,
+      "lng": -83.678449,
+      "loc": "Appalachian National Scenic Trail, Townsend US-TN (35.5703,-83.6784)",
+      "date": "2024-09-04 15:59",
+      "year": 2024,
+      "count": 3
+    },
+    {
+      "lat": 36.3764323,
+      "lng": -84.7845939,
+      "loc": "121 Willie Crabtree Road, Allardt, Tennessee, US (36.376, -84.785)",
+      "date": "2024-07-27 18:29",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.980483,
+      "lng": -84.572645,
+      "loc": "Emory River",
+      "date": "2024-07-23 07:00",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.980483,
+      "lng": -84.572645,
+      "loc": "Emory River",
+      "date": "2024-07-20 06:24",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.0472525,
+      "lng": -82.5608028,
+      "loc": "Rocky Fork SP",
+      "date": "2024-07-16 16:08",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.9601116,
+      "lng": -82.8969713,
+      "loc": "TN--Lone Pine Gap Rd",
+      "date": "2024-07-03 18:15",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.1470008,
+      "lng": -82.0491397,
+      "loc": "Hampton Creek Cove SNA",
+      "date": "2024-06-19 08:15",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.13107,
+      "lng": -82.30814,
+      "loc": "Cherokee NF--Unaka Mountain Rd.",
+      "date": "2024-06-08 08:27",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.0472525,
+      "lng": -82.5608028,
+      "loc": "Rocky Fork SP",
+      "date": "2024-06-05 18:37",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2024-06-01 20:15",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.730906,
+      "lng": -83.244635,
+      "loc": "Snake Den Ridge Trail, Maddron Bald Trail to AT",
+      "date": "2024-05-31 19:49",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.7663679,
+      "lng": -83.2677084,
+      "loc": "Great Smoky Mountains NP--Maddron Bald Trail  and  Albright Grove Loop",
+      "date": "2024-05-16 11:30",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.7005,
+      "lng": -83.5271,
+      "loc": "Great Smoky Mountains NP--Gatlinburg Trail",
+      "date": "2024-05-12 22:45",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.1769114,
+      "lng": -82.742517,
+      "loc": "Tusculum Linear Park Walking and Biking Trail",
+      "date": "2024-04-29 12:05",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.5990797,
+      "lng": -83.8084269,
+      "loc": "Great Smoky Mountains NP--Cades Cove",
+      "date": "2024-04-28 11:20",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.7420381,
+      "lng": -83.2273505,
+      "loc": "Great Smoky Mountains NP--Snake Den Ridge Trail",
+      "date": "2024-04-27 07:38",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.5558351,
+      "lng": -81.9039289,
+      "loc": "594-2998 McQueen Gap Road, Shady Valley, Tennessee, US (36.556, -81.904)",
+      "date": "2024-04-25 06:13",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.217317,
+      "lng": -82.225083,
+      "loc": "Yard List - Piney Grove Road",
+      "date": "2024-04-24 08:32",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2024-04-21 09:36",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.538,
+      "lng": -81.704409,
+      "loc": "Cut Laurel Gap Road, Laurel Bloomery US-TN 36.53800, -81.70441",
+      "date": "2024-04-07 07:35",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.6940053,
+      "lng": -83.6302171,
+      "loc": "Great Smoky Mountains NP--Walker Sisters Home",
+      "date": "2024-04-03 11:56",
+      "year": 2024,
+      "count": 2
+    },
+    {
+      "lat": 35.6940053,
+      "lng": -83.6302171,
+      "loc": "Great Smoky Mountains NP--Walker Sisters Home",
+      "date": "2024-03-31 10:13",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.0472525,
+      "lng": -82.5608028,
+      "loc": "Rocky Fork SP",
+      "date": "2024-03-30 08:43",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 36.585581,
+      "lng": -81.940921,
+      "loc": "Government Road, Bristol US-TN 36.58558, -81.94092",
+      "date": "2024-02-08 11:44",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.371901,
+      "lng": -84.008407,
+      "loc": "Stratton Bald Trail, Vonore US-TN 35.37190, -84.00841",
+      "date": "2024-02-03 12:59",
+      "year": 2024,
+      "count": 1
+    },
+    {
+      "lat": 35.637327,
+      "lng": -83.425344,
+      "loc": "Great Smoky Mountains National Park, Gatlinburg US-TN (35.6373,-83.4253)",
+      "date": "2023-11-16 12:04",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.623802,
+      "lng": -83.769951,
+      "loc": "Indian Grave Gap Trail, Townsend US-TN 35.62380, -83.76995",
+      "date": "2023-11-04 10:22",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.3247324,
+      "lng": -84.0328423,
+      "loc": "Benton MacKaye Trail, Tellico Plains, Tennessee, US (35.325, -84.033)",
+      "date": "2023-10-06 08:00",
+      "year": 2023,
+      "count": 4
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2023-09-30 14:00",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2023-09-13 16:22",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.136878,
+      "lng": -82.140787,
+      "loc": "(Iron Mt trail from Hughes Gap (36.1369,-82.1408)",
+      "date": "2023-08-26 10:05",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.552154,
+      "lng": -81.931965,
+      "loc": "Cherokee National Forest, Bristol US-TN 36.55215, -81.93197",
+      "date": "2023-08-23 08:43",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2023-08-05 09:00",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2023-07-25 06:00",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.7909784,
+      "lng": -83.9754152,
+      "loc": "Alcoa Duck Pond",
+      "date": "2023-07-24 09:32",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.10597,
+      "lng": -82.095446,
+      "loc": "Roan Mountain--Rocky Outcrop at 36.10597, -82.09545",
+      "date": "2023-07-21 09:57",
+      "year": 2023,
+      "count": 4
+    },
+    {
+      "lat": 35.671378,
+      "lng": -83.292345,
+      "loc": "GSMNP - AT north of Pecks Corner",
+      "date": "2023-07-19 14:47",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.563194,
+      "lng": -83.5130936,
+      "loc": "Appalachian Trail - Clingmans Dome to Silers Bald",
+      "date": "2023-06-16 17:30",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2023-06-06 11:36",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.6994284,
+      "lng": -83.6277134,
+      "loc": "Great Smoky Mountains NP--Little Greenbrier Trail",
+      "date": "2023-06-04 10:41",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.2157633,
+      "lng": -82.3061227,
+      "loc": "Scioto Rd.",
+      "date": "2023-06-03 05:24",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.605005,
+      "lng": -83.476589,
+      "loc": "GSMNP: Sugarland Mt Tr.",
+      "date": "2023-05-19 08:08",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.13107,
+      "lng": -82.30814,
+      "loc": "Cherokee NF--Unaka Mountain Rd.",
+      "date": "2023-05-13 09:17",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.5621674,
+      "lng": -81.9560402,
+      "loc": "McQueens Gap",
+      "date": "2023-05-05 05:50",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.980483,
+      "lng": -84.572645,
+      "loc": "Emory River",
+      "date": "2023-05-01 21:09",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.6852033,
+      "lng": -83.4972181,
+      "loc": "Great Smoky Mountains NP--Twin Creeks Trail",
+      "date": "2023-04-26 09:38",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.674321,
+      "lng": -83.661363,
+      "loc": "Great Smoky Mountains, Gatlinburg US-TN 35.67432, -83.66136",
+      "date": "2023-04-23 19:03",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.2573388,
+      "lng": -84.3056984,
+      "loc": "Caryville, Tennessee, US (36.257, -84.306)",
+      "date": "2023-04-22 11:13",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2023-04-21 09:09",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2023-04-20",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.2354923,
+      "lng": -82.3927005,
+      "loc": "Cherokee NF--Dry Creek Rd.",
+      "date": "2023-04-19 09:06",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.353069,
+      "lng": -81.736529,
+      "loc": "667 SR-67, Trade US-TN 36.35307, -81.73653",
+      "date": "2023-04-16 12:17",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.595931,
+      "lng": -83.46082,
+      "loc": "Great Smoky Mountains, Gatlinburg US-TN 35.59593, -83.46082",
+      "date": "2023-04-11 17:35",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.9719193,
+      "lng": -83.030154,
+      "loc": "Long Creek Road, Del Rio, Tennessee, US (35.972, -83.03)",
+      "date": "2023-04-09 20:23",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.685634,
+      "lng": -83.536965,
+      "loc": "Great Smoky Mountains, Gatlinburg US-TN (35.6856,-83.5370)",
+      "date": "2023-04-08 15:55",
+      "year": 2023,
+      "count": 3
+    },
+    {
+      "lat": 35.637338,
+      "lng": -83.721673,
+      "loc": "Laurel Creek Rd",
+      "date": "2023-04-06 11:50",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.652383,
+      "lng": -83.5696209,
+      "loc": "Great Smoky Mountains NP--Little River Trail",
+      "date": "2023-04-02 08:05",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.537793,
+      "lng": -81.70473,
+      "loc": "Cut Laurel Gap Rd",
+      "date": "2023-03-21 10:34",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 36.501731,
+      "lng": -81.879344,
+      "loc": "4818-6310 South Shady Street, Mountain City, Tennessee, US (36.502, -81.879)",
+      "date": "2023-02-23 16:25",
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "lat": 35.639344,
+      "lng": -83.445607,
+      "loc": "Alum Cave Trail",
+      "date": "2022-12-11 13:33",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.577789,
+      "lng": -83.8400272,
+      "loc": "Forge Creek Road, heading SW",
+      "date": "2022-11-24 08:27",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.173697,
+      "lng": -82.1334736,
+      "loc": "Ripshin Lake",
+      "date": "2022-10-23 07:30",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.928835,
+      "lng": -82.901149,
+      "loc": "Cherokee National Forest, Del Rio US-TN (35.9288,-82.9011)",
+      "date": "2022-10-22 14:51",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.653117,
+      "lng": -83.464297,
+      "loc": "Great Smoky Mountains National Park, Gatlinburg US-TN 35.65312, -83.46430",
+      "date": "2022-10-12 10:01",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.6111036,
+      "lng": -83.4245147,
+      "loc": "Great Smoky Mountains NP--Newfound Gap (probably not TN)",
+      "date": "2022-10-09 09:00",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2022-09-17 08:00",
+      "year": 2022,
+      "count": 2
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2022-09-13 15:45",
+      "year": 2022,
+      "count": 3
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2022-07-23 05:30",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.4475369,
+      "lng": -82.0906222,
+      "loc": "Cherokee NF--Panhandle Rd.",
+      "date": "2022-07-18 08:15",
+      "year": 2022,
+      "count": 5
+    },
+    {
+      "lat": 35.614966,
+      "lng": -83.415739,
+      "loc": "Great Smoky Mountains National Park, Cherokee US-NC (35.6139,-83.4170)",
+      "date": "2022-07-17 11:36",
+      "year": 2022,
+      "count": null
+    },
+    {
+      "lat": 36.5265833,
+      "lng": -81.8877339,
+      "loc": "Marriage Ground Ridge",
+      "date": "2022-06-24 11:00",
+      "year": 2022,
+      "count": 6
+    },
+    {
+      "lat": 36.151693,
+      "lng": -82.175547,
+      "loc": "Moffett Laurel",
+      "date": "2022-06-23 10:34",
+      "year": 2022,
+      "count": 2
+    },
+    {
+      "lat": 36.21029,
+      "lng": -84.046266,
+      "loc": "218 Red Hill Rd, Andersonville US-TN (36.2103,-84.0463)",
+      "date": "2022-06-21 17:41",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2022-06-18 09:12",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.498056,
+      "lng": -84.085068,
+      "loc": "Cherokee National Forest, Vonore US-TN 35.49806, -84.08507",
+      "date": "2022-06-17 10:05",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.496946,
+      "lng": -81.8900942,
+      "loc": "On hwy 421",
+      "date": "2022-06-15 10:30",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.76329,
+      "lng": -83.161975,
+      "loc": "Great Smoky Mountains NP\u2014Mt. Cammerer",
+      "date": "2022-06-12 20:31",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.568822,
+      "lng": -83.689217,
+      "loc": "Great Smoky Mountains National Park, Townsend US-TN (35.5688,-83.6892)",
+      "date": "2022-06-08 15:51",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.3909591,
+      "lng": -82.3650655,
+      "loc": "Winged Deer Park",
+      "date": "2022-06-06 11:48",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.13107,
+      "lng": -82.30814,
+      "loc": "Cherokee NF--Unaka Mountain Rd.",
+      "date": "2022-06-05 12:30",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.3459187,
+      "lng": -84.0541792,
+      "loc": "Cherohala Skyway, Tellico Plains, Tennessee, US (35.346, -84.054)",
+      "date": "2022-05-29 08:34",
+      "year": 2022,
+      "count": 3
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2022-05-25 08:50",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2022-05-22 18:23",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2022-05-21 06:00",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.6245064,
+      "lng": -83.8213712,
+      "loc": "Great Smoky Mountains NP--Rich Mountain Rd.",
+      "date": "2022-05-15 09:06",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.5312909,
+      "lng": -83.8786645,
+      "loc": "Great Smoky Mountains NP--Gregory Bald Trail (TN)",
+      "date": "2022-05-10 09:32",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.1351652,
+      "lng": -82.3050412,
+      "loc": "Unaka Mountain Road, Unicoi",
+      "date": "2022-05-04 05:55",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.6245064,
+      "lng": -83.8213712,
+      "loc": "Great Smoky Mountains NP--Rich Mountain Rd.",
+      "date": "2022-05-03 11:05",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.6082983,
+      "lng": -83.9342809,
+      "loc": "Great Smoky Mountains NP--Abrams Creek--Rabbit Creek Loop",
+      "date": "2022-05-01 14:10",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.28445,
+      "lng": -84.29738,
+      "loc": "North Cumberland WMA--Massengale Mountain",
+      "date": "2022-04-24 06:49",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.7420381,
+      "lng": -83.2273505,
+      "loc": "Great Smoky Mountains NP--Snake Den Ridge Trail",
+      "date": "2022-04-23 09:00",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.2165373,
+      "lng": -83.1095179,
+      "loc": "Dyer Hollow Rd.",
+      "date": "2022-04-19 08:09",
+      "year": 2022,
+      "count": 2
+    },
+    {
+      "lat": 36.4751397,
+      "lng": -82.093466,
+      "loc": "Cherokee NF--Flatwoods Rd.",
+      "date": "2022-04-15 08:14",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.2354923,
+      "lng": -82.3927005,
+      "loc": "Cherokee NF--Dry Creek Rd.",
+      "date": "2022-04-11 09:24",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.6148139,
+      "lng": -83.4148979,
+      "loc": "Great Smoky Mountains NP--Charlie's Bunion Trail",
+      "date": "2022-04-06 11:10",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.9601116,
+      "lng": -82.8969713,
+      "loc": "TN--Lone Pine Gap Rd",
+      "date": "2022-03-20",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.1061466,
+      "lng": -82.8655815,
+      "loc": "TN--Greene County",
+      "date": "2022-03-19",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.2145307,
+      "lng": -82.3585979,
+      "loc": "Cherokee NF--Pinnacle Mountain Tower Trail",
+      "date": "2022-03-17 16:29",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.230789,
+      "lng": -82.027629,
+      "loc": "Cherokee National Forest, Roan Mountain US-TN 36.23079, -82.02763",
+      "date": "2022-02-06 13:33",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 36.2656203,
+      "lng": -82.3604987,
+      "loc": "Lone Oak Trail",
+      "date": "2022-01-27 16:24",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.7792168,
+      "lng": -83.3731629,
+      "loc": "Running Rock",
+      "date": "2022-01-01 10:00",
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "lat": 35.6148139,
+      "lng": -83.4148979,
+      "loc": "Great Smoky Mountains NP--Charlie's Bunion Trail",
+      "date": "2021-12-28 09:08",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.030825,
+      "lng": -82.724592,
+      "loc": "Cherokee National Forest, Greeneville US-TN 36.03083, -82.72459",
+      "date": "2021-12-05 08:34",
+      "year": 2021,
+      "count": 2
+    },
+    {
+      "lat": 35.6940053,
+      "lng": -83.6302171,
+      "loc": "Great Smoky Mountains NP--Walker Sisters Home",
+      "date": "2021-11-10 09:00",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.496168,
+      "lng": -81.890225,
+      "loc": "Cherokee National Forest, Mountain City US-TN 36.49617, -81.89022",
+      "date": "2021-10-23 12:25",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.104586,
+      "lng": -82.125095,
+      "loc": "Cherokee National Forest, Roan Mountain US-TN (36.1046,-82.1251)",
+      "date": "2021-10-13 11:55",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.703,
+      "lng": -83.333628,
+      "loc": "Great Smoky Mountains NP--Ramsey Cascades",
+      "date": "2021-10-02 21:16",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.4303656,
+      "lng": -81.8666109,
+      "loc": "Doe Mountain Recreation Area",
+      "date": "2021-09-25 10:16",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.13107,
+      "lng": -82.30814,
+      "loc": "Cherokee NF--Unaka Mountain Rd.",
+      "date": "2021-09-16 10:00",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.264651,
+      "lng": -82.353999,
+      "loc": "Buffalo Mountain Park, Johnson City US-TN 36.26465, -82.35400",
+      "date": "2021-07-09 08:16",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.6738477,
+      "lng": -83.4494806,
+      "loc": "Great Smoky Mountains NP--Trillium Gap Trail",
+      "date": "2021-07-08 10:39",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.5442631,
+      "lng": -84.7414436,
+      "loc": "Twin Arches Loop",
+      "date": "2021-07-03 13:30",
+      "year": 2021,
+      "count": null
+    },
+    {
+      "lat": 35.3262871,
+      "lng": -84.0498893,
+      "loc": "North River Road, Tellico Plains, Tennessee, US (35.326, -84.05)",
+      "date": "2021-06-20 10:32",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.703,
+      "lng": -83.333628,
+      "loc": "Great Smoky Mountains NP--Ramsey Cascades",
+      "date": "2021-06-16 13:25",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2021-06-05 08:00",
+      "year": 2021,
+      "count": 4
+    },
+    {
+      "lat": 35.6708928,
+      "lng": -83.5831522,
+      "loc": "Fighting Creek Gap Road, Gatlinburg, Tennessee, US (35.671, -83.583)",
+      "date": "2021-06-03 10:30",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.7168181,
+      "lng": -83.6412308,
+      "loc": "Wears Valley",
+      "date": "2021-06-02 05:50",
+      "year": 2021,
+      "count": 4
+    },
+    {
+      "lat": 35.315439,
+      "lng": -84.0519235,
+      "loc": "Big Cove Road",
+      "date": "2021-06-01 16:32",
+      "year": 2021,
+      "count": 3
+    },
+    {
+      "lat": 35.758221,
+      "lng": -83.971704,
+      "loc": "Bicentennial Greenbelt Park, Maryville US-TN 35.75822, -83.97170",
+      "date": "2021-05-23 16:17",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.2961976,
+      "lng": -82.0686484,
+      "loc": "Little Stony Creek Rd",
+      "date": "2021-05-20 14:00",
+      "year": 2021,
+      "count": 2
+    },
+    {
+      "lat": 35.3154197,
+      "lng": -84.0518936,
+      "loc": "Sycamore Trail, Tellico Plains, Tennessee, US (35.315, -84.052)",
+      "date": "2021-05-15 19:13",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.2978432,
+      "lng": -84.2642049,
+      "loc": "Cumberland Trail SP--Cross Mountain Trailhead",
+      "date": "2021-05-13 10:50",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.6111036,
+      "lng": -83.4245147,
+      "loc": "Great Smoky Mountains NP--Newfound Gap (probably not TN)",
+      "date": "2021-05-06 19:12",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.1743053,
+      "lng": -82.1466492,
+      "loc": "1642 Ripshin Mountain Road, Roan Mountain, Tennessee, US (36.174, -82.147)",
+      "date": "2021-05-01 09:50",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.0472525,
+      "lng": -82.5608028,
+      "loc": "Rocky Fork SP",
+      "date": "2021-04-28 08:27",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.13107,
+      "lng": -82.30814,
+      "loc": "Cherokee NF--Unaka Mountain Rd.",
+      "date": "2021-04-26 18:22",
+      "year": 2021,
+      "count": 2
+    },
+    {
+      "lat": 36.2867066,
+      "lng": -84.2943192,
+      "loc": "North Cumberland WMA--Tower Rd.--Upper Massengale",
+      "date": "2021-04-25 09:21",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.1416375,
+      "lng": -82.2901375,
+      "loc": "Red Fork Road, Unicoi, Tennessee, US (36.142, -82.29)",
+      "date": "2021-04-24 19:01",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.257607,
+      "lng": -84.310813,
+      "loc": "37714, Caryville US-TN (36.2576,-84.3108)",
+      "date": "2021-04-23 20:02",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.077413,
+      "lng": -84.557608,
+      "loc": "Cherokee National Forest, Benton US-TN 35.07741, -84.55761",
+      "date": "2021-04-19 10:19",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.59595,
+      "lng": -83.460213,
+      "loc": "Great Smoky Mountains National Park, Gatlinburg US-TN 35.59595, -83.46021",
+      "date": "2021-04-17 08:53",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.578078,
+      "lng": -83.480069,
+      "loc": "Great Smoky Mountains National Park, Gatlinburg US-TN (35.5781,-83.4801)",
+      "date": "2021-04-16 06:30",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.6068939,
+      "lng": -83.669343,
+      "loc": "Great Smoky Mountains NP--Defeat Ridge Manway",
+      "date": "2021-04-14 07:06",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.108089,
+      "lng": -84.451537,
+      "loc": "Cherokee National Forest, Reliance US-TN (35.1081,-84.4515)",
+      "date": "2021-04-09 06:50",
+      "year": 2021,
+      "count": 4
+    },
+    {
+      "lat": 35.926721,
+      "lng": -84.55215,
+      "loc": "Riggs Chapel Rd, Harriman US-TN 35.92672, -84.55215",
+      "date": "2021-04-05 07:05",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.26577,
+      "lng": -82.353913,
+      "loc": "Buffalo Mountain Park, Johnson City US-TN 36.26577, -82.35391",
+      "date": "2021-03-18 15:29",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 35.5999263,
+      "lng": -83.4563147,
+      "loc": "Great Smoky Mountains NP--Clingmans Dome Trail (Sevier Co, TN)",
+      "date": "2021-03-15 07:56",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.217317,
+      "lng": -82.225083,
+      "loc": "Yard List - Piney Grove Road",
+      "date": "2021-02-28 12:07",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.268242,
+      "lng": -82.348191,
+      "loc": "Buffalo Mountain Park, Johnson City US-TN 36.26824, -82.34819",
+      "date": "2021-02-12 17:06",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.4811833,
+      "lng": -81.9596406,
+      "loc": "Cross Mountain (Johnson Co.)",
+      "date": "2021-01-24 10:30",
+      "year": 2021,
+      "count": 2
+    },
+    {
+      "lat": 35.6386811,
+      "lng": -83.5513325,
+      "loc": "Little River Trail, Gatlinburg, Tennessee, US (35.639, -83.551)",
+      "date": "2021-01-06 10:57",
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "lat": 36.217317,
+      "lng": -82.225083,
+      "loc": "Yard List - Piney Grove Road",
+      "date": "2020-11-08 08:37",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.6387158,
+      "lng": -83.4459478,
+      "loc": "Great Smoky Mountains NP--Alum Cave Trail",
+      "date": "2020-10-20 10:26",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.1667376,
+      "lng": -82.093004,
+      "loc": "Roan Mountain SP--Cabins",
+      "date": "2020-10-13 09:00",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.6245064,
+      "lng": -83.8213712,
+      "loc": "Great Smoky Mountains NP--Rich Mountain Rd.",
+      "date": "2020-10-08 08:12",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.6062971,
+      "lng": -84.1150428,
+      "loc": "Kyker Bottoms Refuge",
+      "date": "2020-09-20 18:51",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.95353,
+      "lng": -83.68736,
+      "loc": "Seven Islands State Birding Park, Kodak US-TN 35.95353, -83.68736",
+      "date": "2020-09-04 06:56",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.6562003,
+      "lng": -83.8190294,
+      "loc": "GSMNP- Ace Gap trail",
+      "date": "2020-08-08 09:55",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.146989,
+      "lng": -84.532889,
+      "loc": "Frozen Head State Park, Wartburg US-TN 36.14699, -84.53289",
+      "date": "2020-08-02 14:31",
+      "year": 2020,
+      "count": 3
+    },
+    {
+      "lat": 35.689147,
+      "lng": -83.877287,
+      "loc": "37886, Walland US-TN 35.68915, -83.87729",
+      "date": "2020-07-27 10:09",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.6367033,
+      "lng": -83.4890767,
+      "loc": "Great Smoky Mountains NP--Chimneys Picnic Area",
+      "date": "2020-07-14 09:30",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.597186,
+      "lng": -84.256198,
+      "loc": "Tellico Lake, Vonore US-TN 35.59719, -84.25620",
+      "date": "2020-07-03 09:30",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.2034384,
+      "lng": -82.2578791,
+      "loc": "Blackberry Blossom Campground",
+      "date": "2020-06-14 13:57",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.107248,
+      "lng": -82.1105369,
+      "loc": "Cherokee NF--Carver's Gap",
+      "date": "2020-06-13 11:14",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.1013,
+      "lng": -84.39787,
+      "loc": "Polk Co. FS Roads 66  and  68",
+      "date": "2020-06-08 10:45",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.337232,
+      "lng": -82.168515,
+      "loc": "562 Garrison Hollow Rd, Elizabethton US-TN 36.33723, -82.16852",
+      "date": "2020-06-06 20:44",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.6940053,
+      "lng": -83.6302171,
+      "loc": "Great Smoky Mountains NP--Walker Sisters Home",
+      "date": "2020-06-05 07:30",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.620067,
+      "lng": -83.406476,
+      "loc": "Along Jump Off Trail",
+      "date": "2020-06-02 14:15",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.3215164,
+      "lng": -84.3240949,
+      "loc": "North Cumberland WMA--Royal Blue Unit",
+      "date": "2020-05-30 08:37",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.3526324,
+      "lng": -84.0767031,
+      "loc": "Cherohala Skyway--Brushy Ridge",
+      "date": "2020-05-23 09:25",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.3215164,
+      "lng": -84.3240949,
+      "loc": "North Cumberland WMA--Royal Blue Unit",
+      "date": "2020-05-18 06:47",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.6229467,
+      "lng": -83.7099496,
+      "loc": "Bote Mt/West Prong",
+      "date": "2020-05-15 14:00",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.6359324,
+      "lng": -83.9371647,
+      "loc": "May 12, 2020 10:07 AM\n35.636, -83.937",
+      "date": "2020-05-12 10:06",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.3215164,
+      "lng": -84.3240949,
+      "loc": "North Cumberland WMA--Royal Blue Unit",
+      "date": "2020-05-10 08:20",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.1603242,
+      "lng": -84.4352873,
+      "loc": "Fork Mountain",
+      "date": "2020-05-07 07:10",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.8029144,
+      "lng": -83.025374,
+      "loc": "Martha Sundquist SF",
+      "date": "2020-05-05 06:10",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.500441,
+      "lng": -83.028337,
+      "loc": "US-TN-Eidson- Highway 70 N - 36.5004x-83.0283",
+      "date": "2020-05-04 06:20",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.2831384,
+      "lng": -82.0872567,
+      "loc": "Cherokee NF--Pond Mountain Wilderness",
+      "date": "2020-05-01 06:52",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2020-04-25 08:00",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.5014694,
+      "lng": -82.0587004,
+      "loc": "Cherokee NF--Big Creek Rd.--Flatwoods Rd. to Little Oak Campground",
+      "date": "2020-04-19 15:45",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.217317,
+      "lng": -82.225083,
+      "loc": "Yard List - Piney Grove Road",
+      "date": "2020-04-09 08:15",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.2883216,
+      "lng": -84.189535,
+      "loc": "Bald River Road, Tellico Plains, Tennessee, US (35.288, -84.19)",
+      "date": "2020-04-06 13:30",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.1702391,
+      "lng": -84.592338,
+      "loc": "Polk Co. FS Rd. 77 mile 8.7",
+      "date": "2020-04-05 09:30",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.14767,
+      "lng": -84.61718,
+      "loc": "Polk Co. Confederate Camp",
+      "date": "2020-04-02 10:30",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 36.2145307,
+      "lng": -82.3585979,
+      "loc": "Cherokee NF--Pinnacle Mountain Tower Trail",
+      "date": "2020-03-26 15:00",
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "lat": 35.6483818,
+      "lng": -83.6810259,
+      "loc": "GSMNP- Lumber Ridge trail",
+      "date": "2019-12-30 15:30",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.4475369,
+      "lng": -82.0906222,
+      "loc": "Cherokee NF--Panhandle Rd.",
+      "date": "2019-12-14 07:31",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2019-10-29 09:00",
+      "year": 2019,
+      "count": 2
+    },
+    {
+      "lat": 36.2799915,
+      "lng": -83.9673616,
+      "loc": "loyston point bike trail",
+      "date": "2019-10-21 17:00",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.6109395,
+      "lng": -83.4278813,
+      "loc": "Great Smoky Mountains NP--Clingman's Dome Rd./US-441 Intersection",
+      "date": "2019-10-20 15:00",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.217317,
+      "lng": -82.225083,
+      "loc": "Yard List - Piney Grove Road",
+      "date": "2019-10-05 16:15",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.613595,
+      "lng": -83.419712,
+      "loc": "Great Smoky Mountains National Park, Cherokee US-NC (35.6136,-83.4197)",
+      "date": "2019-10-04 13:27",
+      "year": 2019,
+      "count": 2
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2019-09-29 09:11",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2019-09-28 08:30",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2019-09-26 07:45",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2019-09-20 08:50",
+      "year": 2019,
+      "count": 8
+    },
+    {
+      "lat": 35.666225,
+      "lng": -83.599242,
+      "loc": "Little River Rd (Elkmont Rd)",
+      "date": "2019-09-18 17:00",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2019-09-14 18:02",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.596034,
+      "lng": -83.460325,
+      "loc": "Great Smoky Mountains National Park, Gatlinburg US-TN (35.5960,-83.4603)",
+      "date": "2019-08-17 06:30",
+      "year": 2019,
+      "count": 3
+    },
+    {
+      "lat": 36.13107,
+      "lng": -82.30814,
+      "loc": "Cherokee NF--Unaka Mountain Rd.",
+      "date": "2019-07-27 12:21",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.6731592,
+      "lng": -83.421102,
+      "loc": "Brushy Mountain Trail, Gatlinburg, Tennessee, US (35.673, -83.421)",
+      "date": "2019-06-25 15:21",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.031872,
+      "lng": -82.705197,
+      "loc": "Camp Creek Bald",
+      "date": "2019-06-23 08:30",
+      "year": 2019,
+      "count": 4
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2019-06-22 15:00",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.3215164,
+      "lng": -84.3240949,
+      "loc": "North Cumberland WMA--Royal Blue Unit",
+      "date": "2019-06-21 11:04",
+      "year": 2019,
+      "count": 4
+    },
+    {
+      "lat": 35.366389,
+      "lng": -84.131111,
+      "loc": "Cherohala Skyway, Turkey Creek Overlook",
+      "date": "2019-06-19 10:28",
+      "year": 2019,
+      "count": 6
+    },
+    {
+      "lat": 36.2530556,
+      "lng": -82.1266667,
+      "loc": "NC19Crockett32.A3.GWGG1 - oversample",
+      "date": "2019-06-04 09:20",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.6940053,
+      "lng": -83.6302171,
+      "loc": "Great Smoky Mountains NP--Walker Sisters Home",
+      "date": "2019-06-01 09:30",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.6769738,
+      "lng": -83.4126721,
+      "loc": "Brushy Mountain Trail, Gatlinburg, Tennessee, US (35.677, -83.413)",
+      "date": "2019-05-30 14:18",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.46048,
+      "lng": -82.088876,
+      "loc": "US-TN-Bluff City-Cherokee National Forest - 36.4605x-82.0889",
+      "date": "2019-05-25 08:20",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.5984462,
+      "lng": -84.4672139,
+      "loc": "Great Smoky Mountains Natl Park Rich Mtn Trail",
+      "date": "2019-05-23 15:00",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.4423262,
+      "lng": -82.0868397,
+      "loc": "Cherokee National Forest--Panhandle Rd. Holston Mtn.",
+      "date": "2019-05-21 08:45",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.4475369,
+      "lng": -82.0906222,
+      "loc": "Cherokee NF--Panhandle Rd.",
+      "date": "2019-05-20 08:00",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2019-05-18 06:15",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2019-05-14 06:40",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.6994284,
+      "lng": -83.6277134,
+      "loc": "Great Smoky Mountains NP--Little Greenbrier Trail",
+      "date": "2019-05-12 11:00",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.3215164,
+      "lng": -84.3240949,
+      "loc": "North Cumberland WMA--Royal Blue Unit",
+      "date": "2019-05-09 15:10",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.2688088,
+      "lng": -82.3749518,
+      "loc": "*Little Biscuit Mini Farm",
+      "date": "2019-05-07 08:30",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.456459,
+      "lng": -81.843241,
+      "loc": "Doe Mountain Recreation Area",
+      "date": "2019-05-06 13:45",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.53343,
+      "lng": -81.96074,
+      "loc": "AT hammock spot 2nd night",
+      "date": "2019-05-04",
+      "year": 2019,
+      "count": null
+    },
+    {
+      "lat": 36.4956806,
+      "lng": -83.1464382,
+      "loc": "5983 Tennessee 66, Sneedville, Tennessee, US (36.496, -83.146)",
+      "date": "2019-04-27 06:57",
+      "year": 2019,
+      "count": 2
+    },
+    {
+      "lat": 35.671787,
+      "lng": -83.580186,
+      "loc": "Sugarland Mtn. Trail - Lower section",
+      "date": "2019-04-18 11:15",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.2354923,
+      "lng": -82.3927005,
+      "loc": "Cherokee NF--Dry Creek Rd.",
+      "date": "2019-04-16 08:35",
+      "year": 2019,
+      "count": 2
+    },
+    {
+      "lat": 35.720833,
+      "lng": -83.375916,
+      "loc": "Old Settlers Trail",
+      "date": "2019-04-15 12:20",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.7257146,
+      "lng": -83.405596,
+      "loc": "Injun Creek",
+      "date": "2019-04-10 08:20",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.2506695,
+      "lng": -82.3694506,
+      "loc": "Buffalo Mountain",
+      "date": "2019-04-09 13:00",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.5014694,
+      "lng": -82.0587004,
+      "loc": "Cherokee NF--Big Creek Rd.--Flatwoods Rd. to Little Oak Campground",
+      "date": "2019-04-06 08:51",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.6854483,
+      "lng": -83.5370003,
+      "loc": "Great Smoky Mountains NP--Sugarlands Visitors Center",
+      "date": "2019-04-05 14:16",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.013105,
+      "lng": -84.695303,
+      "loc": "Catoosa Rd, Rockwood US-TN (36.0131,-84.6953)",
+      "date": "2019-04-04 08:38",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2019-04-03 18:30",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.5312909,
+      "lng": -83.8786645,
+      "loc": "Great Smoky Mountains NP--Gregory Bald Trail (TN)",
+      "date": "2019-03-27 15:00",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 36.217317,
+      "lng": -82.225083,
+      "loc": "Yard List - Piney Grove Road",
+      "date": "2019-03-22 16:14",
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "lat": 35.9610566,
+      "lng": -83.5417879,
+      "loc": "Sevierville, TN",
+      "date": "2019-02-18 09:00",
+      "year": 2019,
+      "count": 4
+    },
+    {
+      "lat": 35.6854483,
+      "lng": -83.5370003,
+      "loc": "Great Smoky Mountains NP--Sugarlands Visitors Center",
+      "date": "2018-11-20 09:10",
+      "year": 2018,
+      "count": 2
+    },
+    {
+      "lat": 35.8988818,
+      "lng": -84.9989956,
+      "loc": "Cumberland Mountain SP",
+      "date": "2018-10-22",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.6929075,
+      "lng": -83.5369706,
+      "loc": "Great Smoky Mountains NP--Sugarlands",
+      "date": "2018-10-12 09:11",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.7635175,
+      "lng": -83.1614458,
+      "loc": "Great Smoky Mt. NP--Mt. Cammerer",
+      "date": "2018-10-07 10:15",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 36.3756685,
+      "lng": -81.9382238,
+      "loc": "Cherokee NF--Roan Creek",
+      "date": "2018-09-29 06:02",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.9958678,
+      "lng": -82.4836135,
+      "loc": "Big Bald Raptor Blind",
+      "date": "2018-09-20 16:30",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 36.540651,
+      "lng": -81.99335,
+      "loc": "Camp Tom Howard Rd",
+      "date": "2018-09-14 12:35",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.422385,
+      "lng": -85.6603575,
+      "loc": "Savage Bluffs Private",
+      "date": "2018-08-09 10:00",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 36.2831384,
+      "lng": -82.0872567,
+      "loc": "Cherokee NF--Pond Mountain Wilderness",
+      "date": "2018-07-10 08:55",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.9198,
+      "lng": -83.02567,
+      "loc": "Del Rio",
+      "date": "2018-07-08 05:45",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2018-06-30 16:00",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 36.044989,
+      "lng": -82.440647,
+      "loc": "Granny Lewis Creek Road",
+      "date": "2018-06-16 07:04",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.8004695,
+      "lng": -84.9887873,
+      "loc": "Hinch Road, Crossville",
+      "date": "2018-06-02 12:03",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 36.500441,
+      "lng": -83.028337,
+      "loc": "US-TN-Eidson- Highway 70 N - 36.5004x-83.0283",
+      "date": "2018-05-27 07:50",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 36.107248,
+      "lng": -82.1105369,
+      "loc": "Cherokee NF--Carver's Gap",
+      "date": "2018-05-14 11:28",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.5654389,
+      "lng": -83.571438,
+      "loc": "Appalachian Trail, Blount County Line To Siler's Bald",
+      "date": "2018-05-12 13:00",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.6111036,
+      "lng": -83.4245147,
+      "loc": "Great Smoky Mountains NP--Newfound Gap (probably not TN)",
+      "date": "2018-05-11 09:20",
+      "year": 2018,
+      "count": 2
+    },
+    {
+      "lat": 36.1191569,
+      "lng": -82.3664761,
+      "loc": "TN Rock Creek Rd",
+      "date": "2018-05-06 19:37",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.6100043,
+      "lng": -83.5068397,
+      "loc": "Great Smoky Mountains NP (TN) (consider using more specific location)",
+      "date": "2018-05-05 16:55",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.99389,
+      "lng": -82.48373,
+      "loc": "Big Bald",
+      "date": "2018-05-04 17:15",
+      "year": 2018,
+      "count": 2
+    },
+    {
+      "lat": 35.739746,
+      "lng": -83.693378,
+      "loc": "The cabin",
+      "date": "2018-05-03 09:00",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.5977778,
+      "lng": -83.615,
+      "loc": "Lynn Camp Prong Trail",
+      "date": "2018-04-30 11:15",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.1422256,
+      "lng": -84.6194622,
+      "loc": "Polk Co. FS Rd. 77 mile 6.1",
+      "date": "2018-04-28 09:10",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.652383,
+      "lng": -83.5696209,
+      "loc": "Great Smoky Mountains NP--Little River Trail",
+      "date": "2018-04-27 07:30",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.6783288,
+      "lng": -83.560619,
+      "loc": "Great Smoky Mt. NP--Fighting Creek Gap Road",
+      "date": "2018-04-26 06:35",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 36.5418602,
+      "lng": -84.7356606,
+      "loc": "Twin Arches Loop Trail - Scott County",
+      "date": "2018-04-21 12:30",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2018-04-11 09:30",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.99389,
+      "lng": -82.48373,
+      "loc": "Big Bald",
+      "date": "2018-02-18 11:00",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.7257146,
+      "lng": -83.405596,
+      "loc": "Injun Creek",
+      "date": "2018-02-01 15:15",
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "lat": 35.5990797,
+      "lng": -83.8084269,
+      "loc": "Great Smoky Mountains NP--Cades Cove",
+      "date": "2017-12-12 10:25",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.5769375,
+      "lng": -83.828825,
+      "loc": "off trail hike along Mill Creek",
+      "date": "2017-12-02 13:00",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.048552,
+      "lng": -82.562922,
+      "loc": "Rocky Fork State Park--Rocky Fork Trail ",
+      "date": "2017-11-24 11:41",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2017-11-17 11:00",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.7178416,
+      "lng": -83.3685064,
+      "loc": "Bird Branch in Greenbrier",
+      "date": "2017-10-31 08:40",
+      "year": 2017,
+      "count": 2
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2017-10-17 18:49",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2017-10-14 12:15",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.1082556,
+      "lng": -82.0752777,
+      "loc": "Appalachian Trail, Roan Mountain, Tennessee, US (36.108, -82.075)",
+      "date": "2017-10-06 13:35",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.3756685,
+      "lng": -81.9382238,
+      "loc": "Cherokee NF--Roan Creek",
+      "date": "2017-09-30 06:15",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.6738477,
+      "lng": -83.4494806,
+      "loc": "Great Smoky Mountains NP--Trillium Gap Trail",
+      "date": "2017-09-25 07:30",
+      "year": 2017,
+      "count": 2
+    },
+    {
+      "lat": 35.9958678,
+      "lng": -82.4836135,
+      "loc": "Big Bald Raptor Blind",
+      "date": "2017-09-24 13:30",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2017-09-16 08:22",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.8204231,
+      "lng": -83.3563507,
+      "loc": "Jerry Paul",
+      "date": "2017-09-10 11:32",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.6551343,
+      "lng": -83.8548499,
+      "loc": "GSMNP- Beard Cane trail",
+      "date": "2017-09-04 10:45",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.653016,
+      "lng": -83.51411,
+      "loc": "Great Smoky Mountains National Park Blount County, US-TN ",
+      "date": "2017-08-23 11:05",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.107248,
+      "lng": -82.1105369,
+      "loc": "Cherokee NF--Carver's Gap",
+      "date": "2017-07-28 09:25",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.4423262,
+      "lng": -82.0868397,
+      "loc": "Cherokee National Forest--Panhandle Rd. Holston Mtn.",
+      "date": "2017-07-11 08:55",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.822795,
+      "lng": -82.956955,
+      "loc": "Cherokee National Forest, Del Rio US-TN (35.8228,-82.9570)",
+      "date": "2017-07-02 16:15",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.6367033,
+      "lng": -83.4890767,
+      "loc": "Great Smoky Mountains NP--Chimneys Picnic Area",
+      "date": "2017-06-29 11:00",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.6148139,
+      "lng": -83.4148979,
+      "loc": "Great Smoky Mountains NP--Charlie's Bunion Trail",
+      "date": "2017-06-17 15:30",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.1503854,
+      "lng": -82.2580773,
+      "loc": "Timber Cruising, Unicoi",
+      "date": "2017-06-14 08:00",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.266527,
+      "lng": -82.0804777,
+      "loc": "Cherokee NF--Pond Mountain (Laurel Fork Road)",
+      "date": "2017-06-10 06:44",
+      "year": 2017,
+      "count": 6
+    },
+    {
+      "lat": 35.7936218,
+      "lng": -83.1437341,
+      "loc": "4444 Barnes Hollow Road, Cosby, TN, USA",
+      "date": "2017-06-09 11:13",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.3103579,
+      "lng": -84.042449,
+      "loc": "Benton MacKaye Trail, Cherohala Skyway",
+      "date": "2017-06-03 15:13",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.0545545,
+      "lng": -84.501296,
+      "loc": "Polk Co. Big Frog Trail",
+      "date": "2017-05-30 10:10",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.4490246,
+      "lng": -83.0574024,
+      "loc": "Pressman's Home, Route 94",
+      "date": "2017-05-14 11:50",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.5118721,
+      "lng": -82.6080395,
+      "loc": "Bays Mountain Park (KBT)",
+      "date": "2017-05-12 08:45",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2017-04-30 08:45",
+      "year": 2017,
+      "count": 2
+    },
+    {
+      "lat": 36.2354923,
+      "lng": -82.3927005,
+      "loc": "Cherokee NF--Dry Creek Rd.",
+      "date": "2017-04-25 08:12",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.6148139,
+      "lng": -83.4148979,
+      "loc": "Great Smoky Mountains NP--Charlie's Bunion Trail",
+      "date": "2017-04-22 16:20",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.1177137,
+      "lng": -82.3332017,
+      "loc": "Cherokee NF---Beauty Spot",
+      "date": "2017-04-20 13:45",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 36.1470008,
+      "lng": -82.0491397,
+      "loc": "Hampton Creek Cove SNA",
+      "date": "2017-04-19 08:30",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.6148139,
+      "lng": -83.4148979,
+      "loc": "Great Smoky Mountains NP--Charlie's Bunion Trail",
+      "date": "2017-04-16 11:30",
+      "year": 2017,
+      "count": 2
+    },
+    {
+      "lat": 35.0545545,
+      "lng": -84.501296,
+      "loc": "Polk Co. Big Frog Trail",
+      "date": "2017-04-15 08:55",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.6783288,
+      "lng": -83.560619,
+      "loc": "Great Smoky Mt. NP--Fighting Creek Gap Road",
+      "date": "2017-04-13 07:00",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2017-04-09 07:30",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2017-04-04 13:10",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.9198,
+      "lng": -83.02567,
+      "loc": "Del Rio",
+      "date": "2017-04-01 09:00",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.0545545,
+      "lng": -84.501296,
+      "loc": "Polk Co. Big Frog Trail",
+      "date": "2017-03-25 08:45",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.7134329,
+      "lng": -83.4947606,
+      "loc": "US-Tennessee-Gatlinburg-515 Parsons Branch Way - 35.713x-83.495",
+      "date": "2017-03-12 18:45",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.7346342,
+      "lng": -83.3698978,
+      "loc": "Great Smoky Mountains NP--Old Settlers Trail",
+      "date": "2017-02-12 10:10",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.7084683,
+      "lng": -83.3941832,
+      "loc": "Grapeyard Ridge Trail",
+      "date": "2017-01-27 12:30",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.6517867,
+      "lng": -83.4446597,
+      "loc": "Near top of Alum Cave Trail",
+      "date": "2017-01-20 16:45",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.12577,
+      "lng": -84.61712,
+      "loc": "Polk Co. Cherokee National Forest",
+      "date": "2017-01-15 09:05",
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "lat": 35.6635838,
+      "lng": -83.5264244,
+      "loc": "GSMNP Husky Gap trail",
+      "date": "2016-12-17 07:33",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 36.0905013,
+      "lng": -84.2984632,
+      "loc": "Seeber Cr/Granny Cr",
+      "date": "2016-11-27 11:04",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.666423,
+      "lng": -83.584964,
+      "loc": "35.6664x-83.5850 - Oct 27, 2016, 5:02 PM Elkmont Cemetery TN",
+      "date": "2016-10-27 04:58",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.6001938,
+      "lng": -83.794188,
+      "loc": "Great Smoky Mountains NP--Cades Cove--Sparks Ln.",
+      "date": "2016-10-20 15:49",
+      "year": 2016,
+      "count": 2
+    },
+    {
+      "lat": 36.1719102,
+      "lng": -82.0900646,
+      "loc": "Roan Road",
+      "date": "2016-10-13 13:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2016-08-11 09:45",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2016-08-01 09:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2016-07-15 11:10",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2016-07-12 08:30",
+      "year": 2016,
+      "count": 4
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2016-07-08 12:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.3560162,
+      "lng": -84.2725182,
+      "loc": "Cherohala Skyway - TN section",
+      "date": "2016-06-27 08:00",
+      "year": 2016,
+      "count": 3
+    },
+    {
+      "lat": 36.0376503,
+      "lng": -82.5305514,
+      "loc": "Rhodes' Property",
+      "date": "2016-06-25 09:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.6240674,
+      "lng": -83.8022143,
+      "loc": "Indian Grave Gap Trail/Rich Mountain Loop Trail",
+      "date": "2016-06-24 17:35",
+      "year": 2016,
+      "count": 2
+    },
+    {
+      "lat": 35.09558,
+      "lng": -84.41844,
+      "loc": "Polk Co. KMH FS Road 68A",
+      "date": "2016-06-16 09:50",
+      "year": 2016,
+      "count": 7
+    },
+    {
+      "lat": 36.3074474,
+      "lng": -84.2140801,
+      "loc": "Cove Lake SP",
+      "date": "2016-06-13 08:18",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2016-06-12 06:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.682835,
+      "lng": -83.510683,
+      "loc": "GRSM_NEON_07.9",
+      "date": "2016-06-11 10:05",
+      "year": 2016,
+      "count": 2
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2016-05-31 08:30",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.202018,
+      "lng": -84.333272,
+      "loc": "US-TN-Tellico Plains-Cherokee National Forest - 35.2020x-84.3333",
+      "date": "2016-05-30 12:17",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 36.4475369,
+      "lng": -82.0906222,
+      "loc": "Cherokee NF--Panhandle Rd.",
+      "date": "2016-05-29 09:00",
+      "year": 2016,
+      "count": 5
+    }
+  ]
+}

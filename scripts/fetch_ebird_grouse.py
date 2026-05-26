@@ -28,6 +28,8 @@ Output:
     ebird_grouse_tn.json — array of {lat, lng, loc, date, year, count}
 """
 
+from __future__ import annotations  # PEP 604 unions on Python <3.10
+
 import json
 import os
 import sys
@@ -36,6 +38,28 @@ from datetime import date, timedelta
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
+
+# ─────────────────────────────────────────────────────────────
+# .env loader (stdlib only — avoids a python-dotenv dependency)
+# ─────────────────────────────────────────────────────────────
+def _load_dotenv(path: str) -> None:
+    try:
+        with open(path) as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                key, _, val = line.partition("=")
+                key = key.strip()
+                val = val.strip().strip('"').strip("'")
+                if key and key not in os.environ:
+                    os.environ[key] = val
+    except FileNotFoundError:
+        pass
+
+_HERE = os.path.dirname(os.path.abspath(__file__))
+_load_dotenv(os.path.join(_HERE, "..", ".env"))  # project root
+_load_dotenv(".env")                              # current working dir
 
 # ─────────────────────────────────────────────────────────────
 # CONFIG
@@ -48,7 +72,7 @@ SPECIES = "rufgro"  # eBird species code for Ruffed Grouse
 # Historic endpoint is one-date-per-call, so this affects runtime:
 #   1 year  ≈  365 calls  ≈  ~6 min at 1s/call
 #   3 years ≈ 1100 calls  ≈  ~18 min
-YEARS_BACK = 3
+YEARS_BACK = 10
 
 # Rate-limit pacing — eBird is generous but be polite
 SLEEP_BETWEEN_CALLS = 0.5  # seconds
