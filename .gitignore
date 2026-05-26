@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+.env.*
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build / cache
+*.log
+.cache/
+
+# Note: data/ebird_grouse_tn.json IS committed — that's how it ships to Pages.
