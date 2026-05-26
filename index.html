@@ -876,19 +876,21 @@ sightings.forEach(s => { [s.x, s.y] = svgProj(s.lng, s.lat); });
 // of 1 grouse should be modestly larger but not dominate.
 function cbcRadius(val){ return 5 + val * 2; }  // 1→7, 2→9
 
-// ───────── SVG label render (static, on Figure 1) ─────────
-function renderSVGLabels(){
+// ───────── SVG label render (year-aware: hide labels for circles not yet established) ─────────
+const LABEL_OFFSETS = {
+  'Mecca':         [-10,  14, 'end'],
+  'Tellico':       [ 10, -14, 'start'],
+  'Allens Bridge': [-12,  -8, 'end'],
+  'Fish Springs':  [ 12,   4, 'start'],
+  'Newfound Gap':  [ 12,   4, 'start'],
+  'Oliver Springs':[-12,  -8, 'end'],
+};
+function renderSVGLabels(year){
   svgLabelsG.innerHTML = '';
-  const offsets = {
-    'Mecca':         [-10,  14, 'end'],
-    'Tellico':       [ 10, -14, 'start'],
-    'Allens Bridge': [-12,  -8, 'end'],
-    'Fish Springs':  [ 12,   4, 'start'],
-    'Newfound Gap':  [ 12,   4, 'start'],
-    'Oliver Springs':[-12,  -8, 'end'],
-  };
   circles.forEach(c => {
-    const [dx, dy, anchor] = offsets[c.name] || [10, -10, 'start'];
+    const d = data[c.name];
+    if(year < d.range[0] || year > d.range[1]) return;
+    const [dx, dy, anchor] = LABEL_OFFSETS[c.name] || [10, -10, 'start'];
     const t = document.createElementNS('http://www.w3.org/2000/svg','text');
     t.setAttribute('x', c.x + dx);
     t.setAttribute('y', c.y + dy);
@@ -900,7 +902,6 @@ function renderSVGLabels(){
     svgLabelsG.appendChild(t);
   });
 }
-renderSVGLabels();
 
 // ───────── SVG renderer (Figure 1, year-filtered) ─────────
 function renderSVG(year){
@@ -911,6 +912,9 @@ function renderSVG(year){
     const d = data[c.name];
     const inRange = year >= d.range[0] && year <= d.range[1];
     const val = inRange ? d.counts[year] : undefined;
+
+    // CBC circle wasn't established yet at this year — render nothing.
+    if(!inRange) return;
 
     const baseDot = document.createElementNS('http://www.w3.org/2000/svg','circle');
     baseDot.setAttribute('cx', c.x); baseDot.setAttribute('cy', c.y);
@@ -970,7 +974,10 @@ function renderSVG(year){
     }
   });
   svgCirclesG.style.display = showCBC ? '' : 'none';
-  yearMeta.textContent = `Total birds detected: ${total} · Circles surveyed: ${surveyed}/6`;
+  const activeCircles = circles.filter(c => year >= data[c.name].range[0] && year <= data[c.name].range[1]).length;
+  yearMeta.textContent = activeCircles
+    ? `Total birds detected: ${total} · Circles surveyed: ${surveyed}/${activeCircles}`
+    : `No TN CBC circles active yet (CBC counting in TN began 1966)`;
 
   // sightings
   svgSightingsG.innerHTML = '';
@@ -1057,6 +1064,7 @@ function renderYearBar(year){
 
 function update(year){
   yearDisplay.textContent = year;
+  renderSVGLabels(year);
   renderSVG(year);
   renderYearBar(year);
 }
