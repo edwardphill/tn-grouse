@@ -1,0 +1,683 @@
+source,date,year,location_name,lat,lng,count,notes
+CBC,1966,1966,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1966,1966,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1966,1966,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1967,1967,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1967,1967,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1967,1967,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1968,1968,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1968,1968,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1968,1968,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1969,1969,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1969,1969,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1969,1969,Oliver Springs,36.045,-84.344,1,CBC circle 82034; detection
+CBC,1970,1970,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1970,1970,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1970,1970,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1971,1971,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1971,1971,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1971,1971,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1972,1972,Fish Springs,36.317,-82.058,1,CBC circle 82042; detection
+CBC,1972,1972,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1972,1972,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1973,1973,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1973,1973,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1973,1973,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1974,1974,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1974,1974,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1974,1974,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1975,1975,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1975,1975,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1975,1975,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1976,1976,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1976,1976,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1976,1976,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1977,1977,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1977,1977,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1977,1977,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1978,1978,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1978,1978,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1978,1978,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1979,1979,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1979,1979,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1979,1979,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1980,1980,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1980,1980,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1980,1980,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1981,1981,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1981,1981,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1981,1981,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1982,1982,Fish Springs,36.317,-82.058,,CBC circle 82042; no count conducted
+CBC,1982,1982,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1982,1982,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1983,1983,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1983,1983,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1983,1983,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1984,1984,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1984,1984,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1984,1984,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1985,1985,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1985,1985,Allens Bridge,36.26,-82.14,1,CBC circle 82041; detection
+CBC,1985,1985,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1986,1986,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1986,1986,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1986,1986,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1987,1987,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1987,1987,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1987,1987,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1988,1988,Fish Springs,36.317,-82.058,,CBC circle 82042; no count conducted
+CBC,1988,1988,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1988,1988,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1989,1989,Fish Springs,36.317,-82.058,,CBC circle 82042; no count conducted
+CBC,1989,1989,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1989,1989,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1990,1990,Fish Springs,36.317,-82.058,,CBC circle 82042; no count conducted
+CBC,1990,1990,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1990,1990,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,1990,1990,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1991,1991,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1991,1991,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1991,1991,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,1991,1991,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1992,1992,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1992,1992,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1992,1992,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,1992,1992,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1993,1993,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1993,1993,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1993,1993,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,1993,1993,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1994,1994,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1994,1994,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1994,1994,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,1994,1994,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,1994,1994,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1995,1995,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1995,1995,Allens Bridge,36.26,-82.14,,CBC circle 82041; no count conducted
+CBC,1995,1995,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,1995,1995,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,1995,1995,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,1995,1995,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1996,1996,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1996,1996,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1996,1996,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,1996,1996,Tellico,35.363,-84.294,,CBC circle 82902; no count conducted
+CBC,1996,1996,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,1996,1996,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1997,1997,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1997,1997,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1997,1997,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,1997,1997,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,1997,1997,Mecca,35.3,-84.32,1,CBC circle 82901; detection
+CBC,1997,1997,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1998,1998,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1998,1998,Allens Bridge,36.26,-82.14,,CBC circle 82041; no count conducted
+CBC,1998,1998,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,1998,1998,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,1998,1998,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,1998,1998,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,1999,1999,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,1999,1999,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,1999,1999,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,1999,1999,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,1999,1999,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,1999,1999,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2000,2000,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2000,2000,Allens Bridge,36.26,-82.14,,CBC circle 82041; no count conducted
+CBC,2000,2000,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2000,2000,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2000,2000,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2000,2000,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2001,2001,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2001,2001,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2001,2001,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2001,2001,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2001,2001,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2001,2001,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2002,2002,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2002,2002,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2002,2002,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2002,2002,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2002,2002,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2002,2002,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2003,2003,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2003,2003,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2003,2003,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2003,2003,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2003,2003,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2003,2003,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2004,2004,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2004,2004,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2004,2004,Newfound Gap,35.611,-83.425,1,CBC circle 82903; detection
+CBC,2004,2004,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2004,2004,Mecca,35.3,-84.32,1,CBC circle 82901; detection
+CBC,2004,2004,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2005,2005,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2005,2005,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2005,2005,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2005,2005,Tellico,35.363,-84.294,1,CBC circle 82902; detection
+CBC,2005,2005,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2005,2005,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2006,2006,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2006,2006,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2006,2006,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2006,2006,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2006,2006,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2006,2006,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2007,2007,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2007,2007,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2007,2007,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2007,2007,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2007,2007,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2007,2007,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2008,2008,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2008,2008,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2008,2008,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2008,2008,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2008,2008,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2008,2008,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2009,2009,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2009,2009,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2009,2009,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2009,2009,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2009,2009,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2009,2009,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2010,2010,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2010,2010,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2010,2010,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2010,2010,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2010,2010,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2010,2010,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2011,2011,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2011,2011,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2011,2011,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2011,2011,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2011,2011,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2011,2011,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2012,2012,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2012,2012,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2012,2012,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2012,2012,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2012,2012,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2012,2012,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2013,2013,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2013,2013,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2013,2013,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2013,2013,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2013,2013,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2013,2013,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2014,2014,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2014,2014,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2014,2014,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2014,2014,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2014,2014,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2014,2014,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2015,2015,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2015,2015,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2015,2015,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2015,2015,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2015,2015,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2015,2015,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2016,2016,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2016,2016,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2016,2016,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2016,2016,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2016,2016,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2016,2016,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2017,2017,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2017,2017,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2017,2017,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2017,2017,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2017,2017,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2017,2017,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2018,2018,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2018,2018,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2018,2018,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2018,2018,Tellico,35.363,-84.294,,CBC circle 82902; no count conducted
+CBC,2018,2018,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2018,2018,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2019,2019,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2019,2019,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2019,2019,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2019,2019,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2019,2019,Mecca,35.3,-84.32,1,CBC circle 82901; detection
+CBC,2019,2019,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2020,2020,Fish Springs,36.317,-82.058,,CBC circle 82042; no count conducted
+CBC,2020,2020,Allens Bridge,36.26,-82.14,,CBC circle 82041; no count conducted
+CBC,2020,2020,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2020,2020,Tellico,35.363,-84.294,,CBC circle 82902; no count conducted
+CBC,2020,2020,Mecca,35.3,-84.32,,CBC circle 82901; no count conducted
+CBC,2020,2020,Oliver Springs,36.045,-84.344,,CBC circle 82034; no count conducted
+CBC,2021,2021,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2021,2021,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2021,2021,Newfound Gap,35.611,-83.425,2,CBC circle 82903; detection
+CBC,2021,2021,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2021,2021,Mecca,35.3,-84.32,0,CBC circle 82901
+CBC,2021,2021,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2022,2022,Fish Springs,36.317,-82.058,0,CBC circle 82042
+CBC,2022,2022,Allens Bridge,36.26,-82.14,0,CBC circle 82041
+CBC,2022,2022,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2022,2022,Tellico,35.363,-84.294,0,CBC circle 82902
+CBC,2022,2022,Mecca,35.3,-84.32,,CBC circle 82901; no count conducted
+CBC,2022,2022,Oliver Springs,36.045,-84.344,0,CBC circle 82034
+CBC,2023,2023,Fish Springs,36.317,-82.058,,CBC circle 82042; no count conducted
+CBC,2023,2023,Allens Bridge,36.26,-82.14,,CBC circle 82041; no count conducted
+CBC,2023,2023,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2023,2023,Tellico,35.363,-84.294,,CBC circle 82902; no count conducted
+CBC,2023,2023,Mecca,35.3,-84.32,,CBC circle 82901; no count conducted
+CBC,2024,2024,Newfound Gap,35.611,-83.425,0,CBC circle 82903
+CBC,2024,2024,Tellico,35.363,-84.294,,CBC circle 82902; no count conducted
+eBird,2016-05-29 09:00,2016,Cherokee NF--Panhandle Rd.,36.4475369,-82.0906222,5,eBird observation
+eBird,2016-05-30 12:17,2016,US-TN-Tellico Plains-Cherokee National Forest - 35.2020x-84.3333,35.202018,-84.333272,1,eBird observation
+eBird,2016-05-31 08:30,2016,Cherokee NF--Unaka Mountain,36.1340402,-82.3095525,1,eBird observation
+eBird,2016-06-11 10:05,2016,GRSM_NEON_07.9,35.682835,-83.510683,2,eBird observation
+eBird,2016-06-12 06:00,2016,Cherokee NF--Unaka Mountain,36.1340402,-82.3095525,1,eBird observation
+eBird,2016-06-13 08:18,2016,Cove Lake SP,36.3074474,-84.2140801,1,eBird observation
+eBird,2016-06-16 09:50,2016,Polk Co. KMH FS Road 68A,35.09558,-84.41844,7,eBird observation
+eBird,2016-06-24 17:35,2016,Indian Grave Gap Trail/Rich Mountain Loop Trail,35.6240674,-83.8022143,2,eBird observation
+eBird,2016-06-25 09:00,2016,Rhodes' Property,36.0376503,-82.5305514,1,eBird observation
+eBird,2016-06-27 08:00,2016,Cherohala Skyway - TN section,35.3560162,-84.2725182,3,eBird observation
+eBird,2016-07-08 12:00,2016,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2016-07-12 08:30,2016,Cherokee NF--Unaka Mountain,36.1340402,-82.3095525,4,eBird observation
+eBird,2016-07-15 11:10,2016,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2016-08-01 09:00,2016,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2016-08-11 09:45,2016,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2016-10-13 13:00,2016,Roan Road,36.1719102,-82.0900646,1,eBird observation
+eBird,2016-10-20 15:49,2016,Great Smoky Mountains NP--Cades Cove--Sparks Ln.,35.6001938,-83.794188,2,eBird observation
+eBird,2016-10-27 04:58,2016,"35.6664x-83.5850 - Oct 27, 2016, 5:02 PM Elkmont Cemetery TN",35.666423,-83.584964,1,eBird observation
+eBird,2016-11-27 11:04,2016,Seeber Cr/Granny Cr,36.0905013,-84.2984632,1,eBird observation
+eBird,2016-12-17 07:33,2016,GSMNP Husky Gap trail,35.6635838,-83.5264244,1,eBird observation
+eBird,2017-01-15 09:05,2017,Polk Co. Cherokee National Forest,35.12577,-84.61712,1,eBird observation
+eBird,2017-01-20 16:45,2017,Near top of Alum Cave Trail,35.6517867,-83.4446597,1,eBird observation
+eBird,2017-01-27 12:30,2017,Grapeyard Ridge Trail,35.7084683,-83.3941832,1,eBird observation
+eBird,2017-02-12 10:10,2017,Great Smoky Mountains NP--Old Settlers Trail,35.7346342,-83.3698978,1,eBird observation
+eBird,2017-03-12 18:45,2017,US-Tennessee-Gatlinburg-515 Parsons Branch Way - 35.713x-83.495,35.7134329,-83.4947606,1,eBird observation
+eBird,2017-03-25 08:45,2017,Polk Co. Big Frog Trail,35.0545545,-84.501296,1,eBird observation
+eBird,2017-04-01 09:00,2017,Del Rio,35.9198,-83.02567,1,eBird observation
+eBird,2017-04-04 13:10,2017,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2017-04-09 07:30,2017,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2017-04-13 07:00,2017,Great Smoky Mt. NP--Fighting Creek Gap Road,35.6783288,-83.560619,1,eBird observation
+eBird,2017-04-15 08:55,2017,Polk Co. Big Frog Trail,35.0545545,-84.501296,1,eBird observation
+eBird,2017-04-16 11:30,2017,Great Smoky Mountains NP--Charlie's Bunion Trail,35.6148139,-83.4148979,2,eBird observation
+eBird,2017-04-19 08:30,2017,Hampton Creek Cove SNA,36.1470008,-82.0491397,1,eBird observation
+eBird,2017-04-20 13:45,2017,Cherokee NF---Beauty Spot,36.1177137,-82.3332017,1,eBird observation
+eBird,2017-04-22 16:20,2017,Great Smoky Mountains NP--Charlie's Bunion Trail,35.6148139,-83.4148979,1,eBird observation
+eBird,2017-04-25 08:12,2017,Cherokee NF--Dry Creek Rd.,36.2354923,-82.3927005,1,eBird observation
+eBird,2017-04-30 08:45,2017,Bluff Mountain,35.8125235,-83.671875,2,eBird observation
+eBird,2017-05-12 08:45,2017,Bays Mountain Park (KBT),36.5118721,-82.6080395,1,eBird observation
+eBird,2017-05-14 11:50,2017,"Pressman's Home, Route 94",36.4490246,-83.0574024,1,eBird observation
+eBird,2017-05-30 10:10,2017,Polk Co. Big Frog Trail,35.0545545,-84.501296,1,eBird observation
+eBird,2017-06-03 15:13,2017,"Benton MacKaye Trail, Cherohala Skyway",35.3103579,-84.042449,1,eBird observation
+eBird,2017-06-09 11:13,2017,"4444 Barnes Hollow Road, Cosby, TN, USA",35.7936218,-83.1437341,1,eBird observation
+eBird,2017-06-10 06:44,2017,Cherokee NF--Pond Mountain (Laurel Fork Road),36.266527,-82.0804777,6,eBird observation
+eBird,2017-06-14 08:00,2017,"Timber Cruising, Unicoi",36.1503854,-82.2580773,1,eBird observation
+eBird,2017-06-17 15:30,2017,Great Smoky Mountains NP--Charlie's Bunion Trail,35.6148139,-83.4148979,1,eBird observation
+eBird,2017-06-29 11:00,2017,Great Smoky Mountains NP--Chimneys Picnic Area,35.6367033,-83.4890767,1,eBird observation
+eBird,2017-07-02 16:15,2017,"Cherokee National Forest, Del Rio US-TN (35.8228,-82.9570)",35.822795,-82.956955,1,eBird observation
+eBird,2017-07-11 08:55,2017,Cherokee National Forest--Panhandle Rd. Holston Mtn.,36.4423262,-82.0868397,1,eBird observation
+eBird,2017-07-28 09:25,2017,Cherokee NF--Carver's Gap,36.107248,-82.1105369,1,eBird observation
+eBird,2017-08-23 11:05,2017,"Great Smoky Mountains National Park Blount County, US-TN ",35.653016,-83.51411,1,eBird observation
+eBird,2017-09-04 10:45,2017,GSMNP- Beard Cane trail,35.6551343,-83.8548499,1,eBird observation
+eBird,2017-09-10 11:32,2017,Jerry Paul,35.8204231,-83.3563507,1,eBird observation
+eBird,2017-09-16 08:22,2017,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2017-09-24 13:30,2017,Big Bald Raptor Blind,35.9958678,-82.4836135,1,eBird observation
+eBird,2017-09-25 07:30,2017,Great Smoky Mountains NP--Trillium Gap Trail,35.6738477,-83.4494806,2,eBird observation
+eBird,2017-09-30 06:15,2017,Cherokee NF--Roan Creek,36.3756685,-81.9382238,1,eBird observation
+eBird,2017-10-06 13:35,2017,"Appalachian Trail, Roan Mountain, Tennessee, US (36.108, -82.075)",36.1082556,-82.0752777,1,eBird observation
+eBird,2017-10-14 12:15,2017,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2017-10-17 18:49,2017,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2017-10-31 08:40,2017,Bird Branch in Greenbrier,35.7178416,-83.3685064,2,eBird observation
+eBird,2017-11-17 11:00,2017,Cherokee NF--Unaka Mountain,36.1340402,-82.3095525,1,eBird observation
+eBird,2017-11-24 11:41,2017,Rocky Fork State Park--Rocky Fork Trail ,36.048552,-82.562922,1,eBird observation
+eBird,2017-12-02 13:00,2017,off trail hike along Mill Creek,35.5769375,-83.828825,1,eBird observation
+eBird,2017-12-12 10:25,2017,Great Smoky Mountains NP--Cades Cove,35.5990797,-83.8084269,1,eBird observation
+eBird,2018-02-01 15:15,2018,Injun Creek,35.7257146,-83.405596,1,eBird observation
+eBird,2018-02-18 11:00,2018,Big Bald,35.99389,-82.48373,1,eBird observation
+eBird,2018-04-11 09:30,2018,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2018-04-21 12:30,2018,Twin Arches Loop Trail - Scott County,36.5418602,-84.7356606,1,eBird observation
+eBird,2018-04-26 06:35,2018,Great Smoky Mt. NP--Fighting Creek Gap Road,35.6783288,-83.560619,1,eBird observation
+eBird,2018-04-27 07:30,2018,Great Smoky Mountains NP--Little River Trail,35.652383,-83.5696209,1,eBird observation
+eBird,2018-04-28 09:10,2018,Polk Co. FS Rd. 77 mile 6.1,35.1422256,-84.6194622,1,eBird observation
+eBird,2018-04-30 11:15,2018,Lynn Camp Prong Trail,35.5977778,-83.615,1,eBird observation
+eBird,2018-05-03 09:00,2018,The cabin,35.739746,-83.693378,1,eBird observation
+eBird,2018-05-04 17:15,2018,Big Bald,35.99389,-82.48373,2,eBird observation
+eBird,2018-05-05 16:55,2018,Great Smoky Mountains NP (TN) (consider using more specific location),35.6100043,-83.5068397,1,eBird observation
+eBird,2018-05-06 19:37,2018,TN Rock Creek Rd,36.1191569,-82.3664761,1,eBird observation
+eBird,2018-05-11 09:20,2018,Great Smoky Mountains NP--Newfound Gap (probably not TN),35.6111036,-83.4245147,2,eBird observation
+eBird,2018-05-12 13:00,2018,"Appalachian Trail, Blount County Line To Siler's Bald",35.5654389,-83.571438,1,eBird observation
+eBird,2018-05-14 11:28,2018,Cherokee NF--Carver's Gap,36.107248,-82.1105369,1,eBird observation
+eBird,2018-05-27 07:50,2018,US-TN-Eidson- Highway 70 N - 36.5004x-83.0283,36.500441,-83.028337,1,eBird observation
+eBird,2018-06-02 12:03,2018,"Hinch Road, Crossville",35.8004695,-84.9887873,1,eBird observation
+eBird,2018-06-16 07:04,2018,Granny Lewis Creek Road,36.044989,-82.440647,1,eBird observation
+eBird,2018-06-30 16:00,2018,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2018-07-08 05:45,2018,Del Rio,35.9198,-83.02567,1,eBird observation
+eBird,2018-07-10 08:55,2018,Cherokee NF--Pond Mountain Wilderness,36.2831384,-82.0872567,1,eBird observation
+eBird,2018-08-09 10:00,2018,Savage Bluffs Private,35.422385,-85.6603575,1,eBird observation
+eBird,2018-09-14 12:35,2018,Camp Tom Howard Rd,36.540651,-81.99335,1,eBird observation
+eBird,2018-09-20 16:30,2018,Big Bald Raptor Blind,35.9958678,-82.4836135,1,eBird observation
+eBird,2018-09-29 06:02,2018,Cherokee NF--Roan Creek,36.3756685,-81.9382238,1,eBird observation
+eBird,2018-10-07 10:15,2018,Great Smoky Mt. NP--Mt. Cammerer,35.7635175,-83.1614458,1,eBird observation
+eBird,2018-10-12 09:11,2018,Great Smoky Mountains NP--Sugarlands,35.6929075,-83.5369706,1,eBird observation
+eBird,2018-10-22,2018,Cumberland Mountain SP,35.8988818,-84.9989956,1,eBird observation
+eBird,2018-11-20 09:10,2018,Great Smoky Mountains NP--Sugarlands Visitors Center,35.6854483,-83.5370003,2,eBird observation
+eBird,2019-02-18 09:00,2019,"Sevierville, TN",35.9610566,-83.5417879,4,eBird observation
+eBird,2019-03-22 16:14,2019,Yard List - Piney Grove Road,36.217317,-82.225083,1,eBird observation
+eBird,2019-03-27 15:00,2019,Great Smoky Mountains NP--Gregory Bald Trail (TN),35.5312909,-83.8786645,1,eBird observation
+eBird,2019-04-03 18:30,2019,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2019-04-04 08:38,2019,"Catoosa Rd, Rockwood US-TN (36.0131,-84.6953)",36.013105,-84.695303,1,eBird observation
+eBird,2019-04-05 14:16,2019,Great Smoky Mountains NP--Sugarlands Visitors Center,35.6854483,-83.5370003,1,eBird observation
+eBird,2019-04-06 08:51,2019,Cherokee NF--Big Creek Rd.--Flatwoods Rd. to Little Oak Campground,36.5014694,-82.0587004,1,eBird observation
+eBird,2019-04-09 13:00,2019,Buffalo Mountain,36.2506695,-82.3694506,1,eBird observation
+eBird,2019-04-10 08:20,2019,Injun Creek,35.7257146,-83.405596,1,eBird observation
+eBird,2019-04-15 12:20,2019,Old Settlers Trail,35.720833,-83.375916,1,eBird observation
+eBird,2019-04-16 08:35,2019,Cherokee NF--Dry Creek Rd.,36.2354923,-82.3927005,2,eBird observation
+eBird,2019-04-18 11:15,2019,Sugarland Mtn. Trail - Lower section,35.671787,-83.580186,1,eBird observation
+eBird,2019-04-27 06:57,2019,"5983 Tennessee 66, Sneedville, Tennessee, US (36.496, -83.146)",36.4956806,-83.1464382,2,eBird observation
+eBird,2019-05-04,2019,AT hammock spot 2nd night,36.53343,-81.96074,,eBird observation
+eBird,2019-05-06 13:45,2019,Doe Mountain Recreation Area,36.456459,-81.843241,1,eBird observation
+eBird,2019-05-07 08:30,2019,*Little Biscuit Mini Farm,36.2688088,-82.3749518,1,eBird observation
+eBird,2019-05-09 15:10,2019,North Cumberland WMA--Royal Blue Unit,36.3215164,-84.3240949,1,eBird observation
+eBird,2019-05-12 11:00,2019,Great Smoky Mountains NP--Little Greenbrier Trail,35.6994284,-83.6277134,1,eBird observation
+eBird,2019-05-14 06:40,2019,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2019-05-18 06:15,2019,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2019-05-20 08:00,2019,Cherokee NF--Panhandle Rd.,36.4475369,-82.0906222,1,eBird observation
+eBird,2019-05-21 08:45,2019,Cherokee National Forest--Panhandle Rd. Holston Mtn.,36.4423262,-82.0868397,1,eBird observation
+eBird,2019-05-23 15:00,2019,Great Smoky Mountains Natl Park Rich Mtn Trail,35.5984462,-84.4672139,1,eBird observation
+eBird,2019-05-25 08:20,2019,US-TN-Bluff City-Cherokee National Forest - 36.4605x-82.0889,36.46048,-82.088876,1,eBird observation
+eBird,2019-05-30 14:18,2019,"Brushy Mountain Trail, Gatlinburg, Tennessee, US (35.677, -83.413)",35.6769738,-83.4126721,1,eBird observation
+eBird,2019-06-01 09:30,2019,Great Smoky Mountains NP--Walker Sisters Home,35.6940053,-83.6302171,1,eBird observation
+eBird,2019-06-04 09:20,2019,NC19Crockett32.A3.GWGG1 - oversample,36.2530556,-82.1266667,1,eBird observation
+eBird,2019-06-19 10:28,2019,"Cherohala Skyway, Turkey Creek Overlook",35.366389,-84.131111,6,eBird observation
+eBird,2019-06-21 11:04,2019,North Cumberland WMA--Royal Blue Unit,36.3215164,-84.3240949,4,eBird observation
+eBird,2019-06-22 15:00,2019,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2019-06-23 08:30,2019,Camp Creek Bald,36.031872,-82.705197,4,eBird observation
+eBird,2019-06-25 15:21,2019,"Brushy Mountain Trail, Gatlinburg, Tennessee, US (35.673, -83.421)",35.6731592,-83.421102,1,eBird observation
+eBird,2019-07-27 12:21,2019,Cherokee NF--Unaka Mountain Rd.,36.13107,-82.30814,1,eBird observation
+eBird,2019-08-17 06:30,2019,"Great Smoky Mountains National Park, Gatlinburg US-TN (35.5960,-83.4603)",35.596034,-83.460325,3,eBird observation
+eBird,2019-09-14 18:02,2019,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2019-09-18 17:00,2019,Little River Rd (Elkmont Rd),35.666225,-83.599242,1,eBird observation
+eBird,2019-09-20 08:50,2019,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,8,eBird observation
+eBird,2019-09-26 07:45,2019,Cherokee NF--Unaka Mountain,36.1340402,-82.3095525,1,eBird observation
+eBird,2019-09-28 08:30,2019,Cherokee NF--Unaka Mountain,36.1340402,-82.3095525,1,eBird observation
+eBird,2019-09-29 09:11,2019,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2019-10-04 13:27,2019,"Great Smoky Mountains National Park, Cherokee US-NC (35.6136,-83.4197)",35.613595,-83.419712,2,eBird observation
+eBird,2019-10-05 16:15,2019,Yard List - Piney Grove Road,36.217317,-82.225083,1,eBird observation
+eBird,2019-10-20 15:00,2019,Great Smoky Mountains NP--Clingman's Dome Rd./US-441 Intersection,35.6109395,-83.4278813,1,eBird observation
+eBird,2019-10-21 17:00,2019,loyston point bike trail,36.2799915,-83.9673616,1,eBird observation
+eBird,2019-10-29 09:00,2019,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,2,eBird observation
+eBird,2019-12-14 07:31,2019,Cherokee NF--Panhandle Rd.,36.4475369,-82.0906222,1,eBird observation
+eBird,2019-12-30 15:30,2019,GSMNP- Lumber Ridge trail,35.6483818,-83.6810259,1,eBird observation
+eBird,2020-03-26 15:00,2020,Cherokee NF--Pinnacle Mountain Tower Trail,36.2145307,-82.3585979,1,eBird observation
+eBird,2020-04-02 10:30,2020,Polk Co. Confederate Camp,35.14767,-84.61718,1,eBird observation
+eBird,2020-04-05 09:30,2020,Polk Co. FS Rd. 77 mile 8.7,35.1702391,-84.592338,1,eBird observation
+eBird,2020-04-06 13:30,2020,"Bald River Road, Tellico Plains, Tennessee, US (35.288, -84.19)",35.2883216,-84.189535,1,eBird observation
+eBird,2020-04-09 08:15,2020,Yard List - Piney Grove Road,36.217317,-82.225083,1,eBird observation
+eBird,2020-04-19 15:45,2020,Cherokee NF--Big Creek Rd.--Flatwoods Rd. to Little Oak Campground,36.5014694,-82.0587004,1,eBird observation
+eBird,2020-04-25 08:00,2020,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2020-05-01 06:52,2020,Cherokee NF--Pond Mountain Wilderness,36.2831384,-82.0872567,1,eBird observation
+eBird,2020-05-04 06:20,2020,US-TN-Eidson- Highway 70 N - 36.5004x-83.0283,36.500441,-83.028337,1,eBird observation
+eBird,2020-05-05 06:10,2020,Martha Sundquist SF,35.8029144,-83.025374,1,eBird observation
+eBird,2020-05-07 07:10,2020,Fork Mountain,36.1603242,-84.4352873,1,eBird observation
+eBird,2020-05-10 08:20,2020,North Cumberland WMA--Royal Blue Unit,36.3215164,-84.3240949,1,eBird observation
+eBird,2020-05-12 10:06,2020,"May 12, 2020 10:07 AM
+35.636, -83.937",35.6359324,-83.9371647,1,eBird observation
+eBird,2020-05-15 14:00,2020,Bote Mt/West Prong,35.6229467,-83.7099496,1,eBird observation
+eBird,2020-05-18 06:47,2020,North Cumberland WMA--Royal Blue Unit,36.3215164,-84.3240949,1,eBird observation
+eBird,2020-05-23 09:25,2020,Cherohala Skyway--Brushy Ridge,35.3526324,-84.0767031,1,eBird observation
+eBird,2020-05-30 08:37,2020,North Cumberland WMA--Royal Blue Unit,36.3215164,-84.3240949,1,eBird observation
+eBird,2020-06-02 14:15,2020,Along Jump Off Trail,35.620067,-83.406476,1,eBird observation
+eBird,2020-06-05 07:30,2020,Great Smoky Mountains NP--Walker Sisters Home,35.6940053,-83.6302171,1,eBird observation
+eBird,2020-06-06 20:44,2020,"562 Garrison Hollow Rd, Elizabethton US-TN 36.33723, -82.16852",36.337232,-82.168515,1,eBird observation
+eBird,2020-06-08 10:45,2020,Polk Co. FS Roads 66  and  68,35.1013,-84.39787,1,eBird observation
+eBird,2020-06-13 11:14,2020,Cherokee NF--Carver's Gap,36.107248,-82.1105369,1,eBird observation
+eBird,2020-06-14 13:57,2020,Blackberry Blossom Campground,36.2034384,-82.2578791,1,eBird observation
+eBird,2020-07-03 09:30,2020,"Tellico Lake, Vonore US-TN 35.59719, -84.25620",35.597186,-84.256198,1,eBird observation
+eBird,2020-07-14 09:30,2020,Great Smoky Mountains NP--Chimneys Picnic Area,35.6367033,-83.4890767,1,eBird observation
+eBird,2020-07-27 10:09,2020,"37886, Walland US-TN 35.68915, -83.87729",35.689147,-83.877287,1,eBird observation
+eBird,2020-08-02 14:31,2020,"Frozen Head State Park, Wartburg US-TN 36.14699, -84.53289",36.146989,-84.532889,3,eBird observation
+eBird,2020-08-08 09:55,2020,GSMNP- Ace Gap trail,35.6562003,-83.8190294,1,eBird observation
+eBird,2020-09-04 06:56,2020,"Seven Islands State Birding Park, Kodak US-TN 35.95353, -83.68736",35.95353,-83.68736,1,eBird observation
+eBird,2020-09-20 18:51,2020,Kyker Bottoms Refuge,35.6062971,-84.1150428,1,eBird observation
+eBird,2020-10-08 08:12,2020,Great Smoky Mountains NP--Rich Mountain Rd.,35.6245064,-83.8213712,1,eBird observation
+eBird,2020-10-13 09:00,2020,Roan Mountain SP--Cabins,36.1667376,-82.093004,1,eBird observation
+eBird,2020-10-20 10:26,2020,Great Smoky Mountains NP--Alum Cave Trail,35.6387158,-83.4459478,1,eBird observation
+eBird,2020-11-08 08:37,2020,Yard List - Piney Grove Road,36.217317,-82.225083,1,eBird observation
+eBird,2021-01-06 10:57,2021,"Little River Trail, Gatlinburg, Tennessee, US (35.639, -83.551)",35.6386811,-83.5513325,1,eBird observation
+eBird,2021-01-24 10:30,2021,Cross Mountain (Johnson Co.),36.4811833,-81.9596406,2,eBird observation
+eBird,2021-02-12 17:06,2021,"Buffalo Mountain Park, Johnson City US-TN 36.26824, -82.34819",36.268242,-82.348191,1,eBird observation
+eBird,2021-02-28 12:07,2021,Yard List - Piney Grove Road,36.217317,-82.225083,1,eBird observation
+eBird,2021-03-15 07:56,2021,"Great Smoky Mountains NP--Clingmans Dome Trail (Sevier Co, TN)",35.5999263,-83.4563147,1,eBird observation
+eBird,2021-03-18 15:29,2021,"Buffalo Mountain Park, Johnson City US-TN 36.26577, -82.35391",36.26577,-82.353913,1,eBird observation
+eBird,2021-04-05 07:05,2021,"Riggs Chapel Rd, Harriman US-TN 35.92672, -84.55215",35.926721,-84.55215,1,eBird observation
+eBird,2021-04-09 06:50,2021,"Cherokee National Forest, Reliance US-TN (35.1081,-84.4515)",35.108089,-84.451537,4,eBird observation
+eBird,2021-04-14 07:06,2021,Great Smoky Mountains NP--Defeat Ridge Manway,35.6068939,-83.669343,1,eBird observation
+eBird,2021-04-16 06:30,2021,"Great Smoky Mountains National Park, Gatlinburg US-TN (35.5781,-83.4801)",35.578078,-83.480069,1,eBird observation
+eBird,2021-04-17 08:53,2021,"Great Smoky Mountains National Park, Gatlinburg US-TN 35.59595, -83.46021",35.59595,-83.460213,1,eBird observation
+eBird,2021-04-19 10:19,2021,"Cherokee National Forest, Benton US-TN 35.07741, -84.55761",35.077413,-84.557608,1,eBird observation
+eBird,2021-04-23 20:02,2021,"37714, Caryville US-TN (36.2576,-84.3108)",36.257607,-84.310813,1,eBird observation
+eBird,2021-04-24 19:01,2021,"Red Fork Road, Unicoi, Tennessee, US (36.142, -82.29)",36.1416375,-82.2901375,1,eBird observation
+eBird,2021-04-25 09:21,2021,North Cumberland WMA--Tower Rd.--Upper Massengale,36.2867066,-84.2943192,1,eBird observation
+eBird,2021-04-26 18:22,2021,Cherokee NF--Unaka Mountain Rd.,36.13107,-82.30814,2,eBird observation
+eBird,2021-04-28 08:27,2021,Rocky Fork SP,36.0472525,-82.5608028,1,eBird observation
+eBird,2021-05-01 09:50,2021,"1642 Ripshin Mountain Road, Roan Mountain, Tennessee, US (36.174, -82.147)",36.1743053,-82.1466492,1,eBird observation
+eBird,2021-05-06 19:12,2021,Great Smoky Mountains NP--Newfound Gap (probably not TN),35.6111036,-83.4245147,1,eBird observation
+eBird,2021-05-13 10:50,2021,Cumberland Trail SP--Cross Mountain Trailhead,36.2978432,-84.2642049,1,eBird observation
+eBird,2021-05-15 19:13,2021,"Sycamore Trail, Tellico Plains, Tennessee, US (35.315, -84.052)",35.3154197,-84.0518936,1,eBird observation
+eBird,2021-05-20 14:00,2021,Little Stony Creek Rd,36.2961976,-82.0686484,2,eBird observation
+eBird,2021-05-23 16:17,2021,"Bicentennial Greenbelt Park, Maryville US-TN 35.75822, -83.97170",35.758221,-83.971704,1,eBird observation
+eBird,2021-06-01 16:32,2021,Big Cove Road,35.315439,-84.0519235,3,eBird observation
+eBird,2021-06-02 05:50,2021,Wears Valley,35.7168181,-83.6412308,4,eBird observation
+eBird,2021-06-03 10:30,2021,"Fighting Creek Gap Road, Gatlinburg, Tennessee, US (35.671, -83.583)",35.6708928,-83.5831522,1,eBird observation
+eBird,2021-06-05 08:00,2021,Cherokee NF--Unaka Mountain,36.1340402,-82.3095525,4,eBird observation
+eBird,2021-06-16 13:25,2021,Great Smoky Mountains NP--Ramsey Cascades,35.703,-83.333628,1,eBird observation
+eBird,2021-06-20 10:32,2021,"North River Road, Tellico Plains, Tennessee, US (35.326, -84.05)",35.3262871,-84.0498893,1,eBird observation
+eBird,2021-07-03 13:30,2021,Twin Arches Loop,36.5442631,-84.7414436,,eBird observation
+eBird,2021-07-08 10:39,2021,Great Smoky Mountains NP--Trillium Gap Trail,35.6738477,-83.4494806,1,eBird observation
+eBird,2021-07-09 08:16,2021,"Buffalo Mountain Park, Johnson City US-TN 36.26465, -82.35400",36.264651,-82.353999,1,eBird observation
+eBird,2021-09-16 10:00,2021,Cherokee NF--Unaka Mountain Rd.,36.13107,-82.30814,1,eBird observation
+eBird,2021-09-25 10:16,2021,Doe Mountain Recreation Area,36.4303656,-81.8666109,1,eBird observation
+eBird,2021-10-02 21:16,2021,Great Smoky Mountains NP--Ramsey Cascades,35.703,-83.333628,1,eBird observation
+eBird,2021-10-13 11:55,2021,"Cherokee National Forest, Roan Mountain US-TN (36.1046,-82.1251)",36.104586,-82.125095,1,eBird observation
+eBird,2021-10-23 12:25,2021,"Cherokee National Forest, Mountain City US-TN 36.49617, -81.89022",36.496168,-81.890225,1,eBird observation
+eBird,2021-11-10 09:00,2021,Great Smoky Mountains NP--Walker Sisters Home,35.6940053,-83.6302171,1,eBird observation
+eBird,2021-12-05 08:34,2021,"Cherokee National Forest, Greeneville US-TN 36.03083, -82.72459",36.030825,-82.724592,2,eBird observation
+eBird,2021-12-28 09:08,2021,Great Smoky Mountains NP--Charlie's Bunion Trail,35.6148139,-83.4148979,1,eBird observation
+eBird,2022-01-01 10:00,2022,Running Rock,35.7792168,-83.3731629,1,eBird observation
+eBird,2022-01-27 16:24,2022,Lone Oak Trail,36.2656203,-82.3604987,1,eBird observation
+eBird,2022-02-06 13:33,2022,"Cherokee National Forest, Roan Mountain US-TN 36.23079, -82.02763",36.230789,-82.027629,1,eBird observation
+eBird,2022-03-17 16:29,2022,Cherokee NF--Pinnacle Mountain Tower Trail,36.2145307,-82.3585979,1,eBird observation
+eBird,2022-03-19,2022,TN--Greene County,36.1061466,-82.8655815,1,eBird observation
+eBird,2022-03-20,2022,TN--Lone Pine Gap Rd,35.9601116,-82.8969713,1,eBird observation
+eBird,2022-04-06 11:10,2022,Great Smoky Mountains NP--Charlie's Bunion Trail,35.6148139,-83.4148979,1,eBird observation
+eBird,2022-04-11 09:24,2022,Cherokee NF--Dry Creek Rd.,36.2354923,-82.3927005,1,eBird observation
+eBird,2022-04-15 08:14,2022,Cherokee NF--Flatwoods Rd.,36.4751397,-82.093466,1,eBird observation
+eBird,2022-04-19 08:09,2022,Dyer Hollow Rd.,36.2165373,-83.1095179,2,eBird observation
+eBird,2022-04-23 09:00,2022,Great Smoky Mountains NP--Snake Den Ridge Trail,35.7420381,-83.2273505,1,eBird observation
+eBird,2022-04-24 06:49,2022,North Cumberland WMA--Massengale Mountain,36.28445,-84.29738,1,eBird observation
+eBird,2022-05-01 14:10,2022,Great Smoky Mountains NP--Abrams Creek--Rabbit Creek Loop,35.6082983,-83.9342809,1,eBird observation
+eBird,2022-05-03 11:05,2022,Great Smoky Mountains NP--Rich Mountain Rd.,35.6245064,-83.8213712,1,eBird observation
+eBird,2022-05-04 05:55,2022,"Unaka Mountain Road, Unicoi",36.1351652,-82.3050412,1,eBird observation
+eBird,2022-05-10 09:32,2022,Great Smoky Mountains NP--Gregory Bald Trail (TN),35.5312909,-83.8786645,1,eBird observation
+eBird,2022-05-15 09:06,2022,Great Smoky Mountains NP--Rich Mountain Rd.,35.6245064,-83.8213712,1,eBird observation
+eBird,2022-05-21 06:00,2022,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2022-05-22 18:23,2022,Cherokee NF--Unaka Mountain,36.1340402,-82.3095525,1,eBird observation
+eBird,2022-05-25 08:50,2022,Cherokee NF--Unaka Mountain,36.1340402,-82.3095525,1,eBird observation
+eBird,2022-05-29 08:34,2022,"Cherohala Skyway, Tellico Plains, Tennessee, US (35.346, -84.054)",35.3459187,-84.0541792,3,eBird observation
+eBird,2022-06-05 12:30,2022,Cherokee NF--Unaka Mountain Rd.,36.13107,-82.30814,1,eBird observation
+eBird,2022-06-06 11:48,2022,Winged Deer Park,36.3909591,-82.3650655,1,eBird observation
+eBird,2022-06-08 15:51,2022,"Great Smoky Mountains National Park, Townsend US-TN (35.5688,-83.6892)",35.568822,-83.689217,1,eBird observation
+eBird,2022-06-12 20:31,2022,Great Smoky Mountains NP—Mt. Cammerer,35.76329,-83.161975,1,eBird observation
+eBird,2022-06-15 10:30,2022,On hwy 421,36.496946,-81.8900942,1,eBird observation
+eBird,2022-06-17 10:05,2022,"Cherokee National Forest, Vonore US-TN 35.49806, -84.08507",35.498056,-84.085068,1,eBird observation
+eBird,2022-06-18 09:12,2022,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2022-06-21 17:41,2022,"218 Red Hill Rd, Andersonville US-TN (36.2103,-84.0463)",36.21029,-84.046266,1,eBird observation
+eBird,2022-06-23 10:34,2022,Moffett Laurel,36.151693,-82.175547,2,eBird observation
+eBird,2022-06-24 11:00,2022,Marriage Ground Ridge,36.5265833,-81.8877339,6,eBird observation
+eBird,2022-07-17 11:36,2022,"Great Smoky Mountains National Park, Cherokee US-NC (35.6139,-83.4170)",35.614966,-83.415739,,eBird observation
+eBird,2022-07-18 08:15,2022,Cherokee NF--Panhandle Rd.,36.4475369,-82.0906222,5,eBird observation
+eBird,2022-07-23 05:30,2022,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2022-09-13 15:45,2022,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,3,eBird observation
+eBird,2022-09-17 08:00,2022,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,2,eBird observation
+eBird,2022-10-09 09:00,2022,Great Smoky Mountains NP--Newfound Gap (probably not TN),35.6111036,-83.4245147,1,eBird observation
+eBird,2022-10-12 10:01,2022,"Great Smoky Mountains National Park, Gatlinburg US-TN 35.65312, -83.46430",35.653117,-83.464297,1,eBird observation
+eBird,2022-10-22 14:51,2022,"Cherokee National Forest, Del Rio US-TN (35.9288,-82.9011)",35.928835,-82.901149,1,eBird observation
+eBird,2022-10-23 07:30,2022,Ripshin Lake,36.173697,-82.1334736,1,eBird observation
+eBird,2022-11-24 08:27,2022,"Forge Creek Road, heading SW",35.577789,-83.8400272,1,eBird observation
+eBird,2022-12-11 13:33,2022,Alum Cave Trail,35.639344,-83.445607,1,eBird observation
+eBird,2023-02-23 16:25,2023,"4818-6310 South Shady Street, Mountain City, Tennessee, US (36.502, -81.879)",36.501731,-81.879344,1,eBird observation
+eBird,2023-03-21 10:34,2023,Cut Laurel Gap Rd,36.537793,-81.70473,1,eBird observation
+eBird,2023-04-02 08:05,2023,Great Smoky Mountains NP--Little River Trail,35.652383,-83.5696209,1,eBird observation
+eBird,2023-04-06 11:50,2023,Laurel Creek Rd,35.637338,-83.721673,1,eBird observation
+eBird,2023-04-08 15:55,2023,"Great Smoky Mountains, Gatlinburg US-TN (35.6856,-83.5370)",35.685634,-83.536965,3,eBird observation
+eBird,2023-04-09 20:23,2023,"Long Creek Road, Del Rio, Tennessee, US (35.972, -83.03)",35.9719193,-83.030154,1,eBird observation
+eBird,2023-04-11 17:35,2023,"Great Smoky Mountains, Gatlinburg US-TN 35.59593, -83.46082",35.595931,-83.46082,1,eBird observation
+eBird,2023-04-16 12:17,2023,"667 SR-67, Trade US-TN 36.35307, -81.73653",36.353069,-81.736529,1,eBird observation
+eBird,2023-04-19 09:06,2023,Cherokee NF--Dry Creek Rd.,36.2354923,-82.3927005,1,eBird observation
+eBird,2023-04-20,2023,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2023-04-21 09:09,2023,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2023-04-22 11:13,2023,"Caryville, Tennessee, US (36.257, -84.306)",36.2573388,-84.3056984,1,eBird observation
+eBird,2023-04-23 19:03,2023,"Great Smoky Mountains, Gatlinburg US-TN 35.67432, -83.66136",35.674321,-83.661363,1,eBird observation
+eBird,2023-04-26 09:38,2023,Great Smoky Mountains NP--Twin Creeks Trail,35.6852033,-83.4972181,1,eBird observation
+eBird,2023-05-01 21:09,2023,Emory River,35.980483,-84.572645,1,eBird observation
+eBird,2023-05-05 05:50,2023,McQueens Gap,36.5621674,-81.9560402,1,eBird observation
+eBird,2023-05-13 09:17,2023,Cherokee NF--Unaka Mountain Rd.,36.13107,-82.30814,1,eBird observation
+eBird,2023-05-19 08:08,2023,GSMNP: Sugarland Mt Tr.,35.605005,-83.476589,1,eBird observation
+eBird,2023-06-03 05:24,2023,Scioto Rd.,36.2157633,-82.3061227,1,eBird observation
+eBird,2023-06-04 10:41,2023,Great Smoky Mountains NP--Little Greenbrier Trail,35.6994284,-83.6277134,1,eBird observation
+eBird,2023-06-06 11:36,2023,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2023-06-16 17:30,2023,Appalachian Trail - Clingmans Dome to Silers Bald,35.563194,-83.5130936,1,eBird observation
+eBird,2023-07-19 14:47,2023,GSMNP - AT north of Pecks Corner,35.671378,-83.292345,1,eBird observation
+eBird,2023-07-21 09:57,2023,"Roan Mountain--Rocky Outcrop at 36.10597, -82.09545",36.10597,-82.095446,4,eBird observation
+eBird,2023-07-24 09:32,2023,Alcoa Duck Pond,35.7909784,-83.9754152,1,eBird observation
+eBird,2023-07-25 06:00,2023,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2023-08-05 09:00,2023,Bluff Mountain,35.8125235,-83.671875,1,eBird observation
+eBird,2023-08-23 08:43,2023,"Cherokee National Forest, Bristol US-TN 36.55215, -81.93197",36.552154,-81.931965,1,eBird observation
+eBird,2023-08-26 10:05,2023,"(Iron Mt trail from Hughes Gap (36.1369,-82.1408)",36.136878,-82.140787,1,eBird observation
+eBird,2023-09-13 16:22,2023,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2023-09-30 14:00,2023,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2023-10-06 08:00,2023,"Benton MacKaye Trail, Tellico Plains, Tennessee, US (35.325, -84.033)",35.3247324,-84.0328423,4,eBird observation
+eBird,2023-11-04 10:22,2023,"Indian Grave Gap Trail, Townsend US-TN 35.62380, -83.76995",35.623802,-83.769951,1,eBird observation
+eBird,2023-11-16 12:04,2023,"Great Smoky Mountains National Park, Gatlinburg US-TN (35.6373,-83.4253)",35.637327,-83.425344,1,eBird observation
+eBird,2024-02-03 12:59,2024,"Stratton Bald Trail, Vonore US-TN 35.37190, -84.00841",35.371901,-84.008407,1,eBird observation
+eBird,2024-02-08 11:44,2024,"Government Road, Bristol US-TN 36.58558, -81.94092",36.585581,-81.940921,1,eBird observation
+eBird,2024-03-30 08:43,2024,Rocky Fork SP,36.0472525,-82.5608028,1,eBird observation
+eBird,2024-03-31 10:13,2024,Great Smoky Mountains NP--Walker Sisters Home,35.6940053,-83.6302171,1,eBird observation
+eBird,2024-04-03 11:56,2024,Great Smoky Mountains NP--Walker Sisters Home,35.6940053,-83.6302171,2,eBird observation
+eBird,2024-04-07 07:35,2024,"Cut Laurel Gap Road, Laurel Bloomery US-TN 36.53800, -81.70441",36.538,-81.704409,1,eBird observation
+eBird,2024-04-21 09:36,2024,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2024-04-24 08:32,2024,Yard List - Piney Grove Road,36.217317,-82.225083,1,eBird observation
+eBird,2024-04-25 06:13,2024,"594-2998 McQueen Gap Road, Shady Valley, Tennessee, US (36.556, -81.904)",36.5558351,-81.9039289,1,eBird observation
+eBird,2024-04-27 07:38,2024,Great Smoky Mountains NP--Snake Den Ridge Trail,35.7420381,-83.2273505,1,eBird observation
+eBird,2024-04-28 11:20,2024,Great Smoky Mountains NP--Cades Cove,35.5990797,-83.8084269,1,eBird observation
+eBird,2024-04-29 12:05,2024,Tusculum Linear Park Walking and Biking Trail,36.1769114,-82.742517,1,eBird observation
+eBird,2024-05-12 22:45,2024,Great Smoky Mountains NP--Gatlinburg Trail,35.7005,-83.5271,1,eBird observation
+eBird,2024-05-16 11:30,2024,Great Smoky Mountains NP--Maddron Bald Trail  and  Albright Grove Loop,35.7663679,-83.2677084,1,eBird observation
+eBird,2024-05-31 19:49,2024,"Snake Den Ridge Trail, Maddron Bald Trail to AT",35.730906,-83.244635,1,eBird observation
+eBird,2024-06-01 20:15,2024,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2024-06-05 18:37,2024,Rocky Fork SP,36.0472525,-82.5608028,1,eBird observation
+eBird,2024-06-08 08:27,2024,Cherokee NF--Unaka Mountain Rd.,36.13107,-82.30814,1,eBird observation
+eBird,2024-06-19 08:15,2024,Hampton Creek Cove SNA,36.1470008,-82.0491397,1,eBird observation
+eBird,2024-07-03 18:15,2024,TN--Lone Pine Gap Rd,35.9601116,-82.8969713,1,eBird observation
+eBird,2024-07-16 16:08,2024,Rocky Fork SP,36.0472525,-82.5608028,1,eBird observation
+eBird,2024-07-20 06:24,2024,Emory River,35.980483,-84.572645,1,eBird observation
+eBird,2024-07-23 07:00,2024,Emory River,35.980483,-84.572645,1,eBird observation
+eBird,2024-07-27 18:29,2024,"121 Willie Crabtree Road, Allardt, Tennessee, US (36.376, -84.785)",36.3764323,-84.7845939,1,eBird observation
+eBird,2024-09-04 15:59,2024,"Appalachian National Scenic Trail, Townsend US-TN (35.5703,-83.6784)",35.570316,-83.678449,3,eBird observation
+eBird,2024-09-16 09:34,2024,little river gorge Rd,35.6703255,-83.6696954,1,eBird observation
+eBird,2024-09-20 10:07,2024,Rocky Top Tennessee,35.564055,-83.716442,1,eBird observation
+eBird,2024-09-21 06:54,2024,Rocky Top Tennessee,35.564055,-83.716442,1,eBird observation
+eBird,2024-09-22 09:56,2024,Viking Mountain Overlook,36.0263969,-82.7207184,2,eBird observation
+eBird,2024-09-30 08:59,2024,"Sugarland Mountain Trail, Gatlinburg, Tennessee, US (35.66, -83.554)",35.6603682,-83.5539227,1,eBird observation
+eBird,2024-10-03 18:18,2024,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2024-10-04 07:00,2024,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2024-10-05 08:35,2024,Hwy 421--Mile Marker 33,36.5420533,-81.9899368,1,eBird observation
+eBird,2024-10-14 15:15,2024,Great Smoky Mountains NP--Cucumber Gap Trail,35.6400067,-83.5650867,1,eBird observation
+eBird,2024-10-26 10:11,2024,Great Smoky Mountains NP--Turkeypen Ridge Trail,35.6302064,-83.745601,2,eBird observation
+eBird,2024-11-02 11:27,2024,"Autumn Ridge, Sevierville, TN",35.858902,-83.397411,1,eBird observation
+eBird,2024-11-21 08:47,2024,"Cades Cove, Townsend US-TN 35.60647, -83.78971",35.606471,-83.789712,1,eBird observation
+eBird,2024-11-23,2024,TN--Lone Pine Gap Rd,35.9601116,-82.8969713,1,eBird observation
+eBird,2025-01-31 14:46,2025,Grouse Corner,35.711432,-83.573131,1,eBird observation
+eBird,2025-02-01 09:08,2025,Great Smoky Mountains NP--Alum Cave Trail,35.6387158,-83.4459478,1,eBird observation
+eBird,2025-02-03 12:48,2025,"Sugarland Mountain Trail, Gatlinburg US-TN 35.63792, -83.52965",35.637917,-83.52965,1,eBird observation
+eBird,2025-03-09 08:30,2025,Cove Lake SP,36.3074474,-84.2140801,1,eBird observation
+eBird,2025-03-28 18:31,2025,Great Smoky Mountains NP--Metcalf Bottoms,35.6804939,-83.6494946,1,eBird observation
+eBird,2025-03-29 13:53,2025,GSMNP- Rich Mountain Loop,35.6112821,-83.7809443,1,eBird observation
+eBird,2025-03-30 18:04,2025,"Lower Paint Creek Road, Greeneville, Tennessee, US (35.977, -82.849)",35.9771372,-82.8487461,1,eBird observation
+eBird,2025-04-01 08:57,2025,Cherokee NF--Panhandle Rd.,36.4475369,-82.0906222,1,eBird observation
+eBird,2025-04-04 10:02,2025,"Buffalo Mountain Park, Johnson City US-TN 36.27074, -82.33775",36.270737,-82.337752,1,eBird observation
+eBird,2025-04-05 08:19,2025,"6170 Panhandle Road, Elizabethton, Tennessee, US (36.447, -82.117)",36.4465434,-82.1166157,1,eBird observation
+eBird,2025-04-07,2025,AT - Derrick Knob Shelter to Kuwohi,35.5665405,-83.6419308,3,eBird observation
+eBird,2025-04-09 14:55,2025,"Appalachian National Scenic Trail, Gatlinburg US-NC (35.5636,-83.5187)",35.563646,-83.518653,1,eBird observation
+eBird,2025-04-16 20:16,2025,Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman’s Dome),35.563225,-83.4983621,1,eBird observation
+eBird,2025-04-17 12:30,2025,Paint Creek,35.9542384,-82.8918482,1,eBird observation
+eBird,2025-04-19 19:30,2025,AT-Kuwohi,35.5631286,-83.4995608,1,eBird observation
+eBird,2025-04-23 09:46,2025,"Auto selected 35.65307, -83.46539",35.653069,-83.465389,1,eBird observation
+eBird,2025-04-30,2025,AT - Boots Off Hostel to Iron Mountain Shelter,36.2995885,-82.1303773,1,eBird observation
+eBird,2025-05-03 07:37,2025,Cherokee NF--Walnut Mountain Road,36.2339378,-82.0229213,1,eBird observation
+eBird,2025-05-05 17:00,2025,Great Smoky Mountains NP--Cades Cove--Elijah Oliver Cabin & Access Trail,35.5969957,-83.8500861,1,eBird observation
+eBird,2025-05-13 11:26,2025,sinking creek farm,36.5920258,-82.1373331,1,eBird observation
+eBird,2025-05-20 05:07,2025,Great Smoky Mountains NP--Cades Cove Scenic Loop,35.6065101,-83.7740993,1,eBird observation
+eBird,2025-05-22 06:47,2025,Great Smoky Mountains NP--Metcalf Bottoms,35.6804939,-83.6494946,1,eBird observation
+eBird,2025-05-28 12:56,2025,Great Smoky Mountains NP--Charlie's Bunion Trail,35.6148139,-83.4148979,1,eBird observation
+eBird,2025-06-01 15:33,2025,TN—Whigg Meadow Trail,35.32015,-84.034299,1,eBird observation
+eBird,2025-06-12 11:52,2025,Benton MacKaye Trail--Mud Gap to Whigg Meadow,35.3247013,-84.0328091,2,eBird observation
+eBird,2025-06-14 19:58,2025,Roan Mountain SP--Picnic Shelter #1,36.1703264,-82.0988157,1,eBird observation
+eBird,2025-06-23 10:45,2025,Great Smoky Mountains NP--Snake Den Ridge Trail,35.7420381,-83.2273505,2,eBird observation
+eBird,2025-08-02 13:51,2025,"Cherokee National Forest, Tellico Plains US-TN 35.30898, -84.03926",35.308983,-84.039265,1,eBird observation
+eBird,2025-08-07 09:59,2025,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2025-08-16 10:53,2025,"Laurel Creek Rd, Townsend US-TN (35.6048,-83.7646)",35.604831,-83.764628,1,eBird observation
+eBird,2025-08-23 09:19,2025,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,2,eBird observation
+eBird,2025-08-31 19:30,2025,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2025-09-02 16:11,2025,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2025-09-14 16:53,2025,Road to Whigg,35.2900318,-84.0866125,1,eBird observation
+eBird,2025-09-15 16:28,2025,Cherokee NF--Pinnacle Mountain Tower Trail,36.2145307,-82.3585979,1,eBird observation
+eBird,2025-09-17 10:13,2025,"Appalachian National Scenic Trail, Burnsville, North Carolina, US (35.993, -82.485)",35.993192,-82.4849711,1,eBird observation
+eBird,2025-09-18 07:22,2025,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2025-09-20 14:17,2025,Roan Mountain SP--Old Miller Farmstead,36.1783499,-82.1134706,1,eBird observation
+eBird,2025-09-25 16:24,2025,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2025-09-26 09:16,2025,"Stamping Ground  Ridge, Unicoi, Tennessee, US (36.144, -82.292)",36.143891,-82.2919771,1,eBird observation
+eBird,2025-09-27 10:10,2025,Cherokee NF--Carver's Gap,36.107248,-82.1105369,1,eBird observation
+eBird,2025-09-28 05:53,2025,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2025-09-29 07:00,2025,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,1,eBird observation
+eBird,2025-10-02 10:09,2025,"Cherokee National Forest, Greeneville US-TN 36.07642, -82.68538",36.07642,-82.685378,2,eBird observation
+eBird,2025-10-04 10:25,2025,Fairoaks,35.721103,-83.9146838,1,eBird observation
+eBird,2025-10-06 09:58,2025,"Snake Den Ridge Trail, Cosby, Tennessee, US (35,735, -83,245)",35.7346834,-83.2446088,1,eBird observation
+eBird,2025-10-07 06:46,2025,"Ely's Mill, Roaring Fork Road",35.7159535,-83.4884387,1,eBird observation
+eBird,2025-10-08 08:13,2025,Jakes Creek Tr,35.633552,-83.587172,1,eBird observation
+eBird,2025-10-11 08:55,2025,Great Smoky Mountains NP--Cades Cove,35.5990797,-83.8084269,1,eBird observation
+eBird,2025-10-15 12:47,2025,"Pisgah National Forest, Hartford US-TN (35.7984,-82.9624)",35.798406,-82.962394,1,eBird observation
+eBird,2025-10-17,2025,TN--Lower Paint Creek,35.9822777,-82.8450251,1,eBird observation
+eBird,2025-10-19,2025,TN--Lower Paint Creek,35.9822777,-82.8450251,1,eBird observation
+eBird,2025-11-01 07:30,2025,"291 Costner Rd, Cosby US-TN 35.78271, -83.26390",35.782706,-83.263898,1,eBird observation
+eBird,2025-12-24 08:30,2025,Bumpus Cove Rd.,36.1535104,-82.4907894,1,eBird observation
+eBird,2026-01-01 09:06,2026,Great Smoky Mountains NP--Alum Cave Trail,35.6387158,-83.4459478,1,eBird observation
+eBird,2026-01-06,2026,TN--Lower Paint Creek,35.9822777,-82.8450251,2,eBird observation
+eBird,2026-01-08 15:30,2026,"1827–1875 Laurel Fork Rd, Roan Mountain US-TN 36.26641, -82.07367",36.266406,-82.073674,1,eBird observation
+eBird,2026-02-03 09:57,2026,Pickett State Forest,36.5636384,-84.8124046,1,eBird observation
+eBird,2026-03-01,2026,TN--Lower Paint Creek,35.9822777,-82.8450251,1,eBird observation
+eBird,2026-03-13 10:29,2026,TN--Lower Paint Creek,35.9822777,-82.8450251,1,eBird observation
+eBird,2026-03-21 18:35,2026,"3923–4059 Honey Creek Loop Rd, Robbins US-TN 36.38620, -84.63567",36.386201,-84.635669,1,eBird observation
+eBird,2026-03-22 19:57,2026,Cherokee NF--Unaka Mountain Rd.,36.13107,-82.30814,1,eBird observation
+eBird,2026-03-24 06:44,2026,Cherokee NF--Whigg Meadow,35.3091368,-84.0393162,2,eBird observation
+eBird,2026-03-27 16:43,2026,"115 County Road 578, Englewood, Tennessee, US (35.419, -84.55)",35.4186367,-84.5502084,1,eBird observation
+eBird,2026-03-29 16:41,2026,Great Smoky Mountains NP--Mount LeConte,35.6541844,-83.4400332,1,eBird observation
+eBird,2026-03-30 10:15,2026,Great Smoky Mountains NP--Bote Mountain Trail,35.6067497,-83.7264195,1,eBird observation
+eBird,2026-04-02 14:00,2026,"5800-5848 Lower Paint Creek Road, Greeneville, Tennessee, US (35.948, -82.893)",35.9476263,-82.8931266,1,eBird observation
+eBird,2026-04-03 13:31,2026,"1641 Cherohala Skyway, Tellico Plains US-TN 35.35762, -84.27260",35.357621,-84.272597,1,eBird observation
+eBird,2026-04-04 07:30,2026,Great Smoky Mountains NP--Newfound Gap (probably not TN),35.6111036,-83.4245147,4,eBird observation
+eBird,2026-04-08 16:53,2026,Rocky Fork SP,36.0472525,-82.5608028,2,eBird observation
+eBird,2026-04-11 08:14,2026,Rocky Fork SP,36.0472525,-82.5608028,1,eBird observation
+eBird,2026-04-22 17:31,2026,"825 Jimmie Roberts Road, Sneedville, Tennessee, US (36.52, -83.204)",36.5201472,-83.204042,1,eBird observation
+eBird,2026-04-26 10:53,2026,"159 Mt Shadow Ln, Benton US-TN 35.16934, -84.61414",35.16934,-84.614138,1,eBird observation
+eBird,2026-05-03 09:46,2026,"NC-143, Tellico Plains US-TN 35.32470, -84.03287",35.324702,-84.032865,1,eBird observation
+eBird,2026-05-05,2026,TN--Lower Paint Creek,35.9822777,-82.8450251,,eBird observation
+eBird,2026-05-05 16:54,2026,Rocky Fork SP,36.0472525,-82.5608028,1,eBird observation
+eBird,2026-05-11 10:59,2026,Double Spring Gap Shelter (TN),35.5653164,-83.5426176,2,eBird observation
+eBird,2026-05-13 06:30,2026,Great Smoky Mountains NP--Middle Prong Trail,35.6098148,-83.639383,1,eBird observation
+eBird,2026-05-13 11:07,2026,"Capuchin Creek Road, Winfield US-TN 36.51743, -84.27475",36.51743,-84.27475,,eBird observation
+eBird,2026-05-15 07:55,2026,Cross Mountain--Mountain Rd.--Top Mining Bench,36.2915,-84.244337,1,eBird observation
+eBird,2026-05-16 14:30,2026,Great Smoky Mountains NP--Lower Mt. Cammerer Trail,35.7691179,-83.1932325,1,eBird observation
+eBird,2026-05-22 12:00,2026,Great Smoky Mountains NP--US-441/Newfound Gap Rd. Pullout,35.6197,-83.4208,1,eBird observation
+eBird,2026-05-24 17:41,2026,Great Smoky Mountains NP--Morton Overlook,35.617248,-83.4235454,1,eBird observation
+field-sighting,2023,2023,Lancing area,36.116,-84.689,1,"Forum reports of birds, just north of Catoosa"
+field-sighting,2025-03-24,2025,OnX sighting 3/24/25,36.0514,-84.7395,1,Confirmed sighting near Catoosa WMA

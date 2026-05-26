@@ -32,6 +32,7 @@ from __future__ import annotations  # PEP 604 unions on Python <3.10
 
 import json
 import os
+import socket
 import sys
 import time
 from datetime import date, timedelta
@@ -68,37 +69,53 @@ API_KEY = os.environ.get("EBIRD_API_KEY", "")  # or hardcode: API_KEY = "abc123.
 REGION = "US-TN"
 SPECIES = "rufgro"  # eBird species code for Ruffed Grouse
 
-# How far back to fetch historic observations (years).
-# Historic endpoint is one-date-per-call, so this affects runtime:
-#   1 year  ≈  365 calls  ≈  ~6 min at 1s/call
-#   3 years ≈ 1100 calls  ≈  ~18 min
+# Historic window. Two ways to set:
+#   1) START_DATE / END_DATE env vars (YYYY-MM-DD) — precise control, used for
+#      incremental backfills (e.g. pull 2006–2016 without re-fetching 2016+).
+#   2) YEARS_BACK fallback — fetches the last N years ending 31 days ago.
 YEARS_BACK = 10
 
 # Rate-limit pacing — eBird is generous but be polite
 SLEEP_BETWEEN_CALLS = 0.5  # seconds
+
+# Whether to also pull the species-filtered recent-30-day endpoint (1 call).
+# Disable when doing a historical backfill that ends before "today − 30".
+FETCH_RECENT = os.environ.get("FETCH_RECENT", "1") != "0"
+
+# Whether to merge new observations with whatever's already in OUTPUT_FILE
+# (deduped). On by default so backfills append, not overwrite.
+MERGE_EXISTING = os.environ.get("MERGE_EXISTING", "1") != "0"
 
 OUTPUT_FILE = "../data/ebird_grouse_tn.json"
 
 # ─────────────────────────────────────────────────────────────
 # API helpers
 # ─────────────────────────────────────────────────────────────
-def ebird_get(path: str, params: dict | None = None) -> list | dict:
+def ebird_get(path: str, params: dict | None = None, max_retries: int = 3) -> list | dict:
+    """Hit the eBird API with retry-with-backoff. Returns [] on any error after retries."""
     if not API_KEY:
         sys.exit("ERROR: Set EBIRD_API_KEY environment variable or hardcode it in the script.")
     qs = f"?{urlencode(params)}" if params else ""
     url = f"https://api.ebird.org/v2{path}{qs}"
     req = Request(url, headers={"x-ebirdapitoken": API_KEY})
-    try:
-        with urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except HTTPError as e:
-        if e.code == 404:
-            return []  # no observations that day
-        print(f"  ! HTTP {e.code} for {url}", file=sys.stderr)
-        return []
-    except URLError as e:
-        print(f"  ! Network error: {e}", file=sys.stderr)
-        return []
+    for attempt in range(max_retries):
+        try:
+            with urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except HTTPError as e:
+            if e.code == 404:
+                return []  # no observations that day
+            print(f"  ! HTTP {e.code} for {url}", file=sys.stderr)
+            return []
+        except (URLError, socket.timeout, TimeoutError, ConnectionError, OSError) as e:
+            wait = 2 ** attempt
+            print(f"  ! network error (attempt {attempt+1}/{max_retries}): {e} — retrying in {wait}s", file=sys.stderr)
+            time.sleep(wait)
+        except Exception as e:
+            print(f"  ! unexpected error: {type(e).__name__}: {e}", file=sys.stderr)
+            return []
+    print(f"  ! gave up after {max_retries} retries on {url}", file=sys.stderr)
+    return []
 
 # ─────────────────────────────────────────────────────────────
 # Fetchers
@@ -110,36 +127,38 @@ def fetch_recent_30_days() -> list:
     print(f"  → {len(obs)} observations")
     return obs
 
-def fetch_historic_range(years_back: int) -> list:
+def fetch_historic_window(start: date, end: date) -> list:
     """
-    Iterate day-by-day. The historic endpoint returns all species, so we
-    filter client-side for rufgro. Slow but thorough.
+    Iterate day-by-day from start to end (inclusive). The historic endpoint
+    returns all species, so we filter client-side for rufgro. Slow but thorough.
     """
-    today = date.today()
-    start = today - timedelta(days=365 * years_back)
-    end = today - timedelta(days=31)  # skip days covered by recent_30_days
+    if end < start:
+        print(f"  (empty window: {start} → {end} — skipping)")
+        return []
 
     all_obs = []
     cur = start
-    total_days = (end - start).days
-    print(f"Fetching historic range: {start} → {end} ({total_days} days)")
+    total_days = (end - start).days + 1
+    print(f"Fetching historic window: {start} → {end} ({total_days} days)")
     print(f"  Estimated runtime: ~{total_days * SLEEP_BETWEEN_CALLS / 60:.1f} minutes")
 
     days_done = 0
     while cur <= end:
-        day_obs = ebird_get(
-            f"/data/obs/{REGION}/historic/{cur.year}/{cur.month}/{cur.day}",
-            {"cat": "species", "maxResults": 10000}
-        )
-        # filter to ruffed grouse
-        grouse_obs = [o for o in day_obs if o.get("speciesCode") == SPECIES]
-        if grouse_obs:
-            print(f"  {cur}: {len(grouse_obs)} grouse")
-        all_obs.extend(grouse_obs)
+        try:
+            day_obs = ebird_get(
+                f"/data/obs/{REGION}/historic/{cur.year}/{cur.month}/{cur.day}",
+                {"cat": "species", "maxResults": 10000}
+            )
+            grouse_obs = [o for o in day_obs if o.get("speciesCode") == SPECIES]
+            if grouse_obs:
+                print(f"  {cur}: {len(grouse_obs)} grouse")
+            all_obs.extend(grouse_obs)
+        except Exception as e:
+            print(f"  ! skipping {cur}: {type(e).__name__}: {e}", file=sys.stderr)
 
         days_done += 1
         if days_done % 50 == 0:
-            print(f"  ... {days_done}/{total_days} days, {len(all_obs)} grouse so far")
+            print(f"  ... {days_done}/{total_days} days, {len(all_obs)} grouse so far", flush=True)
 
         cur += timedelta(days=1)
         time.sleep(SLEEP_BETWEEN_CALLS)
@@ -173,8 +192,45 @@ def normalize(obs_list: list) -> list:
     return out
 
 # ─────────────────────────────────────────────────────────────
+# Existing-data merge (for incremental backfills)
+# ─────────────────────────────────────────────────────────────
+def load_existing(path: str) -> list:
+    try:
+        with open(path) as f:
+            return json.load(f).get("observations", [])
+    except FileNotFoundError:
+        return []
+
+def merge_dedupe(existing: list, new: list) -> list:
+    """Merge two normalized lists, dedupe by (date, lat, lng, count)."""
+    seen = set()
+    out = []
+    for o in existing + new:
+        key = (o.get("date"), o.get("lat"), o.get("lng"), o.get("count"))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(o)
+    return out
+
+# ─────────────────────────────────────────────────────────────
 # Main
 # ─────────────────────────────────────────────────────────────
+def resolve_window() -> tuple:
+    """Return (start_date, end_date) for the historic fetch."""
+    today = date.today()
+    start_env = os.environ.get("START_DATE")
+    end_env = os.environ.get("END_DATE")
+    if start_env:
+        start = date.fromisoformat(start_env)
+    else:
+        start = today - timedelta(days=365 * YEARS_BACK)
+    if end_env:
+        end = date.fromisoformat(end_env)
+    else:
+        end = today - timedelta(days=31)  # avoid overlap with recent-30-day
+    return start, end
+
 def main():
     print(f"eBird API fetch — Ruffed Grouse, {REGION}\n")
     if not API_KEY:
@@ -182,11 +238,23 @@ def main():
         print('  export EBIRD_API_KEY="your-key-here"')
         sys.exit(1)
 
+    start, end = resolve_window()
+    print(f"Window: {start} → {end}   (FETCH_RECENT={FETCH_RECENT}, MERGE_EXISTING={MERGE_EXISTING})\n")
+
     all_observations = []
-    all_observations.extend(fetch_recent_30_days())
-    all_observations.extend(fetch_historic_range(YEARS_BACK))
+    if FETCH_RECENT:
+        all_observations.extend(fetch_recent_30_days())
+    all_observations.extend(fetch_historic_window(start, end))
 
     normalized = normalize(all_observations)
+
+    if MERGE_EXISTING:
+        existing = load_existing(OUTPUT_FILE)
+        before = len(existing)
+        normalized = merge_dedupe(existing, normalized)
+        added = len(normalized) - before
+        print(f"\nMerged with existing snapshot: {before} prior + {added} new = {len(normalized)} unique")
+
     normalized.sort(key=lambda o: o["date"], reverse=True)
 
     print(f"\nTotal unique observations: {len(normalized)}")

@@ -7,6 +7,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <style>
   :root{
     --paper:#fbfaf6;
@@ -29,7 +31,10 @@
   /* topographic background — removed in journal style */
   .topo{display:none}
 
-  .wrap{max-width:760px;margin:0 auto;padding:64px 32px 96px;position:relative;z-index:1}
+  .wrap{max-width:1120px;margin:0 auto;padding:64px 32px 96px;position:relative;z-index:1}
+  /* Prose stays narrow even though the wrap is wide — only maps + stats span full width. */
+  .masthead, h1.title, .byline, .abstract, section, footer{max-width:740px;margin-left:auto;margin-right:auto}
+  .stats{max-width:1120px}
 
   /* ───────── TITLE BLOCK ───────── */
   .masthead{
@@ -141,6 +146,32 @@
   .fig-caption .fig-label{font-weight:600;color:var(--ink);margin-right:4px}
   .fig-caption em{font-style:italic}
 
+  /* Leaflet map */
+  .leaflet-map{
+    width:100%;height:560px;border:1px solid var(--rule);
+    background:var(--paper-deep);
+  }
+  .leaflet-map.compact{height:280px}
+  .map-svg{height:auto;max-height:480px}
+  .leaflet-popup-content-wrapper{
+    border-radius:0;background:var(--paper);color:var(--ink);
+    box-shadow:0 2px 8px rgba(0,0,0,.12);
+  }
+  .leaflet-popup-content{
+    font-family:'Inter',sans-serif;font-size:12px;line-height:1.5;margin:10px 12px;
+  }
+  .leaflet-popup-content b{font-family:'Source Serif 4', Charter, Georgia, serif;font-size:13px;font-weight:600;display:block;margin-bottom:2px}
+  .leaflet-popup-content .meta{color:var(--ink-mute);font-size:11px}
+  .leaflet-popup-tip{background:var(--paper)}
+  .leaflet-container a.leaflet-popup-close-button{color:var(--ink-mute)}
+  .leaflet-container{font-family:'Inter',sans-serif}
+  .leaflet-control-attribution{font-size:10px;background:rgba(251,250,246,.85)}
+  .wma-label{
+    font-family:'Inter',sans-serif;font-size:10px;font-weight:600;
+    color:var(--moss-deep);text-shadow:0 0 3px var(--paper),0 0 3px var(--paper),0 0 3px var(--paper);
+    white-space:nowrap;background:transparent;border:none;box-shadow:none;
+  }
+
   /* TOP controls: year display left, slider right */
   .map-controls{
     display:grid;grid-template-columns:auto 1fr;gap:32px;align-items:center;
@@ -231,6 +262,18 @@
   .layer-toggle.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
   .layer-toggle .swatch{width:9px;height:9px;background:var(--gold);display:inline-block}
   .layer-toggle.on .swatch{background:var(--paper)}
+
+  /* mode toggle (cumulative vs. year-only) — segmented control */
+  .mode-toggle{display:inline-flex;border:1px solid var(--rule);overflow:hidden}
+  .mode-btn{
+    background:transparent;color:var(--ink-mute);border:none;
+    padding:4px 12px;font-family:'Inter',sans-serif;font-size:11px;
+    letter-spacing:0;text-transform:none;cursor:pointer;font-weight:500;
+    border-right:1px solid var(--rule);
+  }
+  .mode-btn:last-child{border-right:none}
+  .mode-btn.on{background:var(--ink);color:var(--paper)}
+  .mode-btn:hover:not(.on){background:var(--paper-deep);color:var(--ink)}
 
   /* ───────── 2-column flow ───────── */
   .twocol{display:grid;grid-template-columns:1fr 1fr;gap:32px}
@@ -328,7 +371,7 @@
   <!-- Abstract -->
   <div class="abstract">
     <div class="lbl">Abstract</div>
-    <p>The ruffed grouse (<em>Bonasa umbellus</em>) reaches the southern limit of its breeding range in Tennessee. Once distributed across East and most of Middle Tennessee, naturally occurring populations are now restricted to the Cumberland Plateau and the higher ridges and mountains of East Tennessee. We synthesize Christmas Bird Count detections from six Tennessee circles over 1966–2024 (~300 station-years; nine total birds detected), TWRA Watchable Wildlife range and harvest figures, the Eastern Grouse Working Group's 2020 regional decline assessment (−71% in the Southern Appalachians since 1989), eBird observations from 2016 onward, and recent field sightings to characterize the bird's contemporary distribution and identify the most promising candidate sites for further survey on the Cumberland Plateau.</p>
+    <p>The ruffed grouse (<em>Bonasa umbellus</em>) reaches the southern limit of its breeding range in Tennessee. Once distributed across East and most of Middle Tennessee, naturally occurring populations are now restricted to the Cumberland Plateau and the higher ridges and mountains of East Tennessee. We synthesize Christmas Bird Count detections across ~46 active Tennessee circles over 1966–2024 — within which ruffed grouse were recorded on only nine occasions, at six circles — together with TWRA Watchable Wildlife range and harvest figures, the Eastern Grouse Working Group's 2020 regional decline assessment (−71% in the Southern Appalachians since 1989), eBird observations from 2016 onward, and recent field sightings to characterize the bird's contemporary distribution and identify the most promising candidate sites for further survey on the Cumberland Plateau.</p>
   </div>
 
   <!-- Summary data strip -->
@@ -339,11 +382,11 @@
     </div>
     <div class="stat">
       <div class="num">9</div>
-      <div class="lbl">CBC detections across six TN circles, 1966–2024</div>
+      <div class="lbl">CBC detections of ruffed grouse, at only 6 of ~46 active TN circles, 1966–2024</div>
     </div>
     <div class="stat">
       <div class="num">50,000</div>
-      <div class="lbl">Birds harvested by 21,000 hunters, 1989–90 season</div>
+      <div class="lbl">Birds harvested by 21,000 hunters, 1989–90 season (<a href="https://www.tnwatchablewildlife.org/details.cfm?sort=aounumber&amp;typename=TENNESSEE'S&amp;uid=09042710125597732&amp;commonname=Ruffed+Grouse" target="_blank">TN Watchable Wildlife</a>)</div>
     </div>
     <div class="stat">
       <div class="num">3</div>
@@ -378,6 +421,12 @@
               <button class="layer-toggle on" id="ebirdToggle" disabled style="opacity:.5"><span class="swatch" style="background:var(--moss);border-radius:50%"></span>eBird <span id="ebirdCount" style="opacity:.7"></span></button>
             </div>
           </div>
+          <div class="control-row" style="margin-top:8px;justify-content:flex-end">
+            <div class="mode-toggle" role="group" aria-label="Display mode">
+              <button class="mode-btn on" id="modeCumulative" data-mode="cumulative">Cumulative through year</button>
+              <button class="mode-btn" id="modeYearOnly" data-mode="year-only">Selected year only</button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -386,37 +435,20 @@
           <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
             <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#d8d4c8" stroke-width=".5" opacity=".4"/>
           </pattern>
-          <!-- TN outline path, used as both fill and clip mask -->
           <path id="tn-outline" d="M523.4,80.9L539.6,81.4L555.8,81.4L580.0,81.4L589.9,81.3L609.4,81.2L614.3,81.2L615.4,81.1L617.6,81.3L619.8,81.3L635.6,81.4L656.6,79.0L652.1,89.0L652.7,92.1L652.9,92.8L652.7,93.7L652.8,94.2L653.0,94.9L651.7,100.3L650.4,114.8L646.2,113.9L641.4,115.4L635.7,124.9L625.0,146.0L621.3,145.9L620.0,140.2L613.7,141.2L613.5,141.6L605.4,144.7L603.7,145.9L600.4,150.4L595.2,161.1L593.4,163.2L586.2,163.6L585.6,152.5L580.9,153.9L574.0,163.3L567.0,166.3L564.1,170.0L560.5,187.1L558.1,190.0L550.5,189.8L539.5,197.1L539.3,200.3L525.3,211.4L522.7,216.0L511.1,217.4L502.6,217.8L488.3,231.4L487.7,231.0L484.8,236.1L482.2,245.9L482.5,249.1L483.1,253.2L477.7,259.6L476.0,259.2L469.4,257.1L463.6,262.5L462.3,280.1L456.0,293.9L439.5,293.9L428.2,294.0L425.7,294.0L424.9,294.0L422.2,294.0L415.9,294.0L413.3,294.0L398.7,294.2L395.9,294.2L395.0,294.3L392.5,294.3L390.3,294.4L389.3,294.4L367.7,294.4L348.8,293.9L309.9,293.5L300.3,293.6L295.9,293.5L290.7,293.4L289.5,293.4L281.7,293.4L277.8,293.4L275.9,293.4L267.9,293.1L265.0,293.0L249.5,292.4L244.0,292.2L238.0,292.1L235.1,292.0L217.4,291.9L214.7,291.8L210.5,291.7L203.7,291.6L202.2,291.6L194.0,291.5L174.3,292.9L165.1,292.9L135.5,293.0L109.7,293.1L94.1,293.1L72.9,293.0L58.0,293.1L24.3,292.9L32.7,284.2L36.5,274.5L40.3,276.7L42.2,273.7L41.2,262.5L38.4,258.5L35.3,257.6L34.9,253.2L38.5,252.1L40.1,240.3L34.8,242.8L34.6,236.5L41.5,229.8L42.6,231.7L44.3,228.7L44.8,218.9L51.7,221.8L54.9,206.0L51.5,204.2L50.1,195.3L53.8,191.9L59.9,192.2L68.6,182.0L65.2,179.5L63.4,177.0L64.7,173.7L69.7,173.6L67.3,163.4L69.5,156.7L74.3,145.6L76.7,140.9L74.8,136.2L69.4,126.6L76.9,128.4L80.8,124.2L79.4,123.2L74.6,117.2L75.3,114.9L79.0,115.3L82.0,113.9L82.0,97.1L83.5,94.1L83.9,96.6L85.5,99.5L88.6,96.2L92.0,93.8L94.6,93.4L99.5,93.0L108.0,93.2L113.3,93.4L117.4,93.4L119.9,93.5L131.9,93.4L132.5,93.4L138.3,93.4L150.7,93.6L155.2,93.6L157.2,93.7L159.8,93.7L168.7,93.8L189.0,94.2L190.1,92.0L189.6,80.2L187.7,70.2L203.6,76.2L219.1,75.6L234.0,75.2L240.5,75.1L245.3,75.1L249.0,75.0L257.5,75.0L272.7,74.5L279.1,74.3L283.1,74.1L294.7,73.7L304.3,73.7L304.7,73.7L322.6,75.2L323.1,75.2L324.4,75.4L336.1,76.5L340.6,76.8L371.5,78.5L377.4,78.4L391.7,77.1L405.5,77.7L422.1,79.7L428.0,80.2L485.7,82.0L507.4,82.9L508.9,80.5L523.4,80.9Z"/>
-          <clipPath id="tn-clip"><use href="#tn-outline"/></clipPath>
         </defs>
         <rect x="0" y="60" width="680" height="250" fill="url(#grid)"/>
+        <use href="#tn-outline" fill="#f4f1e8" stroke="#4a4e52" stroke-width="1"/>
 
-        <!-- TN outline fill -->
-        <use href="#tn-outline" fill="#f4f1e8" stroke="#4a4e52" stroke-width="1" opacity="1"/>
-
-        <!-- Approximate current ruffed grouse range in TN — clipped to TN outline -->
-        <g clip-path="url(#tn-clip)">
-          <path d="M368.0,77.9L508.2,81.9L587.0,81.9L623.5,84.6L656.4,83.2L623.5,140.1L608.9,166.6L590.7,166.6L583.4,186.5L561.5,193.1L550.5,206.3L525.0,219.6L488.5,232.8L481.2,252.6L462.9,268.5L461.5,293.7L448.3,293.7L411.8,293.7L392.1,293.7L368.0,293.7L368.0,252.6L368.0,199.7L368.0,160.0L368.0,120.3L368.0,77.9Z"
-                fill="#2f4a2a" opacity=".14" stroke="#1d2e1a" stroke-width=".75" stroke-dasharray="3 2"/>
-        </g>
-
-        <!-- Smokies hint -->
-        <text x="595" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#1d2e1a" opacity=".65" letter-spacing="0">Smokies</text>
-
-        <!-- Region labels -->
+        <text x="595" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#1d2e1a" opacity=".6">Smokies</text>
         <text x="80" y="240" font-family="Source Serif 4, Charter, Georgia, serif" font-style="italic" font-size="11" fill="#4a4e52" opacity=".6">West TN</text>
         <text x="240" y="240" font-family="Source Serif 4, Charter, Georgia, serif" font-style="italic" font-size="11" fill="#4a4e52" opacity=".6">Middle TN</text>
         <text x="500" y="105" font-family="Source Serif 4, Charter, Georgia, serif" font-style="italic" font-size="11" fill="#4a4e52" opacity=".7">East TN</text>
 
-        <!-- Range overlay label -->
-        <text x="475" y="190" font-family="Inter, sans-serif" font-size="9" fill="#1d2e1a" opacity=".75" font-weight="500">Approximate</text>
-        <text x="475" y="201" font-family="Inter, sans-serif" font-size="9" fill="#1d2e1a" opacity=".75" font-weight="500">current TN range</text>
-
-        <g id="circles"></g>
-        <g id="ebird"></g>
-        <g id="sightings"></g>
-        <g id="labels"></g>
+        <g id="svgCircles"></g>
+        <g id="svgEbird"></g>
+        <g id="svgSightings"></g>
+        <g id="svgLabels"></g>
 
         <g transform="translate(40,90)">
           <text font-family="Source Serif 4, Charter, Georgia, serif" font-style="italic" font-size="13" fill="#4a4e52" opacity=".7">N ↑</text>
@@ -441,7 +473,6 @@
             <span><span class="legend-dot dash"></span>No count that year</span>
             <span><span class="legend-dot sight"></span>Field sighting / reported</span>
             <span><span class="legend-dot ebird"></span>eBird observation</span>
-            <span><span class="legend-dot range"></span>Approximate current TN range</span>
           </div>
           <div class="map-meta-line">Tennessee Audubon CBC, ruffed grouse, 1966–2024.</div>
         </div>
@@ -449,7 +480,15 @@
     </div>
     <figcaption class="fig-caption" id="hero-map-caption">
       <span class="fig-label">Figure 1.</span>
-      Detections of ruffed grouse on six Tennessee Christmas Bird Count circles, 1966–2024. The hatched green polygon indicates the approximate current Tennessee range of <em>Bonasa umbellus</em> (Cumberland Plateau and the higher ridges and mountains of East Tennessee), drawn from TWRA Watchable Wildlife range descriptions and the Eastern Grouse Working Group's regional assessment. Circle position approximates the CBC count center; symbol indicates outcome (detection, zero-count, no-count). Field sightings and eBird observations are overlaid as separate layers; advance the year slider or use the auto-play control to scrub through time. eBird points are projected from observation coordinates and faded with age. State outline projected from US Census Bureau 1:5M cartographic boundary file.
+      Schematic time view: detections of ruffed grouse at the six Tennessee Christmas Bird Count circles where the species was ever recorded (1966–2024). Approximately 46 TN CBC circles were active over this period; the remaining 40 circles, mostly in West and lower-elevation Middle Tennessee, never recorded a ruffed grouse and are omitted from this figure. Field sightings and eBird observations are overlaid. Advance the year slider or use the auto-play control to scrub through time. Hover any marker for year and coordinates.
+    </figcaption>
+  </figure>
+
+  <figure class="hero-map" aria-labelledby="detail-map-caption">
+    <div id="detailMap" class="leaflet-map"></div>
+    <figcaption class="fig-caption" id="detail-map-caption">
+      <span class="fig-label">Figure 2.</span>
+      Pan-and-zoom detail map on USGS National Map topographic tiles, with cities, roads, and public-land tinting from the basemap. All ruffed grouse observations (CBC, eBird, field sightings) are shown together, without time filtering. Candidate Wildlife Management Areas and state forests are outlined as approximate circles sized by acreage. Hover any marker for year and coordinates; click for full detail.
     </figcaption>
   </figure>
 
@@ -474,7 +513,7 @@
     <div class="sec-num">2.</div>
     <h2>Christmas Bird Count detections, 1966–2024</h2>
     <p class="lead">
-      The Audubon Christmas Bird Count (CBC) is a citizen-science survey conducted on a fixed 15-mile-diameter circle, by the same observers, every December. Six circles in East and Middle Tennessee have run for decades; across approximately 300 station-years of counting, ruffed grouse were detected on nine occasions.
+      The Audubon Christmas Bird Count (CBC) is a citizen-science survey conducted on a fixed 15-mile-diameter circle, by the same observers, every December. Approximately 46 CBC circles have been active in Tennessee at some point between 1966 and 2024, covering West, Middle, and East Tennessee. Across these decades of state-wide counting, ruffed grouse were recorded on just nine occasions, at six circles — all of them on the Cumberland Plateau or in the high ridges and mountains of East Tennessee. The remaining 40 circles never recorded a ruffed grouse on any count, consistent with the species' contraction from its historical range.
     </p>
     <p>
       Figure 1 (above) plots detections by year. Adjust the year slider to inspect individual years; a dashed bar indicates the count was not conducted that year. CBC counts represent winter occurrence and likely undercount a forest game bird that does not flock, but provide a reasonable presence-absence index across decades.
@@ -495,7 +534,7 @@
       The primary driver is loss of young forest. National Forests in the Southern Appalachians currently contain approximately 1.3% young forest (trees 0–20 years old), well below what grouse require. The species depends on a mosaic of forest ages within a single home range, and that mosaic has been largely smoothed away by even-aged maturation and fire suppression.
     </p>
     <p>
-      TWRA describes the in-state population as "stable," and this may hold locally on the Plateau. However, stability at a depleted baseline is qualitatively different from a healthy population. The 1989–90 harvest of approximately 50,000 birds by 21,000 hunters is unlikely to be matched under current conditions.
+      TWRA describes the in-state population as "stable," and this may hold locally on the Plateau. However, stability at a depleted baseline is qualitatively different from a healthy population. The 1989–90 harvest of approximately 50,000 birds by 21,000 hunters (<a href="https://www.tnwatchablewildlife.org/details.cfm?sort=aounumber&amp;typename=TENNESSEE'S&amp;uid=09042710125597732&amp;commonname=Ruffed+Grouse" target="_blank">TN Watchable Wildlife</a>) is unlikely to be matched under current conditions.
     </p>
     <div class="pull">
       "Ruffed grouse have declined 71% since 1989 in the Southern Appalachians. At the same time, National Forests in the Southern Appalachians contain only 1.3% young forests."
@@ -615,6 +654,26 @@
   <section id="resources">
     <div class="sec-num">7.</div>
     <h2>References and linked resources</h2>
+
+    <h3 style="margin-top:0">Combined dataset (download)</h3>
+    <ul class="links">
+      <li>
+        <div>
+          <strong><a href="data/grouse_observations.csv" download>grouse_observations.csv</a></strong>
+          <div style="font-size:13px;color:var(--ink-soft);margin-top:4px">All three data sources combined into one CSV: CBC detections (1966–2024), eBird observations (2006–2026), and field sightings. Columns: source, date, year, location_name, lat, lng, count, notes. Regenerated by <code>scripts/build_grouse_csv.py</code> when the eBird snapshot refreshes.</div>
+        </div>
+        <span class="meta">CSV</span>
+      </li>
+      <li>
+        <div>
+          <strong><a href="data/ebird_grouse_tn.json" download>ebird_grouse_tn.json</a></strong>
+          <div style="font-size:13px;color:var(--ink-soft);margin-top:4px">Raw eBird snapshot (normalized): observations from the eBird API 2.0 for ruffed grouse in TN, deduped by location, date, and count.</div>
+        </div>
+        <span class="meta">JSON</span>
+      </li>
+    </ul>
+
+    <h3>External references</h3>
     <ul class="links">
       <li>
         <div>
@@ -747,63 +806,73 @@ const data = {
   }
 };
 
-// ───────── PROJECT lat/lng → SVG x/y ─────────
-// TN lon range -90.3 to -81.6, lat 34.98 to 36.68
-// SVG viewBox 700x360 with TN body from x~25 to x~660, y~70 to y~295
-const LON_MIN=-90.3, LON_MAX=-81.6;
-const LAT_MIN=34.98, LAT_MAX=36.68;
-const X_MIN=25, X_MAX=660;
-const Y_MIN=70, Y_MAX=295;
-
-circles.forEach(c=>{
-  c.x = X_MIN + ((c.lng - LON_MIN) / (LON_MAX - LON_MIN)) * (X_MAX - X_MIN);
-  c.y = Y_MAX - ((c.lat - LAT_MIN) / (LAT_MAX - LAT_MIN)) * (Y_MAX - Y_MIN);
-});
-
 // Field sightings: personal observations + forum-reported locations.
 // Year is used to fade in/out as slider scrubs (sightings visible at their year and after).
 const sightings = [
   { name:"OnX sighting 3/24/25", lat:36.0514, lng:-84.7395, year:2025, note:"Confirmed sighting · near Catoosa WMA" },
   { name:"Lancing area", lat:36.116,  lng:-84.689,  year:2023, note:"Forum reports of birds · just north of Catoosa" },
 ];
-sightings.forEach(s=>{
-  s.x = X_MIN + ((s.lng - LON_MIN) / (LON_MAX - LON_MIN)) * (X_MAX - X_MIN);
-  s.y = Y_MAX - ((s.lat - LAT_MIN) / (LAT_MAX - LAT_MIN)) * (Y_MAX - Y_MIN);
-});
 
-// ───────── RENDER ─────────
+// Candidate Wildlife Management Areas / state forests discussed in section 5.
+// Coordinates are approximate centroids; acres from TWRA / TN State Forests.
+const wmas = [
+  { name:"Catoosa WMA",            lat:36.0514, lng:-84.7395, acres:5000,  note:"Cumberland Plateau · RGS Dynamic Forest Restoration block (2022–)" },
+  { name:"Lone Mountain State Forest", lat:36.166, lng:-84.318, acres:4000,  note:"Cumberland Plateau · contiguous with Catoosa" },
+  { name:"Standing Stone SF & WMA",lat:36.466,  lng:-85.419, acres:11000, note:"Cumberland Plateau · mixed-age mosaic, mostly older stands" },
+  { name:"Pickett SF & WMA",       lat:36.553,  lng:-84.814, acres:8000,  note:"Northern Cumberland Plateau, near KY line" },
+];
+
+// ───────── DOM ─────────
 const slider = document.getElementById('yearSlider');
 const yearDisplay = document.getElementById('yearDisplay');
 const yearMeta = document.getElementById('yearMeta');
 const yearBar = document.getElementById('yearBar');
-const circlesG = document.getElementById('circles');
-const sightingsG = document.getElementById('sightings');
-const ebirdG = document.getElementById('ebird');
-const labelsG = document.getElementById('labels');
+const ebirdCountEl = document.getElementById('ebirdCount');
 const playBtn = document.getElementById('playBtn');
 const resetBtn = document.getElementById('resetBtn');
 const cbcToggle = document.getElementById('cbcToggle');
 const sightToggle = document.getElementById('sightToggle');
 const ebirdToggle = document.getElementById('ebirdToggle');
-const ebirdCountEl = document.getElementById('ebirdCount');
+const svgCirclesG = document.getElementById('svgCircles');
+const svgEbirdG = document.getElementById('svgEbird');
+const svgSightingsG = document.getElementById('svgSightings');
+const svgLabelsG = document.getElementById('svgLabels');
 
 let showCBC = true;
 let showSightings = true;
 let showEbird = true;
-let ebirdObservations = []; // populated by loadEbirdData()
+let displayMode = 'cumulative';  // 'cumulative' or 'year-only'
+let ebirdObservations = [];
 
-// initial label render
-function renderLabels(){
-  labelsG.innerHTML = '';
-  circles.forEach(c=>{
-    // offset labels to avoid overlap; group nearby ones differently
-    let dx = 10, dy = -10, anchor='start';
-    if(c.name==='Mecca'){ dx = -10; dy = 14; anchor='end'; }
-    if(c.name==='Tellico'){ dx = 10; dy = -14; anchor='start'; }
-    if(c.name==='Allens Bridge'){ dx = -12; dy = -8; anchor='end'; }
-    if(c.name==='Fish Springs'){ dx = 12; dy = 4; anchor='start'; }
-    if(c.name==='Newfound Gap'){ dx = 12; dy = 4; anchor='start'; }
-    if(c.name==='Oliver Springs'){ dx = -12; dy = -8; anchor='end'; }
+// ───────── lat/lng → SVG projection (Figure 1 only) ─────────
+const LON_MIN=-90.3, LON_MAX=-81.6, LAT_MIN=34.98, LAT_MAX=36.68;
+const X_MIN=25, X_MAX=660, Y_MIN=70, Y_MAX=295;
+function svgProj(lng, lat){
+  return [
+    X_MIN + ((lng - LON_MIN) / (LON_MAX - LON_MIN)) * (X_MAX - X_MIN),
+    Y_MAX - ((lat - LAT_MIN) / (LAT_MAX - LAT_MIN)) * (Y_MAX - Y_MIN),
+  ];
+}
+circles.forEach(c => { [c.x, c.y] = svgProj(c.lng, c.lat); });
+sightings.forEach(s => { [s.x, s.y] = svgProj(s.lng, s.lat); });
+
+// Rationalized CBC marker size. eBird points render at r≈3px; a CBC detection
+// of 1 grouse should be modestly larger but not dominate.
+function cbcRadius(val){ return 5 + val * 2; }  // 1→7, 2→9
+
+// ───────── SVG label render (static, on Figure 1) ─────────
+function renderSVGLabels(){
+  svgLabelsG.innerHTML = '';
+  const offsets = {
+    'Mecca':         [-10,  14, 'end'],
+    'Tellico':       [ 10, -14, 'start'],
+    'Allens Bridge': [-12,  -8, 'end'],
+    'Fish Springs':  [ 12,   4, 'start'],
+    'Newfound Gap':  [ 12,   4, 'start'],
+    'Oliver Springs':[-12,  -8, 'end'],
+  };
+  circles.forEach(c => {
+    const [dx, dy, anchor] = offsets[c.name] || [10, -10, 'start'];
     const t = document.createElementNS('http://www.w3.org/2000/svg','text');
     t.setAttribute('x', c.x + dx);
     t.setAttribute('y', c.y + dy);
@@ -812,135 +881,133 @@ function renderLabels(){
     t.setAttribute('fill','#16181a');
     t.setAttribute('text-anchor', anchor);
     t.textContent = c.name;
-    labelsG.appendChild(t);
+    svgLabelsG.appendChild(t);
   });
 }
-renderLabels();
+renderSVGLabels();
 
-function update(year){
-  yearDisplay.textContent = year;
+// ───────── SVG renderer (Figure 1, year-filtered) ─────────
+function renderSVG(year){
+  svgCirclesG.innerHTML = '';
+  let total = 0, surveyed = 0;
 
-  // compute total birds that year and update circles
-  let totalBirds = 0;
-  let countsConducted = 0;
-  circlesG.innerHTML = '';
-
-  circles.forEach(c => {
-    const d = data[c.name];
-    const inRange = year >= d.range[0] && year <= d.range[1];
-    let val;
-    if(!inRange) val = undefined;
-    else val = d.counts[year];
-
-    // base small dot
-    const baseCircle = document.createElementNS('http://www.w3.org/2000/svg','circle');
-    baseCircle.setAttribute('cx', c.x);
-    baseCircle.setAttribute('cy', c.y);
-    baseCircle.setAttribute('r', 3);
-    baseCircle.setAttribute('fill', '#3a4a3e');
-    baseCircle.setAttribute('opacity', '.6');
-    circlesG.appendChild(baseCircle);
-
-    if(val === undefined){
-      // not in survey range that year — just the small base dot
-    } else if(val === null){
-      // dash — count not done that year: hollow ring
-      const ring = document.createElementNS('http://www.w3.org/2000/svg','circle');
-      ring.setAttribute('cx', c.x);
-      ring.setAttribute('cy', c.y);
-      ring.setAttribute('r', 10);
-      ring.setAttribute('fill', 'none');
-      ring.setAttribute('stroke', '#c9bda5');
-      ring.setAttribute('stroke-width', '1.5');
-      ring.setAttribute('stroke-dasharray', '2 2');
-      circlesG.appendChild(ring);
-      countsConducted++;
-    } else if(val === 0){
-      // zero detected — small grey ring
-      const ring = document.createElementNS('http://www.w3.org/2000/svg','circle');
-      ring.setAttribute('cx', c.x);
-      ring.setAttribute('cy', c.y);
-      ring.setAttribute('r', 7);
-      ring.setAttribute('fill', 'none');
-      ring.setAttribute('stroke', '#3a4a3e');
-      ring.setAttribute('stroke-width', '1');
-      ring.setAttribute('opacity', '.4');
-      circlesG.appendChild(ring);
-      countsConducted++;
-    } else {
-      // birds detected!
-      const radius = 10 + val * 8; // scale with count
-      // glow
-      const glow = document.createElementNS('http://www.w3.org/2000/svg','circle');
-      glow.setAttribute('cx', c.x);
-      glow.setAttribute('cy', c.y);
-      glow.setAttribute('r', radius + 6);
-      glow.setAttribute('fill', '#a64822');
-      glow.setAttribute('opacity', '.15');
-      circlesG.appendChild(glow);
-
-      const mainCircle = document.createElementNS('http://www.w3.org/2000/svg','circle');
-      mainCircle.setAttribute('cx', c.x);
-      mainCircle.setAttribute('cy', c.y);
-      mainCircle.setAttribute('r', radius);
-      mainCircle.setAttribute('fill', '#a64822');
-      mainCircle.setAttribute('opacity', '.8');
-      mainCircle.setAttribute('stroke', '#7a3416');
-      mainCircle.setAttribute('stroke-width', '2');
-      circlesG.appendChild(mainCircle);
-
-      // number label
-      const nlabel = document.createElementNS('http://www.w3.org/2000/svg','text');
-      nlabel.setAttribute('x', c.x);
-      nlabel.setAttribute('y', c.y + 5);
-      nlabel.setAttribute('font-family','Source Serif 4, Charter, Georgia, serif');
-      nlabel.setAttribute('font-weight','600');
-      nlabel.setAttribute('font-size','15');
-      nlabel.setAttribute('fill','#fbfaf6');
-      nlabel.setAttribute('text-anchor','middle');
-      nlabel.textContent = val;
-      circlesG.appendChild(nlabel);
-
-      totalBirds += val;
-      countsConducted++;
-    }
-  });
-
-  yearMeta.textContent = `Total birds detected: ${totalBirds} · Circles surveyed: ${countsConducted}/6`;
-
-  // side bar chart
-  yearBar.innerHTML = '<h4>Detections this year</h4>';
   circles.forEach(c => {
     const d = data[c.name];
     const inRange = year >= d.range[0] && year <= d.range[1];
     const val = inRange ? d.counts[year] : undefined;
 
+    const baseDot = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    baseDot.setAttribute('cx', c.x); baseDot.setAttribute('cy', c.y);
+    baseDot.setAttribute('r', 2.5);
+    baseDot.setAttribute('fill', '#3a4a3e');
+    baseDot.setAttribute('opacity', '.55');
+    svgCirclesG.appendChild(baseDot);
+
+    if(val === undefined) return;
+
+    if(val === null){
+      const ring = document.createElementNS('http://www.w3.org/2000/svg','circle');
+      ring.setAttribute('cx', c.x); ring.setAttribute('cy', c.y);
+      ring.setAttribute('r', 8);
+      ring.setAttribute('fill', 'none');
+      ring.setAttribute('stroke', '#6f7378');
+      ring.setAttribute('stroke-width', '1');
+      ring.setAttribute('stroke-dasharray', '2 2');
+      svgCirclesG.appendChild(ring);
+      surveyed++;
+    } else if(val === 0){
+      const ring = document.createElementNS('http://www.w3.org/2000/svg','circle');
+      ring.setAttribute('cx', c.x); ring.setAttribute('cy', c.y);
+      ring.setAttribute('r', 5);
+      ring.setAttribute('fill', 'none');
+      ring.setAttribute('stroke', '#4a4e52');
+      ring.setAttribute('stroke-width', '1');
+      ring.setAttribute('opacity', '.4');
+      svgCirclesG.appendChild(ring);
+      surveyed++;
+    } else {
+      const r = cbcRadius(val);
+      const main = document.createElementNS('http://www.w3.org/2000/svg','circle');
+      main.setAttribute('cx', c.x); main.setAttribute('cy', c.y);
+      main.setAttribute('r', r);
+      main.setAttribute('fill', '#a64822');
+      main.setAttribute('stroke', '#7a3416');
+      main.setAttribute('stroke-width', '1');
+      main.setAttribute('opacity', '.9');
+      const cbcTitle = document.createElementNS('http://www.w3.org/2000/svg','title');
+      cbcTitle.textContent = `${year} · ${c.lat.toFixed(4)}, ${c.lng.toFixed(4)} · CBC ${c.name} · ${val} grouse detected`;
+      main.appendChild(cbcTitle);
+      svgCirclesG.appendChild(main);
+
+      const nlabel = document.createElementNS('http://www.w3.org/2000/svg','text');
+      nlabel.setAttribute('x', c.x); nlabel.setAttribute('y', c.y + 3);
+      nlabel.setAttribute('font-family','Source Serif 4, Charter, Georgia, serif');
+      nlabel.setAttribute('font-weight','600');
+      nlabel.setAttribute('font-size','9');
+      nlabel.setAttribute('fill','#fbfaf6');
+      nlabel.setAttribute('text-anchor','middle');
+      nlabel.setAttribute('pointer-events','none');
+      nlabel.textContent = val;
+      svgCirclesG.appendChild(nlabel);
+
+      total += val; surveyed++;
+    }
+  });
+  svgCirclesG.style.display = showCBC ? '' : 'none';
+  yearMeta.textContent = `Total birds detected: ${total} · Circles surveyed: ${surveyed}/6`;
+
+  // sightings
+  svgSightingsG.innerHTML = '';
+  svgSightingsG.style.display = showSightings ? '' : 'none';
+  sightings.forEach(s => {
+    if(displayMode === 'year-only' ? s.year !== year : year < s.year) return;
+    const half = 5;
+    const diamond = document.createElementNS('http://www.w3.org/2000/svg','polygon');
+    diamond.setAttribute('points', `${s.x},${s.y-half} ${s.x+half},${s.y} ${s.x},${s.y+half} ${s.x-half},${s.y}`);
+    diamond.setAttribute('fill', '#b88a3d');
+    diamond.setAttribute('stroke', '#1d2e1a');
+    diamond.setAttribute('stroke-width', '1');
+    svgSightingsG.appendChild(diamond);
+    const title = document.createElementNS('http://www.w3.org/2000/svg','title');
+    title.textContent = `${s.year} · ${s.lat.toFixed(4)}, ${s.lng.toFixed(4)} · ${s.name} · ${s.note}`;
+    diamond.appendChild(title);
+  });
+
+  // eBird dots
+  svgEbirdG.innerHTML = '';
+  svgEbirdG.style.display = showEbird ? '' : 'none';
+  ebirdObservations.forEach(o => {
+    if(displayMode === 'year-only' ? o.year !== year : o.year > year) return;
+    const [x, y] = svgProj(o.lng, o.lat);
+    const age = displayMode === 'year-only' ? 0 : (year - o.year);
+    const opacity = Math.max(0.22, 1 - age * 0.10);
+    const dot = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    dot.setAttribute('cx', x); dot.setAttribute('cy', y);
+    dot.setAttribute('r', 2.5);
+    dot.setAttribute('fill', '#2f4a2a');
+    dot.setAttribute('stroke', '#1d2e1a');
+    dot.setAttribute('stroke-width', '.4');
+    dot.setAttribute('opacity', opacity);
+    svgEbirdG.appendChild(dot);
+    const title = document.createElementNS('http://www.w3.org/2000/svg','title');
+    const cnt = o.count == null ? 'present' : `${o.count} bird${o.count===1?'':'s'}`;
+    title.textContent = `${o.year} · ${o.lat.toFixed(4)}, ${o.lng.toFixed(4)} · ${cnt} · ${o.loc || 'unknown'}${o.date ? ' (' + o.date + ')' : ''}`;
+    dot.appendChild(title);
+  });
+}
+
+function renderYearBar(year){
+  yearBar.innerHTML = '<h4>Detections this year</h4>';
+  circles.forEach(c => {
+    const d = data[c.name];
+    const inRange = year >= d.range[0] && year <= d.range[1];
+    const val = inRange ? d.counts[year] : undefined;
+    let fillClass = '', fillStyle = 'width:0%', valText = '—', valClass = '';
+    if(val === null){ fillClass = 'dash'; fillStyle = 'width:100%'; valText = 'no count'; }
+    else if(val === 0){ fillClass = 'zero'; valText = '0'; }
+    else if(typeof val === 'number' && val > 0){ fillStyle = `width:${val * 50}%`; valText = val; valClass = 'hit'; }
     const row = document.createElement('div');
     row.className = 'bar-row';
-
-    let fillStyle = '';
-    let fillClass = '';
-    let valText = '—';
-    let valClass = '';
-
-    if(val === undefined){
-      fillClass = 'zero';
-      fillStyle = 'width:0%';
-      valText = '—';
-    } else if(val === null){
-      fillClass = 'dash';
-      fillStyle = 'width:100%';
-      valText = 'no count';
-    } else if(val === 0){
-      fillClass = 'zero';
-      fillStyle = 'width:0%';
-      valText = '0';
-    } else {
-      fillStyle = `width:${val * 50}%`;
-      valText = val;
-      valClass = 'hit';
-    }
-
     row.innerHTML = `
       <div class="name">${c.name}</div>
       <div class="bar-track"><div class="bar-fill ${fillClass}" style="${fillStyle}"></div></div>
@@ -948,110 +1015,126 @@ function update(year){
     `;
     yearBar.appendChild(row);
   });
-
-  // ───── render sightings layer ─────
-  sightingsG.innerHTML = '';
-  sightingsG.style.display = showSightings ? '' : 'none';
-  circlesG.style.display = showCBC ? '' : 'none';
-
-  if(showSightings){
-    sightings.forEach(s => {
-      // only show sightings whose year is <= current slider year (so they "appear" as time progresses)
-      const visible = year >= s.year;
-      if(!visible) return;
-
-      // diamond marker: rotate-45 square
-      const size = 14;
-      const half = size / 2;
-      const pts = `${s.x},${s.y - half} ${s.x + half},${s.y} ${s.x},${s.y + half} ${s.x - half},${s.y}`;
-
-      // glow
-      const glow = document.createElementNS('http://www.w3.org/2000/svg','polygon');
-      const glowSize = size + 8;
-      const gh = glowSize / 2;
-      glow.setAttribute('points', `${s.x},${s.y - gh} ${s.x + gh},${s.y} ${s.x},${s.y + gh} ${s.x - gh},${s.y}`);
-      glow.setAttribute('fill', '#b88a3d');
-      glow.setAttribute('opacity', '.2');
-      sightingsG.appendChild(glow);
-
-      const diamond = document.createElementNS('http://www.w3.org/2000/svg','polygon');
-      diamond.setAttribute('points', pts);
-      diamond.setAttribute('fill', '#b88a3d');
-      diamond.setAttribute('stroke', '#1d2e1a');
-      diamond.setAttribute('stroke-width', '1.5');
-      sightingsG.appendChild(diamond);
-
-      // tooltip on hover
-      const title = document.createElementNS('http://www.w3.org/2000/svg','title');
-      title.textContent = `${s.name} (${s.year}) — ${s.note}`;
-      diamond.appendChild(title);
-
-      // small label
-      const label = document.createElementNS('http://www.w3.org/2000/svg','text');
-      label.setAttribute('x', s.x);
-      label.setAttribute('y', s.y - 12);
-      label.setAttribute('font-family','Inter, sans-serif');
-      label.setAttribute('font-size','9');
-      label.setAttribute('fill','#7a3416');
-      label.setAttribute('text-anchor','middle');
-      label.setAttribute('font-weight','600');
-      label.textContent = s.year;
-      sightingsG.appendChild(label);
-    });
-  }
-
-  // ───── render eBird layer ─────
-  ebirdG.innerHTML = '';
-  ebirdG.style.display = showEbird ? '' : 'none';
-
-  if(showEbird && ebirdObservations.length){
-    // Project + filter to obs at or before current year (so scrubbing reveals over time)
-    ebirdObservations.forEach(o => {
-      if(o.year > year) return;  // hide future obs
-      if(o.lat == null || o.lng == null) return;
-      const x = X_MIN + ((o.lng - LON_MIN) / (LON_MAX - LON_MIN)) * (X_MAX - X_MIN);
-      const y = Y_MAX - ((o.lat - LAT_MIN) / (LAT_MAX - LAT_MIN)) * (Y_MAX - Y_MIN);
-
-      // age fade: newer obs darker, older ones lighter
-      const age = year - o.year;
-      const opacity = Math.max(0.25, 1 - age * 0.12);
-
-      const dot = document.createElementNS('http://www.w3.org/2000/svg','circle');
-      dot.setAttribute('cx', x);
-      dot.setAttribute('cy', y);
-      dot.setAttribute('r', 3.5);
-      dot.setAttribute('fill', '#2f4a2a');
-      dot.setAttribute('stroke', '#1d2e1a');
-      dot.setAttribute('stroke-width', '.5');
-      dot.setAttribute('opacity', opacity);
-      ebirdG.appendChild(dot);
-
-      const title = document.createElementNS('http://www.w3.org/2000/svg','title');
-      const countStr = o.count == null ? 'present' : `${o.count} bird${o.count===1?'':'s'}`;
-      title.textContent = `${o.loc || 'unknown'} — ${o.date} (${countStr})`;
-      dot.appendChild(title);
-    });
-  }
 }
 
+function update(year){
+  yearDisplay.textContent = year;
+  renderSVG(year);
+  renderYearBar(year);
+}
+
+// ───────── Leaflet detail map (Figure 2, static — all observations) ─────────
+const detailMap = L.map('detailMap', {
+  center: [35.83, -85.5], zoom: 7, scrollWheelZoom: false,
+}).fitBounds([[34.98, -90.3], [36.68, -81.6]]);
+
+L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}', {
+  attribution: 'Tiles &copy; <a href="https://basemap.nationalmap.gov/">USGS National Map</a> · Data: TWRA, eBird',
+  maxZoom: 16,
+}).addTo(detailMap);
+
+const detailCbcGroup       = L.layerGroup().addTo(detailMap);
+const detailSightingsGroup = L.layerGroup().addTo(detailMap);
+const detailEbirdGroup     = L.layerGroup().addTo(detailMap);
+const detailWmaGroup       = L.layerGroup().addTo(detailMap);
+
+// Approximate WMA polygons (will be swapped for real boundaries if/when available)
+wmas.forEach(w => {
+  const radiusMeters = Math.sqrt((w.acres * 4046.86) / Math.PI);
+  L.circle([w.lat, w.lng], {
+    radius: radiusMeters, color: '#b88a3d', weight: 2,
+    fillColor: '#b88a3d', fillOpacity: 0.12,
+  })
+  .bindPopup(`<b>${w.name}</b><div class="meta">${w.acres.toLocaleString()} ac · candidate field site (approx. boundary)</div>${w.note}`)
+  .bindTooltip(w.name, {permanent:true, direction:'top', className:'wma-label', offset:[0,-6]})
+  .addTo(detailWmaGroup);
+});
+
+function renderDetailMap(){
+  detailCbcGroup.clearLayers();
+  detailSightingsGroup.clearLayers();
+  detailEbirdGroup.clearLayers();
+
+  circles.forEach(c => {
+    const d = data[c.name];
+    const detections = Object.entries(d.counts).filter(([y,v]) => typeof v === 'number' && v > 0);
+    const totalDetected = detections.reduce((s, [y,v]) => s + v, 0);
+    const years = detections.map(([y]) => y).sort();
+
+    const cbcTip = `${c.lat.toFixed(4)}, ${c.lng.toFixed(4)} · CBC ${c.name} · ${totalDetected ? totalDetected + ' grouse, ' + years.join(', ') : 'no detections'}`;
+    L.circleMarker([c.lat, c.lng], {
+      radius: 4, color: '#3a4a3e', weight: 0, fillColor: '#3a4a3e', fillOpacity: 0.65,
+    })
+    .bindPopup(`<b>${c.name} (CBC ${c.code})</b><div class="meta">${totalDetected ? `${totalDetected} grouse detected across ${years.length} year${years.length===1?'':'s'} (${years.join(', ')})` : 'No grouse detected in survey window'}<br>${c.lat.toFixed(4)}, ${c.lng.toFixed(4)}</div>`)
+    .bindTooltip(cbcTip, {sticky:true})
+    .addTo(detailCbcGroup);
+
+    if(totalDetected > 0){
+      const r = cbcRadius(totalDetected);
+      L.circleMarker([c.lat, c.lng], {
+        radius: r, color: '#7a3416', weight: 1.25, fillColor: '#a64822', fillOpacity: 0.75,
+      })
+      .bindTooltip(cbcTip, {sticky:true})
+      .addTo(detailCbcGroup);
+    }
+  });
+
+  sightings.forEach(s => {
+    const tip = `${s.year} · ${s.lat.toFixed(4)}, ${s.lng.toFixed(4)} · ${s.name}`;
+    L.marker([s.lat, s.lng], {
+      icon: L.divIcon({
+        html: '<div style="width:12px;height:12px;background:#b88a3d;border:1.5px solid #1d2e1a;transform:rotate(45deg);"></div>',
+        className: '', iconSize:[12,12], iconAnchor:[6,6],
+      }),
+    })
+    .bindPopup(`<b>${s.name}</b><div class="meta">${s.year} · field sighting · ${s.lat.toFixed(4)}, ${s.lng.toFixed(4)}</div>${s.note}`)
+    .bindTooltip(tip, {sticky:true})
+    .addTo(detailSightingsGroup);
+  });
+
+  ebirdObservations.forEach(o => {
+    const cnt = o.count == null ? 'present' : (o.count + ' bird' + (o.count===1?'':'s'));
+    const tip = `${o.year} · ${o.lat.toFixed(4)}, ${o.lng.toFixed(4)} · ${cnt}${o.loc ? ' · ' + o.loc : ''}`;
+    L.circleMarker([o.lat, o.lng], {
+      radius: 3, color: '#1d2e1a', weight: 0.5, fillColor: '#2f4a2a', fillOpacity: 0.7,
+    })
+    .bindPopup(`<b>${o.loc || 'unknown'}</b><div class="meta">${o.date} · ${cnt} · ${o.lat.toFixed(4)}, ${o.lng.toFixed(4)} · eBird</div>`)
+    .bindTooltip(tip, {sticky:true})
+    .addTo(detailEbirdGroup);
+  });
+}
+
+// ───────── layer toggles (drive both maps) ─────────
 cbcToggle.addEventListener('click', () => {
   showCBC = !showCBC;
   cbcToggle.classList.toggle('on', showCBC);
   update(parseInt(slider.value));
+  if(showCBC) detailCbcGroup.addTo(detailMap); else detailMap.removeLayer(detailCbcGroup);
 });
 sightToggle.addEventListener('click', () => {
   showSightings = !showSightings;
   sightToggle.classList.toggle('on', showSightings);
   update(parseInt(slider.value));
+  if(showSightings) detailSightingsGroup.addTo(detailMap); else detailMap.removeLayer(detailSightingsGroup);
 });
 ebirdToggle.addEventListener('click', () => {
   if(ebirdToggle.disabled) return;
   showEbird = !showEbird;
   ebirdToggle.classList.toggle('on', showEbird);
   update(parseInt(slider.value));
+  if(showEbird) detailEbirdGroup.addTo(detailMap); else detailMap.removeLayer(detailEbirdGroup);
 });
 
-// ───── load eBird snapshot (if present) ─────
+// ───── display mode (cumulative vs. year-only) ─────
+document.querySelectorAll('.mode-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    displayMode = btn.dataset.mode;
+    document.querySelectorAll('.mode-btn').forEach(b => b.classList.toggle('on', b === btn));
+    update(parseInt(slider.value));
+  });
+});
+
+// ───────── eBird snapshot loader ─────────
 async function loadEbirdData(){
   try {
     const res = await fetch('data/ebird_grouse_tn.json', {cache: 'no-cache'});
@@ -1061,54 +1144,51 @@ async function loadEbirdData(){
     ebirdToggle.disabled = false;
     ebirdToggle.style.opacity = '1';
     ebirdCountEl.textContent = `(${ebirdObservations.length})`;
-    // also extend slider range if eBird has newer years
     const maxYear = Math.max(...ebirdObservations.map(o => o.year));
     if(maxYear > parseInt(slider.max)) slider.max = maxYear;
     update(parseInt(slider.value));
+    renderDetailMap();
     console.log(`Loaded ${ebirdObservations.length} eBird observations`);
   } catch(err){
-    // graceful: leave toggle disabled, no data yet
     ebirdCountEl.textContent = '(no data)';
     console.info('eBird snapshot not loaded:', err.message);
   }
 }
 loadEbirdData();
+renderDetailMap();  // initial CBC + sightings + WMAs (eBird re-renders when data arrives)
 
 slider.addEventListener('input', e => update(parseInt(e.target.value)));
 
-// auto-play
+// ───────── auto-play ─────────
 let playInterval = null;
 playBtn.addEventListener('click', () => {
   if(playInterval){
-    clearInterval(playInterval);
-    playInterval = null;
-    playBtn.textContent = '▶ Play';
+    clearInterval(playInterval); playInterval = null;
+    playBtn.textContent = 'Play';
   } else {
-    playBtn.textContent = '⏸ Pause';
+    playBtn.textContent = 'Pause';
     let y = parseInt(slider.value);
-    if(y >= 2024) y = 1966;
+    if(y >= parseInt(slider.max)) y = parseInt(slider.min);
     playInterval = setInterval(() => {
       y++;
-      if(y > 2024){
-        clearInterval(playInterval);
-        playInterval = null;
-        playBtn.textContent = '▶ Play';
+      if(y > parseInt(slider.max)){
+        clearInterval(playInterval); playInterval = null;
+        playBtn.textContent = 'Play';
         return;
       }
       slider.value = y;
       update(y);
-    }, 300);
+    }, 250);
   }
 });
 
 resetBtn.addEventListener('click', () => {
-  if(playInterval){ clearInterval(playInterval); playInterval = null; playBtn.textContent = '▶ Play'; }
-  slider.value = 1966;
-  update(1966);
+  if(playInterval){ clearInterval(playInterval); playInterval = null; playBtn.textContent = 'Play'; }
+  slider.value = parseInt(slider.min);
+  update(parseInt(slider.min));
 });
 
-// init
-update(2021);
+update(parseInt(slider.value));
 </script>
 </body>
 </html>
