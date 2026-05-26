@@ -3291,6 +3291,2462 @@
       "date": "2016-05-29 09:00",
       "year": 2016,
       "count": 5
+    },
+    {
+      "lat": 35.6100043,
+      "lng": -83.5068397,
+      "loc": "Great Smoky Mountains NP (TN) (consider using more specific location)",
+      "date": "2016-05-23 08:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2016-05-16 10:03",
+      "year": 2016,
+      "count": 2
+    },
+    {
+      "lat": 36.52203,
+      "lng": -83.18816,
+      "loc": "Chestnut Ridge Rd.",
+      "date": "2016-05-12 17:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 36.1211264,
+      "lng": -82.0852257,
+      "loc": "Cherokee NF--Twin Springs",
+      "date": "2016-05-07 10:15",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 36.264579,
+      "lng": -84.30387,
+      "loc": "36.2646x-84.3039 - May 3, 2016, 7:31 AM",
+      "date": "2016-05-03 07:31",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.729679,
+      "lng": -83.405993,
+      "loc": "US-TN-Gatlinburg-Great Smoky Mountains National Park - 35.7297x-83.4060",
+      "date": "2016-05-02 14:45",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2016-04-30 10:10",
+      "year": 2016,
+      "count": 2
+    },
+    {
+      "lat": 35.6905314,
+      "lng": -83.4791965,
+      "loc": "TN Great Smoky Mt NP--Roaring Fork Motor Nature Trail",
+      "date": "2016-04-26 08:33",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.5990862,
+      "lng": -83.8099402,
+      "loc": "TN - Cades Cove Scenic Loop",
+      "date": "2016-04-25 12:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2016-04-24 08:28",
+      "year": 2016,
+      "count": 2
+    },
+    {
+      "lat": 35.6100043,
+      "lng": -83.5068397,
+      "loc": "Great Smoky Mountains NP (TN) (consider using more specific location)",
+      "date": "2016-04-23 14:45",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2016-04-17 08:30",
+      "year": 2016,
+      "count": 3
+    },
+    {
+      "lat": 35.6148139,
+      "lng": -83.4148979,
+      "loc": "Great Smoky Mountains NP--Charlie's Bunion Trail",
+      "date": "2016-04-16 13:00",
+      "year": 2016,
+      "count": null
+    },
+    {
+      "lat": 35.6796908,
+      "lng": -83.649044,
+      "loc": "Metcalf Bottoms",
+      "date": "2016-04-07 09:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.6148139,
+      "lng": -83.4148979,
+      "loc": "Great Smoky Mountains NP--Charlie's Bunion Trail",
+      "date": "2016-04-02 10:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.6879621,
+      "lng": -83.4628508,
+      "loc": "Great Smoky Mountains NP--Roaring Fork Motor Nature Trail",
+      "date": "2016-04-01 07:30",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.680567,
+      "lng": -83.3969328,
+      "loc": "Great Smoky Mountains NP--Porters Creek Trail",
+      "date": "2016-03-26 07:30",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.66343,
+      "lng": -83.306541,
+      "loc": "Eagle Rock Prong",
+      "date": "2016-03-18 07:20",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.757328,
+      "lng": -83.518117,
+      "loc": "US-TN-Sevierville-455 Sassafras Trl - 35.7573x-83.5181",
+      "date": "2016-03-17 13:09",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.6879621,
+      "lng": -83.4628508,
+      "loc": "Great Smoky Mountains NP--Roaring Fork Motor Nature Trail",
+      "date": "2016-03-15 07:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2016-03-12 11:30",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.6770015,
+      "lng": -83.6554492,
+      "loc": "Road to Metcalf Bottoms- GSMNP",
+      "date": "2016-02-27 15:00",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.703,
+      "lng": -83.333628,
+      "loc": "Great Smoky Mountains NP--Ramsey Cascades",
+      "date": "2016-01-08 09:02",
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "lat": 35.6522749,
+      "lng": -83.5975885,
+      "loc": "Great Smoky Mt. NP--Meigs Mt Trail",
+      "date": "2015-12-31 12:01",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 36.1069533,
+      "lng": -82.1154213,
+      "loc": "Cherokee NF--Appalachian Trail, Roan High Knob to Carver's Gap",
+      "date": "2015-12-20 10:00",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.669303,
+      "lng": -83.662249,
+      "loc": "Great Smoky Mountains NP--The Sinks",
+      "date": "2015-11-15 14:00",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2015-10-28 16:00",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.6933432,
+      "lng": -83.6450958,
+      "loc": "GSMNP- Little Greenbriar Trail",
+      "date": "2015-10-24 07:45",
+      "year": 2015,
+      "count": 2
+    },
+    {
+      "lat": 35.5851556,
+      "lng": -83.8426366,
+      "loc": "Great Smoky Mountains NP--Cades Cove Visitor Center",
+      "date": "2015-10-21 09:00",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.6111036,
+      "lng": -83.4245147,
+      "loc": "Great Smoky Mountains NP--Newfound Gap (probably not TN)",
+      "date": "2015-10-12 14:00",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.7458333,
+      "lng": -83.3680556,
+      "loc": "Great Smoky Mt. NP--Soak Ash Creek",
+      "date": "2015-10-11 10:30",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.6664015,
+      "lng": -83.6019689,
+      "loc": "Little river road West of elkmont",
+      "date": "2015-10-08 08:30",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.611325,
+      "lng": -83.4373856,
+      "loc": "Clingman's Dome Trail",
+      "date": "2015-09-25 08:33",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.6779301,
+      "lng": -83.8916095,
+      "loc": "Foothills Pkwy. West--Hawk Lookout",
+      "date": "2015-09-13 09:30",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.3548,
+      "lng": -84.130997,
+      "loc": "US-TN-Tellico Plains-Cherokee National Forest - 35.3548x-84.1310",
+      "date": "2015-09-11 16:30",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2015-08-28 08:45",
+      "year": 2015,
+      "count": 3
+    },
+    {
+      "lat": 36.4840828,
+      "lng": -82.0182029,
+      "loc": "Cherokee NF--Holston Mountain",
+      "date": "2015-08-15 08:34",
+      "year": 2015,
+      "count": 3
+    },
+    {
+      "lat": 35.762291,
+      "lng": -83.420204,
+      "loc": "Home",
+      "date": "2015-08-05 11:05",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.6245064,
+      "lng": -83.8213712,
+      "loc": "Great Smoky Mountains NP--Rich Mountain Rd.",
+      "date": "2015-07-29 19:15",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.6130477,
+      "lng": -83.5510221,
+      "loc": "Metcalf Bottoms",
+      "date": "2015-06-20 18:00",
+      "year": 2015,
+      "count": 3
+    },
+    {
+      "lat": 35.3421548,
+      "lng": -84.2258263,
+      "loc": "Cherokee National Forest (Telico Plains)",
+      "date": "2015-06-16 06:13",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.3421548,
+      "lng": -84.2258263,
+      "loc": "Cherokee National Forest (Telico Plains)",
+      "date": "2015-06-14 13:30",
+      "year": 2015,
+      "count": 2
+    },
+    {
+      "lat": 35.5312909,
+      "lng": -83.8786645,
+      "loc": "Great Smoky Mountains NP--Gregory Bald Trail (TN)",
+      "date": "2015-06-07 08:33",
+      "year": 2015,
+      "count": 10
+    },
+    {
+      "lat": 36.54346,
+      "lng": -81.987514,
+      "loc": "Towhee Ridge-Holston Mt-US-421",
+      "date": "2015-06-06 10:15",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 36.4656217,
+      "lng": -81.7372459,
+      "loc": "Highway 167 - Forge Creek Road",
+      "date": "2015-05-27 09:10",
+      "year": 2015,
+      "count": 6
+    },
+    {
+      "lat": 35.10761,
+      "lng": -84.45215,
+      "loc": "Polk Co. KMH mile 5.1",
+      "date": "2015-05-26 07:15",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 36.12124,
+      "lng": -84.46147,
+      "loc": "Frozen Head SNA, ~200m south Tub Spring, Cerulean Warbler spot map grid 36.12104, -84.46137",
+      "date": "2015-05-18 07:10",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.593509,
+      "lng": -83.596789,
+      "loc": "US-TN-Gatlinburg - 35.5935x-83.5968 - May 17, 2015, 3:57 PM",
+      "date": "2015-05-17 08:00",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 36.12124,
+      "lng": -84.46147,
+      "loc": "Frozen Head SNA, ~200m south Tub Spring, Cerulean Warbler spot map grid 36.12104, -84.46137",
+      "date": "2015-05-14 07:10",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2015-05-03 07:40",
+      "year": 2015,
+      "count": 2
+    },
+    {
+      "lat": 35.6082983,
+      "lng": -83.9342809,
+      "loc": "Great Smoky Mountains NP--Abrams Creek--Rabbit Creek Loop",
+      "date": "2015-05-02 09:45",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.17859,
+      "lng": -84.57592,
+      "loc": "Polk Co. FS Rd. 77 mile 9.9",
+      "date": "2015-04-30 11:05",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 36.2695236,
+      "lng": -84.3013197,
+      "loc": "Ashlog Mountain, TN",
+      "date": "2015-04-29 07:00",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2015-04-28 10:00",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 36.2695236,
+      "lng": -84.3013197,
+      "loc": "Ashlog Mountain, TN",
+      "date": "2015-04-27 07:30",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.9680548,
+      "lng": -84.8481566,
+      "loc": "undeveloped Fairfield Glade/Daddy Creek/Overlook Trail",
+      "date": "2015-04-26 07:45",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.6400096,
+      "lng": -83.961854,
+      "loc": "Harmony Family Center at Montvale (restricted access)",
+      "date": "2015-04-21 08:11",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.1126,
+      "lng": -84.4699,
+      "loc": "Polk Co. KMH mile 3.0",
+      "date": "2015-04-16 08:50",
+      "year": 2015,
+      "count": 3
+    },
+    {
+      "lat": 35.17993,
+      "lng": -84.56692,
+      "loc": "Polk Co. FS Rd. 77 mile 10.5",
+      "date": "2015-04-14 08:30",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.6385646,
+      "lng": -83.4918516,
+      "loc": "Great Smoky Mountains NP--Chimney Tops Overlook",
+      "date": "2015-04-12 10:00",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 36.467516,
+      "lng": -82.123815,
+      "loc": "US-TN-Bluff City-1104 Flatwoods Rd",
+      "date": "2015-04-11 09:27",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2015-04-09 07:45",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.5307594,
+      "lng": -83.9857578,
+      "loc": "Great Smoky Mountains NP--Shop Creek",
+      "date": "2015-04-03 11:00",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 36.2130578,
+      "lng": -84.0655246,
+      "loc": "Norris Watershed--Lower Clear Creek",
+      "date": "2015-04-01 13:05",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.6370781,
+      "lng": -83.9711022,
+      "loc": "Montvale property",
+      "date": "2015-03-31 15:15",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2015-03-28 09:00",
+      "year": 2015,
+      "count": 2
+    },
+    {
+      "lat": 36.023379,
+      "lng": -82.509135,
+      "loc": "Coffee Ridge Road",
+      "date": "2015-02-22 13:39",
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "lat": 35.1925,
+      "lng": -84.55855,
+      "loc": "Polk Co. Oswald Dome",
+      "date": "2014-12-26 12:30",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.0376503,
+      "lng": -82.5305514,
+      "loc": "Rhodes' Property",
+      "date": "2014-12-25 12:00",
+      "year": 2014,
+      "count": 2
+    },
+    {
+      "lat": 35.7458333,
+      "lng": -83.3680556,
+      "loc": "Great Smoky Mt. NP--Soak Ash Creek",
+      "date": "2014-12-20 09:35",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2014-11-07 10:02",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.7458333,
+      "lng": -83.3680556,
+      "loc": "Great Smoky Mt. NP--Soak Ash Creek",
+      "date": "2014-10-12 13:40",
+      "year": 2014,
+      "count": 2
+    },
+    {
+      "lat": 36.2122757,
+      "lng": -82.2123076,
+      "loc": "Simerly Creek Rd",
+      "date": "2014-10-08 07:00",
+      "year": 2014,
+      "count": 2
+    },
+    {
+      "lat": 36.0360162,
+      "lng": -82.5908958,
+      "loc": "AT -- SOBO 1880, Flint Mtn.",
+      "date": "2014-10-04",
+      "year": 2014,
+      "count": null
+    },
+    {
+      "lat": 35.5431916,
+      "lng": -83.893919,
+      "loc": "Great Smoky Mountains NP--Parson's Branch Rd.",
+      "date": "2014-10-01 08:30",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.843022,
+      "lng": -82.978582,
+      "loc": "max patch",
+      "date": "2014-08-25 15:06",
+      "year": 2014,
+      "count": 5
+    },
+    {
+      "lat": 36.0376503,
+      "lng": -82.5305514,
+      "loc": "Rhodes' Property",
+      "date": "2014-08-09 16:50",
+      "year": 2014,
+      "count": 5
+    },
+    {
+      "lat": 36.1503288,
+      "lng": -83.0870891,
+      "loc": "Wildlife Refuge",
+      "date": "2014-07-03 07:30",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.1177137,
+      "lng": -82.3332017,
+      "loc": "Cherokee NF---Beauty Spot",
+      "date": "2014-06-19 11:45",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2014-06-14 08:25",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.5779476,
+      "lng": -83.480258,
+      "loc": "TN GSMNP Spruce-Fir Nature Trail",
+      "date": "2014-06-13 09:05",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2014-06-06 08:15",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.3421548,
+      "lng": -84.2258263,
+      "loc": "Cherokee National Forest (Telico Plains)",
+      "date": "2014-06-03 06:38",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2014-06-01 11:00",
+      "year": 2014,
+      "count": 2
+    },
+    {
+      "lat": 35.8492742,
+      "lng": -83.380968,
+      "loc": "Great Smoky Mt. NP--Newfound gap",
+      "date": "2014-05-31 09:30",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2014-05-30 11:15",
+      "year": 2014,
+      "count": 8
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2014-05-17 07:40",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2014-05-16 08:45",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.1331587,
+      "lng": -84.5170498,
+      "loc": "Polk Co. KMH",
+      "date": "2014-05-14 07:15",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2014-05-12 10:50",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.1197116,
+      "lng": -82.3249984,
+      "loc": "Unaka Mt.",
+      "date": "2014-05-11 12:00",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.1647573,
+      "lng": -84.6780682,
+      "loc": "Polk Co. Nancy Ward SP",
+      "date": "2014-05-10 08:30",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.4337452,
+      "lng": -82.0735622,
+      "loc": "Cherokee National Forest - Holston Mt. - Forest Service Rd 202",
+      "date": "2014-05-09 08:05",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.2630649,
+      "lng": -82.09126,
+      "loc": "Laurel Fork Rd.",
+      "date": "2014-05-05 06:45",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.6402781,
+      "lng": -83.571496,
+      "loc": "Cucumber Gap Trail",
+      "date": "2014-05-03 08:37",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.10627,
+      "lng": -84.50507,
+      "loc": "Polk Co. Parks Cemetery",
+      "date": "2014-05-02 09:53",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2014-04-30 15:30",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2014-04-29 09:00",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.4337452,
+      "lng": -82.0735622,
+      "loc": "Cherokee National Forest - Holston Mt. - Forest Service Rd 202",
+      "date": "2014-04-28 10:15",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.7601845,
+      "lng": -83.236752,
+      "loc": "Great Smoky Mountains NP--Gabes Mountain Trail",
+      "date": "2014-04-25 15:00",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.17859,
+      "lng": -84.57592,
+      "loc": "Polk Co. FS Rd. 77 mile 9.9",
+      "date": "2014-04-23 09:11",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.7535596,
+      "lng": -83.4147745,
+      "loc": "Boling Knob",
+      "date": "2014-04-22 19:00",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.4781717,
+      "lng": -82.083149,
+      "loc": "flatwoods rd.",
+      "date": "2014-04-21 08:45",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.6100043,
+      "lng": -83.5068397,
+      "loc": "Great Smoky Mountains NP (TN) (consider using more specific location)",
+      "date": "2014-04-20",
+      "year": 2014,
+      "count": null
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2014-04-18 08:00",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.642279,
+      "lng": -83.643478,
+      "loc": "US-TN-GRSM--Meigs Mountain",
+      "date": "2014-04-17 09:00",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.3236728,
+      "lng": -82.1211225,
+      "loc": "Cherokee NF--Watauga Dam",
+      "date": "2014-04-16 07:00",
+      "year": 2014,
+      "count": null
+    },
+    {
+      "lat": 35.659429,
+      "lng": -83.583568,
+      "loc": "Great Smoky Mountains National Park District 11 Gatlinburg",
+      "date": "2014-04-13 19:36",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.266527,
+      "lng": -82.0804777,
+      "loc": "Cherokee NF--Pond Mountain (Laurel Fork Road)",
+      "date": "2014-04-06 07:05",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.5990144,
+      "lng": -83.7410648,
+      "loc": "Lead Cove Trail",
+      "date": "2014-03-23",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.2354923,
+      "lng": -82.3927005,
+      "loc": "Cherokee NF--Dry Creek Rd.",
+      "date": "2014-03-21 10:05",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2014-03-20 09:00",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 35.834689,
+      "lng": -82.946949,
+      "loc": "Round Mountain",
+      "date": "2014-03-17 08:00",
+      "year": 2014,
+      "count": 2
+    },
+    {
+      "lat": 36.0733864,
+      "lng": -82.4469767,
+      "loc": "AT Spivey Gap to Nolichucky",
+      "date": "2014-03-01 09:30",
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "lat": 36.3222483,
+      "lng": -82.4526501,
+      "loc": "Bear Run",
+      "date": "2013-12-22 14:50",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.2876338,
+      "lng": -82.0656169,
+      "loc": "Cherokee NF--Pond Mountain (Little Stony Creek Road)",
+      "date": "2013-12-14 13:40",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2013-11-23 09:20",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2013-11-09 08:30",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.7535748,
+      "lng": -83.4142285,
+      "loc": "Home - Private Residence",
+      "date": "2013-10-07 09:00",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.4013743,
+      "lng": -84.1111131,
+      "loc": "Cherokee NF--Indian Boundary Lake Recreation Area",
+      "date": "2013-10-06",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.7535748,
+      "lng": -83.4142285,
+      "loc": "Home - Private Residence",
+      "date": "2013-10-03 18:30",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.0376503,
+      "lng": -82.5305514,
+      "loc": "Rhodes' Property",
+      "date": "2013-10-02 07:30",
+      "year": 2013,
+      "count": 2
+    },
+    {
+      "lat": 35.7535748,
+      "lng": -83.4142285,
+      "loc": "Home - Private Residence",
+      "date": "2013-09-29 09:15",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.1157664,
+      "lng": -84.5734835,
+      "loc": "Polk Co. Parksville CG",
+      "date": "2013-08-05 08:30",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.28445,
+      "lng": -84.29738,
+      "loc": "North Cumberland WMA--Massengale Mountain",
+      "date": "2013-07-15 16:00",
+      "year": 2013,
+      "count": 2
+    },
+    {
+      "lat": 35.7259777,
+      "lng": -84.5137453,
+      "loc": "Swift Creek Farm",
+      "date": "2013-07-02 07:30",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.67336,
+      "lng": -83.39746,
+      "loc": "Porter's Creek Trail",
+      "date": "2013-06-26 05:50",
+      "year": 2013,
+      "count": 3
+    },
+    {
+      "lat": 36.107248,
+      "lng": -82.1105369,
+      "loc": "Cherokee NF--Carver's Gap",
+      "date": "2013-06-23 08:52",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.3467325,
+      "lng": -84.0478992,
+      "loc": "Rattlesnake Ridge Trailhead",
+      "date": "2013-06-08 10:45",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.703,
+      "lng": -83.333628,
+      "loc": "Great Smoky Mountains NP--Ramsey Cascades",
+      "date": "2013-06-07 11:00",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.720176,
+      "lng": -83.3312988,
+      "loc": "Greenbriar",
+      "date": "2013-06-04 07:00",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.71619,
+      "lng": -83.3491,
+      "loc": "Greenbrier Pinnacle Trail",
+      "date": "2013-05-29 05:50",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.3421548,
+      "lng": -84.2258263,
+      "loc": "Cherokee National Forest (Telico Plains)",
+      "date": "2013-05-28 06:39",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.6455792,
+      "lng": -83.4183311,
+      "loc": "Boulevard trail to alum cave trail",
+      "date": "2013-05-26 08:45",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2013-05-24 08:30",
+      "year": 2013,
+      "count": 7
+    },
+    {
+      "lat": 35.3421548,
+      "lng": -84.2258263,
+      "loc": "Cherokee National Forest (Telico Plains)",
+      "date": "2013-05-23 06:57",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.3421548,
+      "lng": -84.2258263,
+      "loc": "Cherokee National Forest (Telico Plains)",
+      "date": "2013-05-22 06:52",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.2354923,
+      "lng": -82.3927005,
+      "loc": "Cherokee NF--Dry Creek Rd.",
+      "date": "2013-05-21 08:20",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2013-05-17 07:20",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2013-05-16 09:15",
+      "year": 2013,
+      "count": 2
+    },
+    {
+      "lat": 36.1752334,
+      "lng": -82.0929766,
+      "loc": "Roan Mountain SP",
+      "date": "2013-05-04 12:55",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.7493629,
+      "lng": -83.3746576,
+      "loc": "Soak Ash Creek Wetland",
+      "date": "2013-05-02 09:20",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.2122757,
+      "lng": -82.2123076,
+      "loc": "Simerly Creek Rd",
+      "date": "2013-04-30 07:00",
+      "year": 2013,
+      "count": 2
+    },
+    {
+      "lat": 35.6245064,
+      "lng": -83.8213712,
+      "loc": "Great Smoky Mountains NP--Rich Mountain Rd.",
+      "date": "2013-04-25 08:00",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.17141,
+      "lng": -84.59207,
+      "loc": "Polk Co. FS Rd. 77 mile 8.8",
+      "date": "2013-04-23 11:00",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.5214148,
+      "lng": -82.0876765,
+      "loc": "South Holston Dam",
+      "date": "2013-04-14 16:30",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.5981357,
+      "lng": -83.4727478,
+      "loc": "Newfound gap",
+      "date": "2013-04-07 17:00",
+      "year": 2013,
+      "count": 2
+    },
+    {
+      "lat": 36.214901,
+      "lng": -82.123714,
+      "loc": "Old Railroad Grade Road",
+      "date": "2013-03-30 10:55",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.8240512,
+      "lng": -83.2106252,
+      "loc": "Foothills parkway east",
+      "date": "2013-03-21 18:00",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.1773754,
+      "lng": -82.5330734,
+      "loc": "Jackson Farm",
+      "date": "2013-03-17 14:30",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.4840828,
+      "lng": -82.0182029,
+      "loc": "Cherokee NF--Holston Mountain",
+      "date": "2013-02-23 09:00",
+      "year": 2013,
+      "count": 3
+    },
+    {
+      "lat": 35.6862675,
+      "lng": -83.5396957,
+      "loc": "Fighting Creek Gap Road",
+      "date": "2013-02-06 14:35",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.5898523,
+      "lng": -82.0495355,
+      "loc": "TN-44 (South Holston Lake)",
+      "date": "2013-01-13 08:30",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 36.266527,
+      "lng": -82.0804777,
+      "loc": "Cherokee NF--Pond Mountain (Laurel Fork Road)",
+      "date": "2013-01-12 09:31",
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "lat": 35.7458333,
+      "lng": -83.3680556,
+      "loc": "Great Smoky Mt. NP--Soak Ash Creek",
+      "date": "2012-12-23 09:10",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.1752334,
+      "lng": -82.0929766,
+      "loc": "Roan Mountain SP",
+      "date": "2012-12-16 07:30",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.2728051,
+      "lng": -85.1410389,
+      "loc": "lease",
+      "date": "2012-12-06 13:30",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.8604496,
+      "lng": -83.3296251,
+      "loc": "Rich Mountain Road",
+      "date": "2012-12-05",
+      "year": 2012,
+      "count": 2
+    },
+    {
+      "lat": 35.1331587,
+      "lng": -84.5170498,
+      "loc": "Polk Co. KMH",
+      "date": "2012-11-25 12:07",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.6062971,
+      "lng": -84.1150428,
+      "loc": "Kyker Bottoms Refuge",
+      "date": "2012-11-04 10:05",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.2122757,
+      "lng": -82.2123076,
+      "loc": "Simerly Creek Rd",
+      "date": "2012-11-03 09:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.5431916,
+      "lng": -83.893919,
+      "loc": "Great Smoky Mountains NP--Parson's Branch Rd.",
+      "date": "2012-10-24",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.9809215,
+      "lng": -82.9361174,
+      "loc": "Tweed Springs trail",
+      "date": "2012-10-21 13:00",
+      "year": 2012,
+      "count": 2
+    },
+    {
+      "lat": 35.7458333,
+      "lng": -83.3680556,
+      "loc": "Great Smoky Mt. NP--Soak Ash Creek",
+      "date": "2012-10-14 10:30",
+      "year": 2012,
+      "count": 2
+    },
+    {
+      "lat": 35.1003904,
+      "lng": -84.6075449,
+      "loc": "Polk Co. Oswald (FS Rd 77) Road",
+      "date": "2012-10-03 15:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.2880097,
+      "lng": -81.9855165,
+      "loc": "Sugar Hollow",
+      "date": "2012-07-06 10:00",
+      "year": 2012,
+      "count": 5
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2012-07-03 08:35",
+      "year": 2012,
+      "count": 2
+    },
+    {
+      "lat": 35.6738477,
+      "lng": -83.4494806,
+      "loc": "Great Smoky Mountains NP--Trillium Gap Trail",
+      "date": "2012-06-22 06:30",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.5250661,
+      "lng": -83.9694787,
+      "loc": "Skunk Ridge",
+      "date": "2012-06-20",
+      "year": 2012,
+      "count": 2
+    },
+    {
+      "lat": 35.6738477,
+      "lng": -83.4494806,
+      "loc": "Great Smoky Mountains NP--Trillium Gap Trail",
+      "date": "2012-06-19 06:15",
+      "year": 2012,
+      "count": 3
+    },
+    {
+      "lat": 35.5137543,
+      "lng": -83.9555803,
+      "loc": "Grassy Flats",
+      "date": "2012-06-03",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.5443526,
+      "lng": -83.9855513,
+      "loc": "Blacksmith",
+      "date": "2012-05-22",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2012-05-21 08:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.6209479,
+      "lng": -83.6766821,
+      "loc": "Tremont Road",
+      "date": "2012-05-18 07:30",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.5990797,
+      "lng": -83.8084269,
+      "loc": "Great Smoky Mountains NP--Cades Cove",
+      "date": "2012-05-08 08:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.7137306,
+      "lng": -83.844136,
+      "loc": "1st Parking Lot on Foothills Pkwy from Walland",
+      "date": "2012-05-05 20:20",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2012-05-02 08:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.154445,
+      "lng": -82.4696113,
+      "loc": "Cherokee NF--Rich Mt.--Forest Service Rd. 190",
+      "date": "2012-05-01 08:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.2292755,
+      "lng": -82.3876061,
+      "loc": "Cherokee NF---Forest Service Rd. 188",
+      "date": "2012-04-29 07:30",
+      "year": 2012,
+      "count": 3
+    },
+    {
+      "lat": 36.2292755,
+      "lng": -82.3876061,
+      "loc": "Cherokee NF---Forest Service Rd. 188",
+      "date": "2012-04-28 08:30",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.2292755,
+      "lng": -82.3876061,
+      "loc": "Cherokee NF---Forest Service Rd. 188",
+      "date": "2012-04-24 11:50",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.154445,
+      "lng": -82.4696113,
+      "loc": "Cherokee NF--Rich Mt.--Forest Service Rd. 190",
+      "date": "2012-04-17 08:40",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.0543377,
+      "lng": -84.5033989,
+      "loc": "Big Frog Trail",
+      "date": "2012-04-14 06:30",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.154445,
+      "lng": -82.4696113,
+      "loc": "Cherokee NF--Rich Mt.--Forest Service Rd. 190",
+      "date": "2012-04-13 09:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.0543377,
+      "lng": -84.5033989,
+      "loc": "Big Frog Trail",
+      "date": "2012-04-10 08:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.0327561,
+      "lng": -84.6092615,
+      "loc": "Big Frog Mtn",
+      "date": "2012-04-06 10:05",
+      "year": 2012,
+      "count": null
+    },
+    {
+      "lat": 36.2354923,
+      "lng": -82.3927005,
+      "loc": "Cherokee NF--Dry Creek Rd.",
+      "date": "2012-04-01",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.6112297,
+      "lng": -83.8823732,
+      "loc": "TN_Little Bottoms Trail",
+      "date": "2012-03-28 08:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.4110156,
+      "lng": -83.2197894,
+      "loc": "TN / Clinch Mtn, Hawkins",
+      "date": "2012-03-27 07:25",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2012-03-21",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.7493629,
+      "lng": -83.3746576,
+      "loc": "Soak Ash Creek Wetland",
+      "date": "2012-03-19 10:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.6341666,
+      "lng": -83.5652101,
+      "loc": "Cucumber Gap Trail",
+      "date": "2012-03-14 09:00",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.4110156,
+      "lng": -83.2197894,
+      "loc": "TN / Clinch Mtn, Hawkins",
+      "date": "2012-02-07 07:10",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 36.173697,
+      "lng": -82.1334736,
+      "loc": "Ripshin Lake",
+      "date": "2012-01-29 08:00",
+      "year": 2012,
+      "count": 3
+    },
+    {
+      "lat": 35.6093014,
+      "lng": -83.9506531,
+      "loc": "Happy Valley - Abrams Creek",
+      "date": "2012-01-01 07:30",
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "lat": 35.6481995,
+      "lng": -83.7402805,
+      "loc": "Great Smoky Mountains NP--Chestnut Top Trail",
+      "date": "2011-12-22 08:05",
+      "year": 2011,
+      "count": 2
+    },
+    {
+      "lat": 36.2181153,
+      "lng": -82.3702526,
+      "loc": "Pinnacle Mt Fire Tower",
+      "date": "2011-11-25",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 36.5342951,
+      "lng": -81.9470644,
+      "loc": "Shady Valley 421",
+      "date": "2011-10-27 17:30",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.6387158,
+      "lng": -83.4459478,
+      "loc": "Great Smoky Mountains NP--Alum Cave Trail",
+      "date": "2011-10-23 10:00",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.6353545,
+      "lng": -83.7320935,
+      "loc": "Great Smoky Mountains NP--Schoolhouse Gap Trail",
+      "date": "2011-10-05 09:15",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 36.2409504,
+      "lng": -82.0531082,
+      "loc": "FSR Bitter End",
+      "date": "2011-09-28 10:15",
+      "year": 2011,
+      "count": 3
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2011-09-16 07:00",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 36.154445,
+      "lng": -82.4696113,
+      "loc": "Cherokee NF--Rich Mt.--Forest Service Rd. 190",
+      "date": "2011-09-13 08:30",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.8445345,
+      "lng": -82.9720974,
+      "loc": "Round Mountain Cherokee NF",
+      "date": "2011-09-12 19:00",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2011-09-04 07:00",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2011-09-03 07:00",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2011-09-02 07:00",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2011-09-01 07:00",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 36.2181153,
+      "lng": -82.3702526,
+      "loc": "Pinnacle Mt Fire Tower",
+      "date": "2011-08-21",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 36.154445,
+      "lng": -82.4696113,
+      "loc": "Cherokee NF--Rich Mt.--Forest Service Rd. 190",
+      "date": "2011-08-01 08:00",
+      "year": 2011,
+      "count": 4
+    },
+    {
+      "lat": 36.1514597,
+      "lng": -82.1476936,
+      "loc": "Appalachian Trail - Little Rock Knob",
+      "date": "2011-07-02 10:15",
+      "year": 2011,
+      "count": 2
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2011-06-28 08:50",
+      "year": 2011,
+      "count": 5
+    },
+    {
+      "lat": 36.107248,
+      "lng": -82.1105369,
+      "loc": "Cherokee NF--Carver's Gap",
+      "date": "2011-06-23 12:35",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.3361334,
+      "lng": -84.0318489,
+      "loc": "Tellico Wilderness BBS Route",
+      "date": "2011-06-14 07:00",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 36.2354923,
+      "lng": -82.3927005,
+      "loc": "Cherokee NF--Dry Creek Rd.",
+      "date": "2011-06-04 07:00",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 36.2904833,
+      "lng": -84.2467,
+      "loc": "Cross Mountain (Campbell Co.) (please consider using more specific location)",
+      "date": "2011-05-29 08:30",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.7346342,
+      "lng": -83.3698978,
+      "loc": "Great Smoky Mountains NP--Old Settlers Trail",
+      "date": "2011-05-20 06:10",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2011-04-23 08:00",
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "lat": 35.62872,
+      "lng": -83.7852,
+      "loc": "Cerulean Knob",
+      "date": "2011-04-09 08:00",
+      "year": 2011,
+      "count": 2
+    },
+    {
+      "lat": 36.1909188,
+      "lng": -82.1653318,
+      "loc": "Ripshin Ridge, Carter County, TN",
+      "date": "2011-04-03 11:00",
+      "year": 2011,
+      "count": 2
+    },
+    {
+      "lat": 35.6622564,
+      "lng": -83.4641611,
+      "loc": "Great Smoky Mountains NP--Rainbow Falls Trail",
+      "date": "2010-11-18",
+      "year": 2010,
+      "count": null
+    },
+    {
+      "lat": 35.5990797,
+      "lng": -83.8084269,
+      "loc": "Great Smoky Mountains NP--Cades Cove",
+      "date": "2010-11-14 09:45",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 35.6773075,
+      "lng": -83.5931235,
+      "loc": "Great Smoky Mountains NP--Laurel Falls Trail",
+      "date": "2010-10-23 09:30",
+      "year": 2010,
+      "count": 2
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2010-10-18 16:00",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 35.7458333,
+      "lng": -83.3680556,
+      "loc": "Great Smoky Mt. NP--Soak Ash Creek",
+      "date": "2010-10-17 10:30",
+      "year": 2010,
+      "count": 6
+    },
+    {
+      "lat": 35.6148139,
+      "lng": -83.4148979,
+      "loc": "Great Smoky Mountains NP--Charlie's Bunion Trail",
+      "date": "2010-10-11",
+      "year": 2010,
+      "count": 2
+    },
+    {
+      "lat": 35.6541844,
+      "lng": -83.4400332,
+      "loc": "Great Smoky Mountains NP--Mount LeConte",
+      "date": "2010-09-21",
+      "year": 2010,
+      "count": null
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2010-09-09 07:00",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2010-09-06 07:00",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2010-09-04",
+      "year": 2010,
+      "count": 6
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2010-09-01",
+      "year": 2010,
+      "count": 2
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "2010-08-31",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 36.1271992,
+      "lng": -82.3090553,
+      "loc": "Cherokee NF, overlook of Beauty Spot",
+      "date": "2010-06-27 00:04",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 35.810853,
+      "lng": -85.0976944,
+      "loc": "Cumberland County (southern)",
+      "date": "2010-06-04 04:10",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 35.6353545,
+      "lng": -83.7320935,
+      "loc": "Great Smoky Mountains NP--Schoolhouse Gap Trail",
+      "date": "2010-05-20 07:00",
+      "year": 2010,
+      "count": null
+    },
+    {
+      "lat": 36.1418257,
+      "lng": -82.299614,
+      "loc": "Cherokee NF - Stamping Ground Ridge",
+      "date": "2010-05-16 10:17",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 36.3756685,
+      "lng": -81.9382238,
+      "loc": "Cherokee NF--Roan Creek",
+      "date": "2010-05-01 09:00",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 35.1505474,
+      "lng": -84.6083307,
+      "loc": "Polk Co. Chilhowee CG",
+      "date": "2010-04-24 09:20",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 36.133473,
+      "lng": -82.2755384,
+      "loc": "Cherokee NF 230 stop",
+      "date": "2010-04-18 10:15",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "2010-04-04",
+      "year": 2010,
+      "count": null
+    },
+    {
+      "lat": 36.173697,
+      "lng": -82.1334736,
+      "loc": "Ripshin Lake",
+      "date": "2010-04-02 14:00",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 35.9198,
+      "lng": -83.02567,
+      "loc": "Del Rio",
+      "date": "2010-03-02 09:00",
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "lat": 35.66677,
+      "lng": -84.66464,
+      "loc": "Ten Mile",
+      "date": "2010-02-12 07:00",
+      "year": 2010,
+      "count": 2
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2009-12-18 14:00",
+      "year": 2009,
+      "count": 2
+    },
+    {
+      "lat": 35.8255208,
+      "lng": -83.3686137,
+      "loc": "Pearl Valley Road",
+      "date": "2009-12-13 16:30",
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "lat": 36.0275661,
+      "lng": -84.2684412,
+      "loc": "My House",
+      "date": "2009-12-07",
+      "year": 2009,
+      "count": null
+    },
+    {
+      "lat": 36.1885723,
+      "lng": -84.477734,
+      "loc": "Nov. 3, 09 Alex Branch (FHSP Easemant) Grouse ",
+      "date": "2009-11-03 14:00",
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "lat": 35.9198,
+      "lng": -83.02567,
+      "loc": "Del Rio",
+      "date": "2009-10-19 09:00",
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "lat": 35.6111036,
+      "lng": -83.4245147,
+      "loc": "Great Smoky Mountains NP--Newfound Gap (probably not TN)",
+      "date": "2009-06-20 08:00",
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "lat": 35.7986016,
+      "lng": -84.9890327,
+      "loc": "Brady/Hinch Mountain",
+      "date": "2009-06-19 05:45",
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "lat": 36.24623,
+      "lng": -84.41161,
+      "loc": "Cerulean Warbler Reserves, Bowling Branch & Bull Creek",
+      "date": "2009-06-03 06:10",
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "lat": 36.1752334,
+      "lng": -82.0929766,
+      "loc": "Roan Mountain SP",
+      "date": "2009-05-12 18:30",
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2009-05-11 09:00",
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "lat": 36.4238857,
+      "lng": -84.2982464,
+      "loc": "Royal Blue Wildlife Management Area",
+      "date": "2009-05-09",
+      "year": 2009,
+      "count": null
+    },
+    {
+      "lat": 35.652383,
+      "lng": -83.5696209,
+      "loc": "Great Smoky Mountains NP--Little River Trail",
+      "date": "2009-05-08",
+      "year": 2009,
+      "count": null
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2009-05-05",
+      "year": 2009,
+      "count": 3
+    },
+    {
+      "lat": 35.6121932,
+      "lng": -83.5496199,
+      "loc": "Smoky Mountains National Park, TN",
+      "date": "2009-04-12",
+      "year": 2009,
+      "count": null
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2009-02-10",
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "lat": 36.19622,
+      "lng": -82.07044,
+      "loc": "Roan Mountain",
+      "date": "2008-10-29 07:45",
+      "year": 2008,
+      "count": null
+    },
+    {
+      "lat": 35.5990797,
+      "lng": -83.8084269,
+      "loc": "Great Smoky Mountains NP--Cades Cove",
+      "date": "2008-10-21 07:30",
+      "year": 2008,
+      "count": 6
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2008-07-17 08:00",
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2008-07-01 09:30",
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "lat": 36.1174929,
+      "lng": -82.3344612,
+      "loc": "Unaka Mountain, NC",
+      "date": "2008-06-20",
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2008-06-05 10:30",
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "lat": 35.6100043,
+      "lng": -83.5068397,
+      "loc": "Great Smoky Mountains NP (TN) (consider using more specific location)",
+      "date": "2008-04-23",
+      "year": 2008,
+      "count": null
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2008-04-20 09:30",
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "lat": 35.0318237,
+      "lng": -84.4396305,
+      "loc": "Polk Co. Brush Creek Trail",
+      "date": "2008-04-19 18:00",
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "lat": 35.7458333,
+      "lng": -83.3680556,
+      "loc": "Great Smoky Mt. NP--Soak Ash Creek",
+      "date": "2008-04-06 10:45",
+      "year": 2008,
+      "count": 3
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2007-11-30",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.0291106,
+      "lng": -85.1907349,
+      "loc": "Cumberland County: Mayland area",
+      "date": "2007-10-27 07:00",
+      "year": 2007,
+      "count": 2
+    },
+    {
+      "lat": 35.5990797,
+      "lng": -83.8084269,
+      "loc": "Great Smoky Mountains NP--Cades Cove",
+      "date": "2007-10-14 10:30",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 35.5990797,
+      "lng": -83.8084269,
+      "loc": "Great Smoky Mountains NP--Cades Cove",
+      "date": "2007-10-10 09:00",
+      "year": 2007,
+      "count": 2
+    },
+    {
+      "lat": 35.7458333,
+      "lng": -83.3680556,
+      "loc": "Great Smoky Mt. NP--Soak Ash Creek",
+      "date": "2007-09-16 09:40",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2007-07-11 06:10",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "2007-07-07",
+      "year": 2007,
+      "count": null
+    },
+    {
+      "lat": 36.1340402,
+      "lng": -82.3095525,
+      "loc": "Cherokee NF--Unaka Mountain",
+      "date": "2007-06-22 17:00",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 35.8699924,
+      "lng": -84.935771,
+      "loc": "Cumberland County, Tennessee--Cumberland Trail SP., Brady Mt. Section",
+      "date": "2007-06-12 04:50",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 35.7458333,
+      "lng": -83.3680556,
+      "loc": "Great Smoky Mt. NP--Soak Ash Creek",
+      "date": "2007-05-28 08:30",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.1752334,
+      "lng": -82.0929766,
+      "loc": "Roan Mountain SP",
+      "date": "2007-05-06 09:00",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.2568618,
+      "lng": -82.1105725,
+      "loc": "Cherokee NF--Dennis Cove Recreation Area",
+      "date": "2007-05-05",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2007-05-04",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.3236728,
+      "lng": -82.1211225,
+      "loc": "Cherokee NF--Watauga Dam",
+      "date": "2007-05-03",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2007-04-28",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.1383628,
+      "lng": -82.3515201,
+      "loc": "Rock Creek Park",
+      "date": "2007-04-27 08:00",
+      "year": 2007,
+      "count": null
+    },
+    {
+      "lat": 36.2354923,
+      "lng": -82.3927005,
+      "loc": "Cherokee NF--Dry Creek Rd.",
+      "date": "2007-04-17 08:00",
+      "year": 2007,
+      "count": null
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2007-04-10",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 35.6098148,
+      "lng": -83.639383,
+      "loc": "Great Smoky Mountains NP--Middle Prong Trail",
+      "date": "2007-04-08 14:26",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2007-04-04",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 35.9198,
+      "lng": -83.02567,
+      "loc": "Del Rio",
+      "date": "2007-03-08 08:00",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 35.6480251,
+      "lng": -83.9290974,
+      "loc": "Foothills Pkwy. West",
+      "date": "2007-03-06 07:30",
+      "year": 2007,
+      "count": 2
+    },
+    {
+      "lat": 36.57096,
+      "lng": -82.17976,
+      "loc": "37620 Bristol",
+      "date": "2007-01-20",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2007-01-08",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 35.8987,
+      "lng": -85.2228,
+      "loc": "Clifty/Todd Town",
+      "date": "2007-01-01",
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "lat": 36.3400154,
+      "lng": -82.1165926,
+      "loc": "Cherokee NF--Wilbur Lake",
+      "date": "2006-12-30 08:00",
+      "year": 2006,
+      "count": null
+    },
+    {
+      "lat": 35.8699924,
+      "lng": -84.935771,
+      "loc": "Cumberland County, Tennessee--Cumberland Trail SP., Brady Mt. Section",
+      "date": "2006-12-23 06:15",
+      "year": 2006,
+      "count": 2
+    },
+    {
+      "lat": 35.35777,
+      "lng": -84.099596,
+      "loc": "Cherhala Skyway",
+      "date": "2006-09-13",
+      "year": 2006,
+      "count": 1
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2006-08-23",
+      "year": 2006,
+      "count": 3
+    },
+    {
+      "lat": 35.1331587,
+      "lng": -84.5170498,
+      "loc": "Polk Co. KMH",
+      "date": "2006-08-09 08:00",
+      "year": 2006,
+      "count": 3
+    },
+    {
+      "lat": 36.487363,
+      "lng": -84.2304608,
+      "loc": "Elk Valley Home",
+      "date": "2006-07-02",
+      "year": 2006,
+      "count": null
+    },
+    {
+      "lat": 35.619632,
+      "lng": -83.5581303,
+      "loc": "Great Smoky Mountains National Park",
+      "date": "2006-06-06",
+      "year": 2006,
+      "count": null
+    },
+    {
+      "lat": 36.1752334,
+      "lng": -82.0929766,
+      "loc": "Roan Mountain SP",
+      "date": "2006-06-03 08:00",
+      "year": 2006,
+      "count": null
+    },
+    {
+      "lat": 35.6395108,
+      "lng": -83.7193394,
+      "loc": "TN-Great Smoky NP - Cades Cove Rd",
+      "date": "2006-05-18",
+      "year": 2006,
+      "count": 1
+    },
+    {
+      "lat": 35.6400067,
+      "lng": -83.5650867,
+      "loc": "Great Smoky Mountains NP--Cucumber Gap Trail",
+      "date": "2006-04-30",
+      "year": 2006,
+      "count": null
+    },
+    {
+      "lat": 36.14511,
+      "lng": -82.41676,
+      "loc": "Erwin",
+      "date": "2006-03-30 08:30",
+      "year": 2006,
+      "count": 1
+    },
+    {
+      "lat": 35.6367033,
+      "lng": -83.4890767,
+      "loc": "Great Smoky Mountains NP--Chimneys Picnic Area",
+      "date": "2006-03-27",
+      "year": 2006,
+      "count": 1
+    },
+    {
+      "lat": 35.6480251,
+      "lng": -83.9290974,
+      "loc": "Foothills Pkwy. West",
+      "date": "2006-03-03",
+      "year": 2006,
+      "count": 1
+    },
+    {
+      "lat": 36.561607,
+      "lng": -82.000467,
+      "loc": "Cherokee NF--Jacobs Creek Recreation Area",
+      "date": "2006-01-01 07:00",
+      "year": 2006,
+      "count": 1
     }
   ]
 }
