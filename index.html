@@ -244,6 +244,7 @@
   .legend-dot.dash{background:repeating-linear-gradient(45deg,var(--rule) 0,var(--rule) 2px,transparent 2px,transparent 4px);width:12px;height:12px;border-radius:0}
   .legend-dot.sight{background:var(--gold);border:1.5px solid var(--moss-deep);width:10px;height:10px;transform:rotate(45deg);border-radius:0}
   .legend-dot.ebird{background:var(--moss);border:1px solid var(--moss-deep);width:9px;height:9px}
+  .legend-dot.gbif{background:#3b5773;border:1px solid #1f3045;width:9px;height:9px}
   .legend-dot.range{background:rgba(47,74,42,.14);border:1px dashed var(--moss-deep);width:14px;height:10px;border-radius:0}
 
   .map-meta-line{
@@ -419,6 +420,7 @@
               <button class="layer-toggle on" id="cbcToggle"><span class="swatch"></span>CBC Counts</button>
               <button class="layer-toggle on" id="sightToggle"><span class="swatch" style="background:var(--gold);transform:rotate(45deg)"></span>Field Sightings</button>
               <button class="layer-toggle on" id="ebirdToggle" disabled style="opacity:.5"><span class="swatch" style="background:var(--moss);border-radius:50%"></span>eBird <span id="ebirdCount" style="opacity:.7"></span></button>
+              <button class="layer-toggle on" id="gbifToggle" disabled style="opacity:.5"><span class="swatch" style="background:#3b5773;border-radius:50%"></span>GBIF <span id="gbifCount" style="opacity:.7"></span></button>
             </div>
           </div>
           <div class="control-row" style="margin-top:8px;justify-content:flex-end">
@@ -447,6 +449,7 @@
 
         <g id="svgCircles"></g>
         <g id="svgEbird"></g>
+        <g id="svgGbif"></g>
         <g id="svgSightings"></g>
         <g id="svgLabels"></g>
 
@@ -472,7 +475,8 @@
             <span><span class="legend-dot zero"></span>Counted, no birds</span>
             <span><span class="legend-dot dash"></span>No count that year</span>
             <span><span class="legend-dot sight"></span>Field sighting / reported</span>
-            <span><span class="legend-dot ebird"></span>eBird observation</span>
+            <span><span class="legend-dot ebird"></span>eBird observation (size ≈ count)</span>
+            <span><span class="legend-dot gbif"></span>GBIF (non-eBird): iNat, GBBC, USGS, museum specimens</span>
           </div>
           <div class="map-meta-line">Tennessee Audubon CBC, ruffed grouse, 1966–2024.</div>
         </div>
@@ -480,7 +484,7 @@
     </div>
     <figcaption class="fig-caption" id="hero-map-caption">
       <span class="fig-label">Figure 1.</span>
-      Schematic time view: detections of ruffed grouse at the six Tennessee Christmas Bird Count circles where the species was ever recorded (1966–2024). Approximately 46 TN CBC circles were active over this period; the remaining 40 circles, mostly in West and lower-elevation Middle Tennessee, never recorded a ruffed grouse and are omitted from this figure. Field sightings and eBird observations are overlaid. Advance the year slider or use the auto-play control to scrub through time. Hover any marker for year and coordinates.
+      Schematic time view: detections of ruffed grouse at the six Tennessee Christmas Bird Count circles where the species was ever recorded (1966–2024). Approximately 46 TN CBC circles were active over this period; the remaining 40 circles, mostly in West and lower-elevation Middle Tennessee, never recorded a ruffed grouse and are omitted from this figure. Field sightings, eBird observations, and GBIF (non-eBird) records — including iNaturalist research-grade observations, Great Backyard Bird Count, USGS Bird Phenology Program records (back to 1921), and museum specimens (back to 1907) — are overlaid. eBird point size scales with the count field (more birds in a single observation → larger circle). Advance the year slider or use the auto-play control to scrub through time. Hover any marker for year and coordinates.
     </figcaption>
   </figure>
 
@@ -488,7 +492,7 @@
     <div id="detailMap" class="leaflet-map"></div>
     <figcaption class="fig-caption" id="detail-map-caption">
       <span class="fig-label">Figure 2.</span>
-      Pan-and-zoom detail map on USGS National Map topographic tiles, with cities, roads, and public-land tinting from the basemap. All ruffed grouse observations (CBC, eBird, field sightings) are shown together, without time filtering. Candidate Wildlife Management Areas and state forests are outlined as approximate circles sized by acreage. Hover any marker for year and coordinates; click for full detail.
+      Pan-and-zoom detail map on USGS National Map topographic tiles, with cities, roads, and public-land tinting from the basemap. All ruffed grouse observations (CBC, eBird, field sightings, and GBIF non-eBird sources) are shown together, without time filtering. Candidate Wildlife Management Areas and state forests are outlined as approximate circles sized by acreage. Hover any marker for year and coordinates; click for full detail including dataset and observer.
     </figcaption>
   </figure>
 
@@ -833,16 +837,28 @@ const resetBtn = document.getElementById('resetBtn');
 const cbcToggle = document.getElementById('cbcToggle');
 const sightToggle = document.getElementById('sightToggle');
 const ebirdToggle = document.getElementById('ebirdToggle');
+const gbifToggle = document.getElementById('gbifToggle');
+const gbifCountEl = document.getElementById('gbifCount');
 const svgCirclesG = document.getElementById('svgCircles');
 const svgEbirdG = document.getElementById('svgEbird');
+const svgGbifG = document.getElementById('svgGbif');
 const svgSightingsG = document.getElementById('svgSightings');
 const svgLabelsG = document.getElementById('svgLabels');
 
 let showCBC = true;
 let showSightings = true;
 let showEbird = true;
-let displayMode = 'cumulative';  // 'cumulative' or 'year-only'
+let showGbif = true;
+let displayMode = 'cumulative';
 let ebirdObservations = [];
+let gbifObservations = [];
+
+// eBird marker radius scales with count (number of birds in a single observation).
+// 1 grouse → 2.8, 2 → 3.6, 3 → 4.4, capped at count=8 to keep outliers in check.
+function ebirdRadius(count){
+  const n = count == null ? 1 : Math.max(1, Math.min(8, count));
+  return 2 + n * 0.8;
+}
 
 // ───────── lat/lng → SVG projection (Figure 1 only) ─────────
 const LON_MIN=-90.3, LON_MAX=-81.6, LAT_MIN=34.98, LAT_MAX=36.68;
@@ -973,7 +989,7 @@ function renderSVG(year){
     diamond.appendChild(title);
   });
 
-  // eBird dots
+  // eBird dots — radius scales with count
   svgEbirdG.innerHTML = '';
   svgEbirdG.style.display = showEbird ? '' : 'none';
   ebirdObservations.forEach(o => {
@@ -983,7 +999,7 @@ function renderSVG(year){
     const opacity = Math.max(0.22, 1 - age * 0.10);
     const dot = document.createElementNS('http://www.w3.org/2000/svg','circle');
     dot.setAttribute('cx', x); dot.setAttribute('cy', y);
-    dot.setAttribute('r', 2.5);
+    dot.setAttribute('r', ebirdRadius(o.count));
     dot.setAttribute('fill', '#2f4a2a');
     dot.setAttribute('stroke', '#1d2e1a');
     dot.setAttribute('stroke-width', '.4');
@@ -992,6 +1008,28 @@ function renderSVG(year){
     const title = document.createElementNS('http://www.w3.org/2000/svg','title');
     const cnt = o.count == null ? 'present' : `${o.count} bird${o.count===1?'':'s'}`;
     title.textContent = `${o.year} · ${o.lat.toFixed(4)}, ${o.lng.toFixed(4)} · ${cnt} · ${o.loc || 'unknown'}${o.date ? ' (' + o.date + ')' : ''}`;
+    dot.appendChild(title);
+  });
+
+  // GBIF dots (non-eBird sources: iNat, GBBC, USGS phenology, museum specimens)
+  svgGbifG.innerHTML = '';
+  svgGbifG.style.display = showGbif ? '' : 'none';
+  gbifObservations.forEach(o => {
+    if(o.year == null) return;
+    if(displayMode === 'year-only' ? o.year !== year : o.year > year) return;
+    const [x, y] = svgProj(o.lng, o.lat);
+    const age = displayMode === 'year-only' ? 0 : (year - o.year);
+    const opacity = Math.max(0.25, 1 - age * 0.08);
+    const dot = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    dot.setAttribute('cx', x); dot.setAttribute('cy', y);
+    dot.setAttribute('r', 3);
+    dot.setAttribute('fill', '#3b5773');
+    dot.setAttribute('stroke', '#1f3045');
+    dot.setAttribute('stroke-width', '.5');
+    dot.setAttribute('opacity', opacity);
+    svgGbifG.appendChild(dot);
+    const title = document.createElementNS('http://www.w3.org/2000/svg','title');
+    title.textContent = `${o.year} · ${o.lat.toFixed(4)}, ${o.lng.toFixed(4)} · ${o.dataset} · ${o.basis}${o.loc ? ' · ' + o.loc : ''}`;
     dot.appendChild(title);
   });
 }
@@ -1036,6 +1074,7 @@ L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapSe
 const detailCbcGroup       = L.layerGroup().addTo(detailMap);
 const detailSightingsGroup = L.layerGroup().addTo(detailMap);
 const detailEbirdGroup     = L.layerGroup().addTo(detailMap);
+const detailGbifGroup      = L.layerGroup().addTo(detailMap);
 const detailWmaGroup       = L.layerGroup().addTo(detailMap);
 
 // Approximate WMA polygons (will be swapped for real boundaries if/when available)
@@ -1096,11 +1135,24 @@ function renderDetailMap(){
     const cnt = o.count == null ? 'present' : (o.count + ' bird' + (o.count===1?'':'s'));
     const tip = `${o.year} · ${o.lat.toFixed(4)}, ${o.lng.toFixed(4)} · ${cnt}${o.loc ? ' · ' + o.loc : ''}`;
     L.circleMarker([o.lat, o.lng], {
-      radius: 3, color: '#1d2e1a', weight: 0.5, fillColor: '#2f4a2a', fillOpacity: 0.7,
+      radius: ebirdRadius(o.count), color: '#1d2e1a', weight: 0.5, fillColor: '#2f4a2a', fillOpacity: 0.7,
     })
     .bindPopup(`<b>${o.loc || 'unknown'}</b><div class="meta">${o.date} · ${cnt} · ${o.lat.toFixed(4)}, ${o.lng.toFixed(4)} · eBird</div>`)
     .bindTooltip(tip, {sticky:true})
     .addTo(detailEbirdGroup);
+  });
+
+  // GBIF (non-eBird) — slate blue, distinct from moss-green eBird
+  detailGbifGroup.clearLayers();
+  gbifObservations.forEach(o => {
+    if(o.lat == null || o.lng == null) return;
+    const tip = `${o.year || '?'} · ${o.lat.toFixed(4)}, ${o.lng.toFixed(4)} · ${o.dataset} · ${o.basis}`;
+    L.circleMarker([o.lat, o.lng], {
+      radius: 3.5, color: '#1f3045', weight: 0.75, fillColor: '#3b5773', fillOpacity: 0.75,
+    })
+    .bindPopup(`<b>${o.loc || o.dataset}</b><div class="meta">${o.year || '?'} · ${o.basis} · ${o.lat.toFixed(4)}, ${o.lng.toFixed(4)}<br>Dataset: ${o.dataset}${o.recorded_by ? '<br>Recorded by: ' + o.recorded_by : ''}${o.institution ? '<br>Institution: ' + o.institution : ''}${o.url ? '<br><a href="' + o.url + '" target="_blank">source record</a>' : ''}</div>`)
+    .bindTooltip(tip, {sticky:true})
+    .addTo(detailGbifGroup);
   });
 }
 
@@ -1123,6 +1175,13 @@ ebirdToggle.addEventListener('click', () => {
   ebirdToggle.classList.toggle('on', showEbird);
   update(parseInt(slider.value));
   if(showEbird) detailEbirdGroup.addTo(detailMap); else detailMap.removeLayer(detailEbirdGroup);
+});
+gbifToggle.addEventListener('click', () => {
+  if(gbifToggle.disabled) return;
+  showGbif = !showGbif;
+  gbifToggle.classList.toggle('on', showGbif);
+  update(parseInt(slider.value));
+  if(showGbif) detailGbifGroup.addTo(detailMap); else detailMap.removeLayer(detailGbifGroup);
 });
 
 // ───── display mode (cumulative vs. year-only) ─────
@@ -1155,7 +1214,41 @@ async function loadEbirdData(){
   }
 }
 loadEbirdData();
-renderDetailMap();  // initial CBC + sightings + WMAs (eBird re-renders when data arrives)
+
+async function loadGbifData(){
+  try {
+    const res = await fetch('data/gbif_grouse_tn.json', {cache: 'no-cache'});
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    const payload = await res.json();
+    gbifObservations = (payload.observations || []).filter(o => o.lat != null && o.lng != null);
+    gbifToggle.disabled = false;
+    gbifToggle.style.opacity = '1';
+    gbifCountEl.textContent = `(${gbifObservations.length})`;
+    // Extend slider min back to earliest GBIF year (e.g. 1907 museum specimen)
+    const yrs = gbifObservations.map(o => o.year).filter(y => y);
+    if(yrs.length){
+      const minYear = Math.min(...yrs);
+      if(minYear < parseInt(slider.min)){
+        slider.min = minYear;
+        // update visible slider tick labels
+        const labels = document.querySelectorAll('.slider-labels span');
+        if(labels.length === 3){
+          labels[0].textContent = minYear;
+          labels[1].textContent = Math.round((minYear + parseInt(slider.max)) / 2);
+          labels[2].textContent = slider.max;
+        }
+      }
+    }
+    update(parseInt(slider.value));
+    renderDetailMap();
+    console.log(`Loaded ${gbifObservations.length} GBIF (non-eBird) observations`);
+  } catch(err){
+    gbifCountEl.textContent = '(no data)';
+    console.info('GBIF snapshot not loaded:', err.message);
+  }
+}
+loadGbifData();
+renderDetailMap();  // initial CBC + sightings + WMAs (eBird/GBIF re-render when data arrives)
 
 slider.addEventListener('input', e => update(parseInt(e.target.value)));
 

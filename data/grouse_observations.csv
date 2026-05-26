@@ -267,6 +267,67 @@ CBC,2023,2023,Tellico,35.363,-84.294,,CBC circle 82902; no count conducted
 CBC,2023,2023,Mecca,35.3,-84.32,,CBC circle 82901; no count conducted
 CBC,2024,2024,Newfound Gap,35.611,-83.425,0,CBC circle 82903
 CBC,2024,2024,Tellico,35.363,-84.294,,CBC circle 82902; no count conducted
+GBIF,,,"""in the Duck River bluffs... located ca. 13 km ESE of the city of Columbia"" (coordinate based on Cheek Bend) material is from ""three 1 x 2 m squares"" excavated ""down to a depth of ca. 4.5 m""",35.616669,-86.849998,,GBIF · Cheek Bend Cave · MATERIAL_CITATION · recorded by Parmalee and Klippel · institution PBDB · pbdb:occ:773214
+GBIF,1907-02-20,1907,Surgoinsville,36.47093,-82.851826,,"GBIF · Royal Ontario Museum Ornithology (ROMO) · PRESERVED_SPECIMEN · recorded by Handy, E F · institution ROM · ±5063m · DB9F840A7EFD2"
+GBIF,1921,1921,Knox County,35.96064,-83.920738,,GBIF · ce9d17f0-de7f-4518-83a6-690c615dd8d9 · HUMAN_OBSERVATION · recorded by H.C. Fortner · institution USGS · BISON-usgs-pwrc-bird-phenology-program2060846066
+GBIF,1921,1921,Knox County,35.96064,-83.920738,,GBIF · ce9d17f0-de7f-4518-83a6-690c615dd8d9 · HUMAN_OBSERVATION · recorded by H.C. Fortner · institution USGS · BISON-usgs-pwrc-bird-phenology-program2060848357
+GBIF,1922,1922,Knox County,35.96064,-83.920738,,GBIF · ce9d17f0-de7f-4518-83a6-690c615dd8d9 · HUMAN_OBSERVATION · recorded by H.C. Fortner · institution USGS · BISON-usgs-pwrc-bird-phenology-program2060847341
+GBIF,1922,1922,Knox County,35.96064,-83.920738,,GBIF · ce9d17f0-de7f-4518-83a6-690c615dd8d9 · HUMAN_OBSERVATION · recorded by H.C. Fortner · institution USGS · BISON-usgs-pwrc-bird-phenology-program2060848371
+GBIF,1922,1922,Knox County,35.96064,-83.920738,,GBIF · ce9d17f0-de7f-4518-83a6-690c615dd8d9 · HUMAN_OBSERVATION · recorded by H.C. Fortner · institution USGS · BISON-usgs-pwrc-bird-phenology-program2060848428
+GBIF,1924,1924,Knox County,35.96064,-83.920738,,GBIF · ce9d17f0-de7f-4518-83a6-690c615dd8d9 · HUMAN_OBSERVATION · recorded by P.J. Adams · institution USGS · BISON-usgs-pwrc-bird-phenology-program2060848216
+GBIF,1924,1924,Knox County,35.96064,-83.920738,,GBIF · ce9d17f0-de7f-4518-83a6-690c615dd8d9 · HUMAN_OBSERVATION · recorded by P.J. Adams · institution USGS · BISON-usgs-pwrc-bird-phenology-program2060850496
+GBIF,1934-05-05,1934,No specific locality recorded.,35.583427,-83.508219,,GBIF · fda9a8f8-6342-4f73-8c3b-8b79e62afc9d · PRESERVED_SPECIMEN · recorded by Collector(s): unknown · institution CHAS · ±63566m · https://arctos.database.museum/guid/CHAS:Egg:923
+GBIF,1955,1955,Carter County,36.348721,-82.210693,,GBIF · ce9d17f0-de7f-4518-83a6-690c615dd8d9 · HUMAN_OBSERVATION · recorded by T.O.S. · institution USGS · BISON-usgs-pwrc-bird-phenology-program2060850969
+GBIF,1955,1955,Carter County,36.348721,-82.210686,,GBIF · ce9d17f0-de7f-4518-83a6-690c615dd8d9 · HUMAN_OBSERVATION · recorded by T.O.S. · institution USGS · BISON-usgs-pwrc-bird-phenology-program2060851022
+GBIF,2001-02-17,2001,37841 Oneida,36.502041,-84.513863,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2002-02-01,2002,37658 Hampton,36.2397,-82.192795,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2003-02-14,2003,37841 Oneida,36.502041,-84.513863,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2004-02-13,2004,Rugby,36.36038,-84.70074,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2005-02-19,2005,37405 Chattanooga,35.07468,-85.309265,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2008-02-15,2008,37857 Rogersville,36.404182,-83.00702,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2008-02-16,2008,38555 Crossville,35.921589,-85.057388,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2008-02-17,2008,37857 Rogersville,36.404182,-83.00702,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2008-02-17,2008,37813 Morristown,36.18904,-83.27167,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2009-02-14,2009,37857 Rogersville,36.404182,-83.00702,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2009-02-15,2009,37841 Oneida,36.502041,-84.513863,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2009-02-15,2009,37841 Oneida,36.502041,-84.513863,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2009-02-16,2009,38571 Crossville,35.957924,-84.971744,,GBIF · 82cb293c-f762-11e1-a439-00145eb45e9a · OBSERVATION · institution CLO
+GBIF,2015-04-05,2015,,35.680798,-83.644345,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Matt Rung · institution iNaturalist · ±275m · http://www.inaturalist.org/observations/1369167
+GBIF,2015-09-26T08:33,2015,,35.611633,-83.434844,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Richard Littauer · institution iNaturalist · ±10m · https://www.inaturalist.org/observations/65505974
+GBIF,2016-07-01T20:24,2016,,36.036856,-82.531362,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Brayden Paulk · institution iNaturalist · ±4m · https://www.inaturalist.org/observations/5033559
+GBIF,2018-05-12T15:01:59,2018,,34.998018,-84.396627,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by swafford · institution iNaturalist · ±677m · https://www.inaturalist.org/observations/48744824
+GBIF,2019-04-21T12:11:16,2019,,35.690626,-83.773957,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by irinamarsh54 · institution iNaturalist · ±500m · https://www.inaturalist.org/observations/40515623
+GBIF,2019-06-13T14:59,2019,,36.196227,-82.0704,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Chrissy Guthrie Lay · institution iNaturalist · ±3621m · https://www.inaturalist.org/observations/66774625
+GBIF,2019-06-29,2019,,36.443683,-82.117471,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Chrissy Guthrie Lay · institution iNaturalist · ±195m · https://www.inaturalist.org/observations/123952716
+GBIF,2020-06-01T17:50:43,2020,,35.315404,-84.053206,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Dawson Rader · institution iNaturalist · https://www.inaturalist.org/observations/48188525
+GBIF,2020-08-19T12:43,2020,,36.200423,-86.510385,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by dclapper · institution iNaturalist · ±13183m · https://www.inaturalist.org/observations/65541263
+GBIF,2021-04-15T18:19:36,2021,,36.117036,-82.337638,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by swtdingo85 · institution iNaturalist · ±5m · https://www.inaturalist.org/observations/74127946
+GBIF,2021-08-14T12:08:24,2021,,36.476883,-82.056253,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by hmhendrix · institution iNaturalist · ±10m · https://www.inaturalist.org/observations/91294625
+GBIF,2021-09-04T07:03,2021,,36.397926,-81.997822,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by jefferykarafa · institution iNaturalist · ±152m · https://www.inaturalist.org/observations/94667173
+GBIF,2021-10-02T15:20Z,2021,,35.647644,-83.393452,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Richard Wood · institution iNaturalist · ±2594m · https://www.inaturalist.org/observations/97039611
+GBIF,2021-10-18T10:07:51,2021,,35.63486,-83.379632,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by beastmaster · institution iNaturalist · ±296m · https://www.inaturalist.org/observations/98667525
+GBIF,2021-10-26T12:36,2021,,35.626638,-83.7852,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by aftonhelen · institution iNaturalist · ±193m · https://www.inaturalist.org/observations/248521617
+GBIF,2021-11-17T11:55,2021,,36.454922,-82.031901,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by brackenvalkyrie · institution iNaturalist · ±8809m · https://www.inaturalist.org/observations/117743077
+GBIF,2021-12-04T15:44:15,2021,,35.620987,-83.404708,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by quendeck · institution iNaturalist · ±11m · https://www.inaturalist.org/observations/102574057
+GBIF,2022-02-06T14:18:29,2022,,36.343854,-82.005786,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Max Ramey · institution iNaturalist · ±28563m · https://www.inaturalist.org/observations/106289389
+GBIF,2022-02-15T16:17:01,2022,,36.108735,-82.110873,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by dbond · institution iNaturalist · ±5m · https://www.inaturalist.org/observations/106822626
+GBIF,2022-05-03T11:14:54,2022,,35.846346,-83.413777,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by yarbroughs · institution iNaturalist · ±10760m · https://www.inaturalist.org/observations/115167491
+GBIF,2022-06-09T07:56:02,2022,,36.4744,-81.805313,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by lichenlu2 · institution iNaturalist · ±4372m · https://www.inaturalist.org/observations/125353362
+GBIF,2022-06-14T18:09:26,2022,,36.468335,-82.1899,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by hmhendrix · institution iNaturalist · ±28534m · https://www.inaturalist.org/observations/121803102
+GBIF,2022-06-19T21:50:19,2022,,35.651733,-83.706924,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by rblank131 · institution iNaturalist · ±847m · https://www.inaturalist.org/observations/125069415
+GBIF,2023-07-13T09:32:12,2023,,36.418007,-82.069824,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Jill Peters · institution iNaturalist · https://www.inaturalist.org/observations/173694306
+GBIF,2024-05-22T15:10:38,2024,,36.469554,-82.109935,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Chrissy Guthrie Lay · institution iNaturalist · ±192m · https://www.inaturalist.org/observations/217611874
+GBIF,2024-06-05T20:24,2024,,36.05,-82.574,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by dkirschke · institution iNaturalist · https://www.inaturalist.org/observations/257417975
+GBIF,2024-06-13T11:51,2024,,36.047626,-82.556468,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Nora Taylor · institution iNaturalist · ±192m · https://www.inaturalist.org/observations/260519239
+GBIF,2024-09-21T13:37:05,2024,,35.563758,-83.728116,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by tnriverpuma · institution iNaturalist · ±1193m · https://www.inaturalist.org/observations/301551984
+GBIF,2024-11-12T10:19:14,2024,,35.863749,-83.550396,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Steven (Esteban) Mendez · institution iNaturalist · https://www.inaturalist.org/observations/251453317
+GBIF,2024-12-23T15:42:48,2024,,36.16863,-82.419075,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Lincoln Durey · institution iNaturalist · ±28592m · https://www.inaturalist.org/observations/256025334
+GBIF,2025-02-26T18:44:26,2025,,35.711597,-83.573181,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by HensleeW · institution iNaturalist · ±375m · https://www.inaturalist.org/observations/268173972
+GBIF,2025-03-15T03:54:18.595Z,2025,Wearwood Elementary School,35.72046,-83.64568,,GBIF · 6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b · HUMAN_OBSERVATION · recorded by f83d2ab0638a0f444d4121c1d67cd725925fce30a5c283fd592cfae2d3f1b223 · 985742b5-a3fa-4ace-9228-6ef2a2f359d9
+GBIF,2025-05-13T17:32,2025,,35.578679,-83.839129,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by kjbtn_photos · institution iNaturalist · ±731m · https://www.inaturalist.org/observations/280924183
+GBIF,2025-06-11T17:51,2025,,36.304869,-82.347681,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by Derek den Ouden · institution iNaturalist · ±28563m · https://www.inaturalist.org/observations/288873513
+GBIF,2025-07-29T12:42:52,2025,,36.382237,-81.915345,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by gaylussacia · institution iNaturalist · ±130m · https://www.inaturalist.org/observations/303136253
+GBIF,2026-05-14T14:27:12,2026,,35.086101,-84.589465,,GBIF · iNaturalist research-grade observations · HUMAN_OBSERVATION · recorded by lefua · institution iNaturalist · ±28734m · https://www.inaturalist.org/observations/362216911
 eBird,2006-01-01 07:00,2006,Cherokee NF--Jacobs Creek Recreation Area,36.561607,-82.000467,1,eBird observation
 eBird,2006-03-03,2006,Foothills Pkwy. West,35.6480251,-83.9290974,1,eBird observation
 eBird,2006-03-27,2006,Great Smoky Mountains NP--Chimneys Picnic Area,35.6367033,-83.4890767,1,eBird observation

@@ -25,6 +25,7 @@ from collections import Counter
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUTPUT = os.path.join(HERE, "..", "data", "grouse_observations.csv")
 EBIRD_JSON = os.path.join(HERE, "..", "data", "ebird_grouse_tn.json")
+GBIF_JSON = os.path.join(HERE, "..", "data", "gbif_grouse_tn.json")
 
 # ─────────────────────────────────────────────────────────────
 # CBC circles + counts (mirrors the JS data structure in index.html)
@@ -119,8 +120,39 @@ def ebird_rows():
         }
 
 
+def gbif_rows():
+    try:
+        with open(GBIF_JSON) as f:
+            payload = json.load(f)
+    except FileNotFoundError:
+        print(f"  ! GBIF JSON not found at {GBIF_JSON} — skipping GBIF rows", file=sys.stderr)
+        return
+    for o in payload.get("observations", []):
+        note_parts = [f"GBIF · {o.get('dataset','')}"]
+        if o.get("basis"):
+            note_parts.append(o["basis"])
+        if o.get("recorded_by"):
+            note_parts.append(f"recorded by {o['recorded_by']}")
+        if o.get("institution"):
+            note_parts.append(f"institution {o['institution']}")
+        if o.get("coord_uncertainty_m"):
+            note_parts.append(f"±{int(o['coord_uncertainty_m'])}m")
+        if o.get("url"):
+            note_parts.append(o["url"])
+        yield {
+            "source": "GBIF",
+            "date": o.get("date", ""),
+            "year": o.get("year", "") or "",
+            "location_name": o.get("loc", ""),
+            "lat": o.get("lat", ""),
+            "lng": o.get("lng", ""),
+            "count": "",
+            "notes": " · ".join(note_parts),
+        }
+
+
 def main():
-    rows = list(cbc_rows()) + list(sighting_rows()) + list(ebird_rows())
+    rows = list(cbc_rows()) + list(sighting_rows()) + list(ebird_rows()) + list(gbif_rows())
     # Sort: source, then date (string sort; CBC years and eBird ISO dates both work).
     rows.sort(key=lambda r: (r["source"], str(r["date"])))
 
