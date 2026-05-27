@@ -5747,6 +5747,486 @@
       "date": "2006-01-01 07:00",
       "year": 2006,
       "count": 1
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2005-11-18 10:45",
+      "year": 2005,
+      "count": 1
+    },
+    {
+      "lat": 35.6541844,
+      "lng": -83.4400332,
+      "loc": "Great Smoky Mountains NP--Mount LeConte",
+      "date": "2005-10-14 08:30",
+      "year": 2005,
+      "count": 1
+    },
+    {
+      "lat": 36.0287381,
+      "lng": -82.8039321,
+      "loc": "Viking Mountain",
+      "date": "2005-10-02 09:00",
+      "year": 2005,
+      "count": 1
+    },
+    {
+      "lat": 36.1752334,
+      "lng": -82.0929766,
+      "loc": "Roan Mountain SP",
+      "date": "2005-06-25 08:06",
+      "year": 2005,
+      "count": 3
+    },
+    {
+      "lat": 36.3400154,
+      "lng": -82.1165926,
+      "loc": "Cherokee NF--Wilbur Lake",
+      "date": "2004-12-18",
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "lat": 36.4475369,
+      "lng": -82.0906222,
+      "loc": "Cherokee NF--Panhandle Rd.",
+      "date": "2004-10-23",
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "lat": 36.5075156,
+      "lng": -81.9864285,
+      "loc": "AT Trail/Oct 2004",
+      "date": "2004-10-05",
+      "year": 2004,
+      "count": null
+    },
+    {
+      "lat": 35.8699924,
+      "lng": -84.935771,
+      "loc": "Cumberland County, Tennessee--Cumberland Trail SP., Brady Mt. Section",
+      "date": "2004-10-03 08:00",
+      "year": 2004,
+      "count": 2
+    },
+    {
+      "lat": 35.7634381,
+      "lng": -83.1610966,
+      "loc": "GRSM - AT - Haywood County",
+      "date": "2004-09-25",
+      "year": 2004,
+      "count": null
+    },
+    {
+      "lat": 35.7330666,
+      "lng": -83.2175732,
+      "loc": "Snake Den to Mt. Guyot",
+      "date": "2004-09-23",
+      "year": 2004,
+      "count": 2
+    },
+    {
+      "lat": 35.0695478,
+      "lng": -84.6409678,
+      "loc": "Cookson Creek Rd Polk",
+      "date": "2004-06-03 06:00",
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "lat": 36.426255,
+      "lng": -84.2976665,
+      "loc": "Cumberland Mountains, TN (general location)",
+      "date": "2004-05-08",
+      "year": 2004,
+      "count": null
+    },
+    {
+      "lat": 35.6117771,
+      "lng": -83.4269912,
+      "loc": "Great Smoky Mountains NP--Appalachian Trail (W of Newfound Gap)",
+      "date": "2004-04-22 16:10",
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "lat": 35.6100043,
+      "lng": -83.5068397,
+      "loc": "Great Smoky Mountains NP (TN) (consider using more specific location)",
+      "date": "2004-04-09",
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "lat": 36.05792,
+      "lng": -85.284966,
+      "loc": "Putnam County--Icy Cove",
+      "date": "2004-03-28 13:15",
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "lat": 36.3514977,
+      "lng": -84.4402847,
+      "loc": "Scott C Area 4-County line -Hyw 63-Huntsville-Winona-Sugar Grove",
+      "date": "2003-06-01 16:30",
+      "year": 2003,
+      "count": 1
+    },
+    {
+      "lat": 35.6738477,
+      "lng": -83.4494806,
+      "loc": "Great Smoky Mountains NP--Trillium Gap Trail",
+      "date": "2003-05-24",
+      "year": 2003,
+      "count": 1
+    },
+    {
+      "lat": 35.794754,
+      "lng": -82.96283,
+      "loc": "Max Patch",
+      "date": "2003-05-14 07:00",
+      "year": 2003,
+      "count": 1
+    },
+    {
+      "lat": 35.5715948,
+      "lng": -83.4846354,
+      "loc": "AT Trail/TENN 2003",
+      "date": "2003-05-04",
+      "year": 2003,
+      "count": 1
+    },
+    {
+      "lat": 35.7581448,
+      "lng": -83.1885624,
+      "loc": "GRSM - Cosby Campground to Mt. Cammerer",
+      "date": "2003-04-19",
+      "year": 2003,
+      "count": null
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2002-10-08 18:30",
+      "year": 2002,
+      "count": 1
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "2002-09-13",
+      "year": 2002,
+      "count": 1
+    },
+    {
+      "lat": 35.6321863,
+      "lng": -83.813324,
+      "loc": "Cades Cove Mountain Road (TN)",
+      "date": "2002-09-06 07:00",
+      "year": 2002,
+      "count": 2
+    },
+    {
+      "lat": 36.5837291,
+      "lng": -84.6686089,
+      "loc": "Big South Fork National River and Recreation area",
+      "date": "2002-04-06 09:30",
+      "year": 2002,
+      "count": 1
+    },
+    {
+      "lat": 35.6118155,
+      "lng": -83.4668848,
+      "loc": "Great Smoky Mountains NP--Road Prong Trail",
+      "date": "2001-11-25",
+      "year": 2001,
+      "count": null
+    },
+    {
+      "lat": 35.5990797,
+      "lng": -83.8084269,
+      "loc": "Great Smoky Mountains NP--Cades Cove",
+      "date": "2001-06-18 14:15",
+      "year": 2001,
+      "count": 1
+    },
+    {
+      "lat": 36.3837461,
+      "lng": -81.7860246,
+      "loc": "Stone Mountain",
+      "date": "2001-06-15 07:15",
+      "year": 2001,
+      "count": null
+    },
+    {
+      "lat": 36.3837461,
+      "lng": -81.7860246,
+      "loc": "Stone Mountain",
+      "date": "2001-06-14 13:45",
+      "year": 2001,
+      "count": null
+    },
+    {
+      "lat": 35.6100043,
+      "lng": -83.5068397,
+      "loc": "Great Smoky Mountains NP (TN) (consider using more specific location)",
+      "date": "2000-05-14",
+      "year": 2000,
+      "count": null
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "2000-05-09 07:30",
+      "year": 2000,
+      "count": 1
+    },
+    {
+      "lat": 36.4840828,
+      "lng": -82.0182029,
+      "loc": "Cherokee NF--Holston Mountain",
+      "date": "2000-05-06",
+      "year": 2000,
+      "count": 1
+    },
+    {
+      "lat": 36.107248,
+      "lng": -82.1105369,
+      "loc": "Cherokee NF--Carver's Gap",
+      "date": "2000-01-15",
+      "year": 2000,
+      "count": 1
+    },
+    {
+      "lat": 35.6111036,
+      "lng": -83.4245147,
+      "loc": "Great Smoky Mountains NP--Newfound Gap (probably not TN)",
+      "date": "1999-11-20 08:20",
+      "year": 1999,
+      "count": null
+    },
+    {
+      "lat": 35.7519881,
+      "lng": -83.5476565,
+      "loc": "Caney Creek Rd/Rush Branch Rd",
+      "date": "1999-10-01 08:00",
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "lat": 35.3804711,
+      "lng": -85.2576001,
+      "loc": "Yard",
+      "date": "1999-08-08",
+      "year": 1999,
+      "count": 5
+    },
+    {
+      "lat": 35.563225,
+      "lng": -83.4983621,
+      "loc": "Great Smoky Mountains NP--Kuwohi (TN) (formerly Clingman\u2019s Dome)",
+      "date": "1999-04-20 11:00",
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "lat": 35.3771372,
+      "lng": -85.2643522,
+      "loc": "Breland's Fork",
+      "date": "1998-12-01",
+      "year": 1998,
+      "count": 1
+    },
+    {
+      "lat": 36.05792,
+      "lng": -85.284966,
+      "loc": "Putnam County--Icy Cove",
+      "date": "1998-10-20 13:30",
+      "year": 1998,
+      "count": 1
+    },
+    {
+      "lat": 35.6100043,
+      "lng": -83.5068397,
+      "loc": "Great Smoky Mountains NP (TN) (consider using more specific location)",
+      "date": "1998-10-11 13:00",
+      "year": 1998,
+      "count": 2
+    },
+    {
+      "lat": 36.410725,
+      "lng": -82.3578334,
+      "loc": "Kingsport Tenn",
+      "date": "1998-08-18",
+      "year": 1998,
+      "count": 1
+    },
+    {
+      "lat": 35.6278959,
+      "lng": -83.7265384,
+      "loc": "Schoolhouse Gap Trail",
+      "date": "1998-05-09 08:40",
+      "year": 1998,
+      "count": 1
+    },
+    {
+      "lat": 35.8626307,
+      "lng": -84.1302431,
+      "loc": "Concord Park-West Trails",
+      "date": "1998-01-04 09:30",
+      "year": 1998,
+      "count": 1
+    },
+    {
+      "lat": 35.6541844,
+      "lng": -83.4400332,
+      "loc": "Great Smoky Mountains NP--Mount LeConte",
+      "date": "1998-01-03 08:30",
+      "year": 1998,
+      "count": 6
+    },
+    {
+      "lat": 35.6541844,
+      "lng": -83.4400332,
+      "loc": "Great Smoky Mountains NP--Mount LeConte",
+      "date": "1997-10-17 07:30",
+      "year": 1997,
+      "count": 1
+    },
+    {
+      "lat": 35.627802,
+      "lng": -83.724052,
+      "loc": "Bote Mountain Trail",
+      "date": "1997-09-21",
+      "year": 1997,
+      "count": 1
+    },
+    {
+      "lat": 36.5727342,
+      "lng": -82.2336071,
+      "loc": "Steele Creek Park",
+      "date": "1997-07-30",
+      "year": 1997,
+      "count": 5
+    },
+    {
+      "lat": 36.122204,
+      "lng": -84.47808,
+      "loc": "Frozen Head SP",
+      "date": "1997-06-06 10:00",
+      "year": 1997,
+      "count": 2
+    },
+    {
+      "lat": 36.0510899,
+      "lng": -84.5657298,
+      "loc": "Lone Mountain SF_Morgan Cty",
+      "date": "1997-05-28",
+      "year": 1997,
+      "count": 1
+    },
+    {
+      "lat": 35.637225,
+      "lng": -83.4735138,
+      "loc": "Sugarlands to Indian Gap",
+      "date": "1997-05-15",
+      "year": 1997,
+      "count": 1
+    },
+    {
+      "lat": 35.6480251,
+      "lng": -83.9290974,
+      "loc": "Foothills Pkwy. West",
+      "date": "1997-03-08",
+      "year": 1997,
+      "count": null
+    },
+    {
+      "lat": 35.5883819,
+      "lng": -83.8086677,
+      "loc": "Cades Cove Loop Road",
+      "date": "1997-03-04",
+      "year": 1997,
+      "count": null
+    },
+    {
+      "lat": 35.3091368,
+      "lng": -84.0393162,
+      "loc": "Cherokee NF--Whigg Meadow",
+      "date": "1996-09-07",
+      "year": 1996,
+      "count": 3
+    },
+    {
+      "lat": 36.1644879,
+      "lng": -85.5024719,
+      "loc": "Rural Cookeville",
+      "date": "1996-08-08 13:00",
+      "year": 1996,
+      "count": null
+    },
+    {
+      "lat": 36.5118721,
+      "lng": -82.6080395,
+      "loc": "Bays Mountain Park (KBT)",
+      "date": "1996-08-03 10:00",
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "lat": 36.5729272,
+      "lng": -81.8523631,
+      "loc": "Cherokee NF--Beaverdam Creek Watershed",
+      "date": "1996-06-15",
+      "year": 1996,
+      "count": null
+    },
+    {
+      "lat": 36.1170769,
+      "lng": -82.3326159,
+      "loc": "Cherokee NF - Beauty Spot",
+      "date": "1996-05-19",
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "lat": 35.8125235,
+      "lng": -83.671875,
+      "loc": "Bluff Mountain",
+      "date": "1996-04-29",
+      "year": 1996,
+      "count": null
+    },
+    {
+      "lat": 35.6738477,
+      "lng": -83.4494806,
+      "loc": "Great Smoky Mountains NP--Trillium Gap Trail",
+      "date": "1996-04-27",
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "lat": 35.7374814,
+      "lng": -83.2787704,
+      "loc": "Albright Grove Big Trees",
+      "date": "1996-04-26",
+      "year": 1996,
+      "count": null
+    },
+    {
+      "lat": 36.05792,
+      "lng": -85.284966,
+      "loc": "Putnam County--Icy Cove",
+      "date": "1996-03-12 09:00",
+      "year": 1996,
+      "count": 3
     }
   ]
 }
